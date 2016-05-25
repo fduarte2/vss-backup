@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html><head><link rel='stylesheet' type='text/css' href='style.css' />
+<script src='highlight/jssc3.js' type='text/javascript'></script>
+<link href='highlight/style.css' rel='stylesheet' type='text/css' />
+</head><body>
+<h1><img src='img/work.jpg' style='vertical-align: bottom;margin-right:4px;'>Sigma.ToolFactroy</h1>
+<div class="linb-custom-left"><ul><li><img src="img/bracket.gif"><a href ="index.html">Index</a></li><li><img src="img/class.gif"><a href ="sigma.html">Sigma</a></li><li><img src="img/class.gif"><a href ="sigma_grid.html">Sigma.Grid</a></li><li><img src="img/class.gif"><a href ="sigma_column.html">Sigma.Column</a></li><li><img src="img/class.gif"><a href ="sigma_column_editor.html">Sigma.Column.Editor</a></li><li><img src="img/class.gif"><a href ="sigma_dataset.html">Sigma.DataSet</a></li><li><img src="img/class.gif"><a href ="sigma_dataset_field.html">Sigma.DataSet.Field</a></li><li><img src="img/class.gif"><a href ="sigma_grid_pageinfo.html">Sigma.Grid.PageInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_sortinfo.html">Sigma.Grid.SortInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_filterinfo.html">Sigma.Grid.FilterInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_event.html">Sigma.Grid.Event</a></li><li><img src="img/class.gif"><a href ="sigma_grid_eventtarget.html">Sigma.Grid.EventTarget</a></li><li><img src="img/class.gif"><a href ="sigma_toolfactroy.html">Sigma.ToolFactroy</a></li><li><img src="img/class.gif"><a href ="dataexchange.html">DataExchange</a></li></ul></div>
+<div class='linb-custom-block'>
+<h2><img src="img/bracket.gif">Static Methods</h2>
+<div><img src="img/static.gif"><span class='linb-func-name'><a name="register">register</a></span><br>The following sample shows how to add your own button on tool bar.<br><textarea name="code" class="javascript">GT.ToolFactroy.register(
+	'mybutton',  //id of the button. Lower case accepted only.
+	{
+		// css style of the button
+		// .mybutton-cls { 
+		//    background : url(./mybutton.png) no-repeat center center; 
+		// }
+		cls : 'mybutton-cls',  
+		// tip of the button
+		toolTip : 'Press this button to get grid id',		
+		//function fired when button pressed
+		action : function(event,grid) {  alert( 'The id of this grid is  '+grid.id)  }
+	}
+);
+//show your own button 
+toolbarContent : 'nav | mybutton | state' ,</textarea><br></div>
+</div>
+<script type='text/javascript'>
+jssc.colorAll("code");
+</script>
+</body></html>

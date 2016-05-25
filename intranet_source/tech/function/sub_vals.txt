@@ -1,0 +1,28 @@
+CREATE FUNCTION subst_vals(boolean,  boolean, numeric, numeric) RETURNS numeric AS
+' 
+	DECLARE
+		result 	numeric;
+	BEGIN
+		IF $1 = $2 THEN
+			result :=$3;
+		ELSE 
+			result :=$4;
+		END IF;
+			RETURN result;
+	END;
+'LANGUAGE 'plpgsql';
+
+CREATE FUNCTION subst_vals(boolean,  boolean, text, text) RETURNS text AS
+'
+        DECLARE
+                result  text;
+        BEGIN
+                IF $1 = $2 THEN
+                        result :=$3;
+                ELSE
+                        result :=$4;
+                END IF;
+                        RETURN result;
+        END;
+'LANGUAGE 'plpgsql';
+

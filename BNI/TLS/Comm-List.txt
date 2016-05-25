@@ -1,0 +1,29 @@
+COMMODITY_CODE^COMMODITY_NAME^COMMODITY_TYPE
+1272^1272-Dole Paper^PAPER
+1299^1299-Dole General Cargo^GENERAL
+3212^3212-Wire Coils^STEEL
+3228^3228-RE-Bar^STEEL
+3302^3302-Charter Hot Rolled Coils^STEEL
+3304^3304-Charter Cold Rolled Coils^STEEL
+3312^3312-Charter Wire Rod Coils^STEEL
+3322^3322-Charter Steel Beams^STEEL
+3323^3323-Charter Steel Slabs^STEEL
+3324^3324-Charter Steel Pipe^STEEL
+3326^3326-Charter Steel Plates^STEEL
+3350^3350-Steel Profiles^STEEL
+3399^3399-Steel Charter Other^STEEL
+4260^4260-Sherwood - Green^LUMBER
+4261^4261-Sherwood - KD^LUMBER
+4262^4262-Plywood^LUMBER
+4263^4263-Saga Packaged Lumber^LUMBER
+4360^4360-Plywood^LUMBER
+4361^4361- PKG LUMBER^LUMBER
+4374^4374-Holmen Paper^PAPER
+4963^4963-Futter Lumber^LUMBER
+5031^5031-Argentine AppleJuice^JUICE
+5033^5033-Argentine Pear^JUICE
+5098^5098-Argentine Non-Vessel Juice^JUICE
+5099^5099-Argentine Fruits - Others^GENERAL
+5602^5602-Morrocan Clementines^FRUIT
+5651^5651-Poultry^POULTRY
+9402^9402-HEAVY EQUIPMENT^GENERAL

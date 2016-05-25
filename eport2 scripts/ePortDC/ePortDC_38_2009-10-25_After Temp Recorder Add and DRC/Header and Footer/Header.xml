@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>4.2</Version>
+  <Self>
+    <Name>Header</Name>
+    <Type>Header</Type>
+    <GenerateDirectory>Header and Footer</GenerateDirectory>
+    <Layout>Header and Footer\Header.html</Layout>
+    <DisplayName>Header</DisplayName>
+    <Description>(Description)</Description>
+    <CheckSum>CUSTOMIZED</CheckSum>
+  </Self>
+  <ComposedOf>
+    <ContainedComponent>
+      <Name>Logo</Name>
+      <Type>Image</Type>
+      <ImageUrl>../Images/ePortClementine.jpg</ImageUrl>
+    </ContainedComponent>
+  </ComposedOf>
+</ComponentDefinition>

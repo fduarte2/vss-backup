@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title>ShowDC_CustomsBrokerOfficePage</title>
+    <link rel="stylesheet" rev="stylesheet" type="text/css" href="../Styles/Style.css"/>
+    </head>
+    <body id="Body1" runat="server" class="pBack">
+    <form id="Form1" method="post" runat="server">
+        <BaseClasses:ScrollCoordinates id="ScrollCoordinates" runat="server"></BaseClasses:ScrollCoordinates>
+        <BaseClasses:BasePageSettings id="PageSettings" runat="server" LoginRequired="NOT_ANONYMOUS" ></BaseClasses:BasePageSettings>
+        <GEN:Template DESCRIPTION="A page containing a header, menu and footer." TYPE="Page" FILE="Pages/Master Page.html" />
+        <table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+        <tr>
+        <td class="pAlign">
+        <table cellspacing="0" cellpadding="0" border="0" class="pbTable">
+            <tr>
+            <td class="pbTL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbT"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbTR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbC">
+            <table cellspacing="0" cellpadding="0" border="0" class="pcTable">
+            <tr>
+                <td class="pcT" colspan="2">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                <td>
+                    <GEN:Header FILE="../Header and Footer/Header.html" NAME="PageHeader" />
+                </td>
+                </tr>
+                </table></td>
+                <td class="pcTR"></td>
+            </tr>
+            <tr>
+                <td class="pcL">
+                    <GEN:Menu FILE="../Menu Panels/VerticalMenu.html" NAME="MenuV" />
+                </td>
+                <td class="pcC">			
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                    <tr>
+                    <td>
+                        <GEN:Menu FILE="..\Menu Panels\Menu.html" NAME="Menu" />
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                        <td class="pContent">
+                            <a name="StartOfPageContent"></a><GEN:RECORD NAME="DC_CustomsBrokerOfficeRecordControl">
+<!-- Begin Record Panel.html -->
+<GEN:Template DESCRIPTION="Standard record panel." TYPE="Show One Record" FILE="Record Panels\Show Record - Label on Side.xsl" />
+<%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("SaveButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("CancelButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("OKButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("EditButton$_Button")) %>
+ <table class="dialog_view" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dh">
+    <table cellpadding="0" cellspacing="0" width="100%" border="0">
+    <tr>
+    <td class="dhel"><img src="../Images/space.gif" alt=""/></td>
+    <td class="dheci" valign="middle"><a onclick="toggleExpandCollapse(this);"><img id="ExpandCollapseIcon" src="../Images/DialogHeaderIconCollapse.gif" border="0" alt="Collapse panel"/></a></td>
+    <td class="dhb">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td class="dhtr" valign="middle"><GEN:HTML NAME="DC_CustomsBrokerOfficeDialogTitle" /></td>
+    <td class="dhir"><GEN:ImageButton NAME="DC_CustomsBrokerOfficeDialogEditButton" /></td>
+    </tr>
+    </table>
+    </td>	
+    <td class="dher"><img src="../Images/space.gif" alt=""/></td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+                <tr>
+    <td>
+    <table id="CollapsibleRegion" style="display:block;" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+    <td class="dialog_body">
+    <table cellpadding="0" cellspacing="3" border="0">
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="CustomsBrokerOfficeIdLabel" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="CustomsBrokerOfficeId" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="ClientLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="Client" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="BorderCrossingLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="BorderCrossing" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="CustomsBrokerLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="CustomsBroker" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="ContactNameLabel" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="ContactName" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="PhoneLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="Phone" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="FaxLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="Fax" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="Email1Label" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="Email1" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="Email2Label" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="Email2" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="Email3Label" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="Email3" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="Email4Label" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="Email4" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side">
+        <GEN:FieldLabel NAME="Email5Label" />
+    </td>
+    <td class="dialog_field_value">
+        <GEN:FieldValue NAME="Email5" />
+    
+    </td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="DestinationsLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="Destinations" /></td>
+    </tr>
+    <tr>
+    <td class="field_label_on_side"><GEN:FieldLabel NAME="CommentsLabel" /></td>
+    <td class="dialog_field_value"><GEN:FieldValue NAME="Comments" /></td>
+    </tr>
+                </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+ </table>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("OKButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("CancelButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("SaveButton$_Button")) %>
+<%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("EditButton$_Button")) %>
+<!-- End Record Panel.html -->
+</GEN:RECORD>
+<br/>
+                            <GEN:TABLE NAME="DC_ConsigneeTableControl">
+<!-- Begin Table Panel.html -->
+<GEN:Template DESCRIPTION="Table view to show or edit multiple records." TYPE="Show Multiple Records" FILE="Table Panels\Show Table.xsl" />
+<table class="dv" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td class="dh">
+	<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+	<td class="dhel"><img src="../Images/space.gif" alt=""/></td>
+	<td class="dheci" valign="middle"><a onclick="toggleRegions(this);"><img id="ToggleRegionIcon" src="../Images/ToggleHideFilters.gif" border="0" alt="Hide Filters"/></a></td>
+	<td class="dht" valign="middle"><GEN:HTML NAME="DC_ConsigneeTableTitle" /></td>
+	<td class="dhtrc">
+		<table id="CollapsibleRegionTotalRecords" style="display:none;" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		<td class="dhtrct"><GEN:Text NAME="DC_ConsigneeTotalItemsText" />&nbsp;<GEN:Label NAME="DC_ConsigneeTotalItems" /></td>
+		</tr>
+	</table>
+	</td>
+	<td class="dher"><img src="../Images/space.gif" alt=""/></td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+ <tr>
+    <td class="dBody">
+    <table id="CollapsibleRegion" style="display:block;" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+    <td>
+    <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0">
+    <GEN:GROUP NAME="DC_ConsigneeSearchGroup">
+    <!-- Search & Filter Area -->
+    <tr>
+        <td class="fila"><GEN:Text NAME="DC_ConsigneeSearchforText" /></td>
+        <td>
+        <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("DC_ConsigneeTableControl$DC_ConsigneeSearchButton")) %>
+        <GEN:SearchFilter NAME="DC_ConsigneeSearchArea" />
+        <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("DC_ConsigneeTableControl$DC_ConsigneeSearchButton")) %>
+        </td>
+        <td class="filbc"><GEN:Button FILE="../Shared/ThemeButton.html" NAME="DC_ConsigneeSearchButton" /></td>
+    </tr>
+    </GEN:GROUP>
+    <GEN:GROUP NAME="DC_ConsigneeFilters">
+    <tr>
+    <td></td>
+    <td></td>
+    <td rowspan="100" class="filbc"><GEN:Button FILE="../Shared/ThemeButton.html" NAME="DC_ConsigneeFilterButton" /></td> 
+    </tr>
+    <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("DC_ConsigneeTableControl$DC_ConsigneeFilterButton")) %>
+    <tr>
+        <td class="fila"><GEN:FieldLabel Name="CustomerIdLabel" /></td>
+        <td><GEN:FieldFilter Name="CustomerIdFilter" /></td>
+    </tr>
+    <tr>
+        <td class="fila"><GEN:FieldLabel NAME="ConsigneeIdLabel" /></td>
+        <td><GEN:FieldFilter NAME="ConsigneeIdFromFilter" /><span class="rft"><GEN:Label NAME="ConsigneeIdFilterText" /></span><GEN:FieldFilter NAME="ConsigneeIdToFilter" /></td>
+    </tr><tr>
+        <td class="fila"><GEN:FieldLabel Name="StateProvince1Label" /></td>
+        <td><GEN:FieldFilter Name="StateProvinceFilter" /></td>
+    </tr>
+    <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("DC_ConsigneeTableControl$DC_ConsigneeFilterButton")) %>
+    </GEN:GROUP>
+    </table>
+    <div class="spacer"></div>
+    <!-- Category Area -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+        <td>
+        <table class="tv" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        <!-- Pagination Area -->
+        <td class="pr" colspan="100">
+        <table id="PaginationRegion" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td><img src="../Images/paginationRowEdgeL.gif" alt=""/></td>
+        <GEN:GROUP NAME="DC_ConsigneeButtons">
+        <td class="prbbc"><img src="../Images/ButtonBarEdgeL.gif"></td><td class="prbbc"><img src="../Images/ButtonBarDividerL.gif"></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeNewButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeEditButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeCopyButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeDeleteButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneePDFButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeExportExcelButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeExportButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeRefreshButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_ConsigneeResetButton" /></td>
+                <td class="prbbc"><img src="../Images/ButtonBarDividerR.gif"></td>
+                <td class="prbbc"><img src="../Images/ButtonBarEdgeR.gif"></td>
+            </GEN:GROUP>
+            <td class="pra">
+            <GEN:Pagination FILE="../Shared/Pagination.html" NAME="DC_ConsigneePagination" />
+            </td>
+        <td><img src="../Images/paginationRowEdgeR.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <!--Table View Area -->
+        <tr>
+        <td class="tre">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)">
+            <!-- This is the table's header row -->
+            <GEN:GROUP NAME="DC_ConsigneeHeaderRow">
+            <div id="AJAXUpdateHeaderRow">
+            <tr class="tch">
+            <th class="thc" colspan="4"><img src="../Images/space.gif" height="1" width="1" alt=""/></th>
+            <th class="thc" style="padding:0px;vertical-align:middle;">
+                    <GEN:Selection NAME="DC_ConsigneeToggleAll" /></th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="ConsigneeIdLabel1" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="ConsigneeNameLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="CustomerIdLabel1" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="AddressLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="CityLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="StateProvinceLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="PostalCodeLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="PhoneLabel1" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="PhoneMobileLabel" />
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FieldLabel NAME="CommentsLabel1" />
+                </th>
+            </tr>
+            </div>
+            </GEN:GROUP>
+            <!-- Table Rows -->
+            <GEN:ITEMTEMPLATE NAME="DC_ConsigneeRecordRow">
+            <div id="AJAXUpdateRecordRow">
+            <tr><td class="tic" scope="row"><GEN:ImageButton NAME="DC_ConsigneeRecordRowViewButton" /></td><td class="tic" scope="row"><GEN:ImageButton NAME="DC_ConsigneeRecordRowEditButton" /></td><td class="tic" scope="row"><GEN:ImageButton NAME="DC_ConsigneeRecordRowCopyButton" /></td><td class="tic" scope="row"><GEN:ImageButton NAME="DC_ConsigneeRecordRowDeleteButton" /></td><td class="tic" onclick="moveToThisTableRow(this);"><GEN:Selection NAME="DC_ConsigneeRecordRowSelection" TYPE="Single" /></td>
+            <td class="ttc" style=";;;text-align:right"><GEN:FieldValue NAME="ConsigneeId" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="ConsigneeName" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="CustomerId" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="Address" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="City" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="StateProvince" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="PostalCode" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="Phone1" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="PhoneMobile" />
+            </td>
+            <td class="ttc" ><GEN:FieldValue NAME="Comments1" />
+            </td>
+            </tr>
+            </div>
+            </GEN:ITEMTEMPLATE>
+            <!-- Totals Area -->
+                        
+            </table>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+ </tr>
+</table>
+<!-- End Table Panel.html -->
+</GEN:TABLE>
+<br/>
+<GEN:Insert TYPE="Panel" /><GEN:GROUP NAME="PageButtons">
+    <table cellpadding="0" cellspacing="0" border="0" id="Table1">
+    <tr>
+    <td class="recordPanelButtonsAlignment">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td><GEN:Button FILE="../Shared/ThemeButton.html" NAME="OKButton" /></td>
+    <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+    <td><GEN:Button FILE="../Shared/ThemeButton.html" NAME="EditButton" /></td>
+    <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+    <td><GEN:Button FILE="../Shared/ThemeButton.html" NAME="SaveButton" /></td>
+    <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+    <td><GEN:Button FILE="../Shared/ThemeButton.html" NAME="SaveAndNewButton" /></td>
+    <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+	<td><GEN:Button FILE="../Shared/ThemeButton.html" NAME="CancelButton" /></td>
+    <td><img src="../Images/space.gif" height="6" width="3" alt=""/></td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+</table>
+</GEN:GROUP>
+                            <div id="detailPopup" style="z-index:2; visibility:visible; position:absolute;"></div>
+                            <div id="detailPopupDropShadow" class="detailPopupDropShadow" style="z-index:1; visibility:visible; position:absolute;"></div>
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="pcR"></td>
+            </tr>
+            <tr>
+                <td class="pcBL"></td>
+                <td class="pcB">
+                <GEN:Footer FILE="../Header and Footer/Footer.html" NAME="PageFooter" />
+                </td>
+                <td class="pcBR"></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pbR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        <tr>
+            <td class="pbBL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbB"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbBR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <asp:ValidationSummary id="ValidationSummary1" ShowMessageBox="true" ShowSummary="false" runat="server"></asp:ValidationSummary>
+    </form>
+    </body>
+</html>

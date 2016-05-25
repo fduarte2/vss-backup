@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\TEMP\Withdraw package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+ssdw3b32.ocx=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+K:\PK Code\BNI\Withdrawal\1009\CargoAct.exe=Yes
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINNT\SYSTEM32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+K:\PK Code\BNI\Withdrawal\1009\CargoAct.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+K:\PK Code\BNI\Withdrawal\1009\CargoAct.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=WithDrawal
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=WithDrawal
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|WithDrawal]
+Icon1=CargoAct.exe
+Title1=WithDrawal
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\TEMP\Withdraw package
+ProjectFolder=K:\PK Code\BNI\Withdrawal\1009
+ServerSideCab=
+File1=c:\TEMP\Withdraw package\setup.exe
+File2=c:\TEMP\Withdraw package\Setup.Lst
+File3=c:\TEMP\Withdraw package\CargoAct.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

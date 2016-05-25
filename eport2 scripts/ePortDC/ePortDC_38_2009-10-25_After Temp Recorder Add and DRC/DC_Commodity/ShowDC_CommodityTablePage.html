@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head id="Head1" runat="server">
+    <title>ShowDC_CommodityTablePage</title>
+    <link rel="stylesheet" rev="stylesheet" type="text/css" href="../Styles/Style.css"/>
+    </head>
+    <body id="Body1" runat="server" class="pBack">
+    <form id="Form1" method="post" runat="server">
+        <BaseClasses:ScrollCoordinates id="ScrollCoordinates" runat="server"></BaseClasses:ScrollCoordinates>
+        <BaseClasses:BasePageSettings id="PageSettings" runat="server" LoginRequired="ADMIN" ></BaseClasses:BasePageSettings>
+        <GEN:TEMPLATE DESCRIPTION="A page containing a header, menu and footer." TYPE="Page" FILE="Pages/Master Page.html"></GEN:TEMPLATE>
+        <table cellspacing="0" cellpadding="0" border="0" height="100%" width="100%">
+        <tr>
+        <td class="pAlign">
+        <table cellspacing="0" cellpadding="0" border="0" class="pbTable">
+            <tr>
+            <td class="pbTL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbT"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbTR"><img src="../Images/space.gif" alt=""/></td>
+            </tr>
+            <tr>
+            <td class="pbL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbC">
+            <table cellspacing="0" cellpadding="0" border="0" class="pcTable">
+            <tr>
+                <td class="pcT" colspan="2">
+                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                <td>
+                    <GEN:HEADER FILE="../Header and Footer/Header.html" NAME="PageHeader"></GEN:HEADER>
+                </td>
+                </tr>
+                </table></td>
+                <td class="pcTR"></td>
+            </tr>
+            <tr>
+                <td class="pcL">
+                    <GEN:MENU FILE="../Menu Panels/VerticalMenu.html" NAME="MenuV"></GEN:MENU>
+                </td>
+                <td class="pcC">			
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+                    <tr>
+                    <td>
+                        <GEN:MENU FILE="..\Menu Panels\Menu.html" NAME="Menu"></GEN:MENU>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        <tr>
+                        <td class="pContent">
+                            <a name="StartOfPageContent"></a>
+                            <GEN:TABLE NAME="DC_CommodityTableControl">
+<!-- Begin Table Panel.html -->
+<GEN:TEMPLATE DESCRIPTION="Table view to show or edit multiple records." TYPE="Show Multiple Records" FILE="Table Panels\Show Table.xsl"></GEN:TEMPLATE>
+<table class="dv" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+	<td class="dh">
+	<table cellpadding="0" cellspacing="0" width="100%" border="0">
+	<tr>
+	<td class="dhel"><img src="../Images/space.gif" alt=""/></td>
+	<td class="dheci" valign="middle"><a onclick="toggleRegions(this);"><img id="ToggleRegionIcon" src="../Images/ToggleHideFilters.gif" border="0" alt="Hide Filters"/></a></td>
+	<td class="dht" valign="middle"><GEN:HTML NAME="DC_CommodityTableTitle"></GEN:HTML></td>
+	<td class="dhtrc">
+		<table id="CollapsibleRegionTotalRecords" style="display:none;" cellspacing="0" cellpadding="0" border="0">
+		<tr>
+		<td class="dhtrct"><GEN:TEXT NAME="DC_CommodityTotalItemsText"></GEN:TEXT>&nbsp;<GEN:LABEL NAME="DC_CommodityTotalItems"></GEN:LABEL></td>
+		</tr>
+	</table>
+	</td>
+	<td class="dher"><img src="../Images/space.gif" alt=""/></td>
+	</tr>
+	</table>
+	</td>
+	</tr>
+ <tr>
+    <td class="dBody">
+    <table id="CollapsibleRegion" style="display:block;" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+    <td>
+    <table id="FilterRegion" cellpadding="0" cellspacing="3" border="0">
+    <GEN:GROUP NAME="DC_CommoditySearchGroup">
+    <!-- Search & Filter Area -->
+    <tr>
+        <td class="fila"><GEN:TEXT NAME="DC_CommoditySearchforText"></GEN:TEXT></td>
+        <td>
+        <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("DC_CommodityTableControl$DC_CommoditySearchButton")) %>
+        <GEN:SEARCHFILTER NAME="DC_CommoditySearchArea"></GEN:SEARCHFILTER>
+        <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("DC_CommodityTableControl$DC_CommoditySearchButton")) %>
+        </td>
+        <td class="filbc"><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="DC_CommoditySearchButton" /></td>
+    </tr>
+    </GEN:GROUP>
+    <GEN:GROUP NAME="DC_CommodityFilters">
+    <tr>
+    <td></td>
+    <td></td>
+    <td rowspan="100" class="filbc"><GEN:BUTTON FILE="../Shared/ThemeButton.html" NAME="DC_CommodityFilterButton"></GEN:BUTTON></td> 
+    </tr>
+    <%= SystemUtils.GenerateEnterKeyCaptureBeginTag(FindControl("DC_CommodityTableControl$DC_CommodityFilterButton")) %>
+    <tr>
+        <td class="fila"><GEN:FIELDLABEL NAME="CommodityCodeLabel"></GEN:FIELDLABEL></td>
+        <td><GEN:FIELDFILTER NAME="CommodityCodeFromFilter"></GEN:FIELDFILTER><span class="rft"><GEN:LABEL NAME="CommodityCodeFilterText"></GEN:LABEL></span><GEN:FIELDFILTER NAME="CommodityCodeToFilter"></GEN:FIELDFILTER></td>
+    </tr>
+    <tr>
+        <td class="fila"><GEN:FIELDLABEL NAME="CommodityNameLabel"></GEN:FIELDLABEL></td>
+        <td><GEN:FIELDFILTER NAME="CommodityNameFilter"></GEN:FIELDFILTER></td>
+    </tr>
+    <%= SystemUtils.GenerateEnterKeyCaptureEndTag(FindControl("DC_CommodityTableControl$DC_CommodityFilterButton")) %>
+    </GEN:GROUP>
+    </table>
+    <div class="spacer"></div>
+    <!-- Category Area -->
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+    <tr>
+    <td>
+        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+        <td>
+        <table class="tv" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+        <!-- Pagination Area -->
+        <td class="pr" colspan="100">
+        <table id="PaginationRegion" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+        <td><img src="../Images/paginationRowEdgeL.gif" alt=""/></td>
+        <GEN:GROUP NAME="DC_CommodityButtons">
+        <td class="prbbc"><img src="../Images/ButtonBarEdgeL.gif"></td><td class="prbbc"><img src="../Images/ButtonBarDividerL.gif"></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityNewButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityEditButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityCopyButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityDeleteButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityPDFButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityExportExcelButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityExportButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityRefreshButton" /></td>
+            <td class="prbbc"><GEN:ImageButton NAME="DC_CommodityResetButton" /></td>
+                <td class="prbbc"><img src="../Images/ButtonBarDividerR.gif"></td>
+                <td class="prbbc"><img src="../Images/ButtonBarEdgeR.gif"></td>
+            </GEN:GROUP>
+            <td class="pra">
+            <GEN:PAGINATION FILE="../Shared/Pagination.html" NAME="DC_CommodityPagination"></GEN:PAGINATION>
+            </td>
+        <td><img src="../Images/paginationRowEdgeR.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        <!--Table View Area -->
+        <tr>
+        <td class="tre">
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" onkeydown="captureUpDownKey(this, event)">
+            <!-- This is the table's header row -->
+            <GEN:GROUP NAME="DC_CommodityHeaderRow">
+            <div id="AJAXUpdateHeaderRow">
+            <tr class="tch">
+            <th class="thc" colspan="4"><img src="../Images/space.gif" height="1" width="1" alt=""/></th>
+            <th class="thc" style="padding:0px;vertical-align:middle;">
+                    <GEN:SELECTION NAME="DC_CommodityToggleAll"></GEN:SELECTION></th>
+            
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="CommodityCodeLabel1"></GEN:FIELDLABEL>
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="CommodityNameLabel1"></GEN:FIELDLABEL>
+                </th>
+            
+            <th class="thc" scope="col"><GEN:FIELDLABEL NAME="HarmonizedSystemTariffLabel"></GEN:FIELDLABEL>
+                </th>
+            </tr>
+            </div>
+            </GEN:GROUP>
+            <!-- Table Rows -->
+            <GEN:ITEMTEMPLATE NAME="DC_CommodityRecordRow">
+            <div id="AJAXUpdateRecordRow">
+            <tr><td class="tic" scope="row"><GEN:IMAGEBUTTON NAME="DC_CommodityRecordRowViewButton"></GEN:IMAGEBUTTON></td><td class="tic" scope="row"><GEN:IMAGEBUTTON NAME="DC_CommodityRecordRowEditButton"></GEN:IMAGEBUTTON></td><td class="tic" scope="row"><GEN:IMAGEBUTTON NAME="DC_CommodityRecordRowCopyButton"></GEN:IMAGEBUTTON></td><td class="tic" scope="row"><GEN:IMAGEBUTTON NAME="DC_CommodityRecordRowDeleteButton"></GEN:IMAGEBUTTON></td><td class="tic" onclick="moveToThisTableRow(this);"><GEN:SELECTION NAME="DC_CommodityRecordRowSelection" TYPE="Single"></GEN:SELECTION></td>
+            <td class="ttc" style="text-align: right;"><GEN:FIELDVALUE NAME="CommodityCode"></GEN:FIELDVALUE>
+            </td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="CommodityName"></GEN:FIELDVALUE>
+            </td>
+            <td class="ttc" ><GEN:FIELDVALUE NAME="HarmonizedSystemTariff"></GEN:FIELDVALUE>
+            </td>
+            </tr>
+            </div>
+            </GEN:ITEMTEMPLATE>
+            <!-- Totals Area -->
+                        
+            </table>
+        </td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+ </tr>
+</table>
+<!-- End Table Panel.html -->
+</GEN:TABLE>
+<br/>
+<GEN:INSERT TYPE="Panel"></GEN:INSERT>
+                            <div id="detailPopup" style="z-index:2; visibility:visible; position:absolute;"></div>
+                            <div id="detailPopupDropShadow" class="detailPopupDropShadow" style="z-index:1; visibility:visible; position:absolute;"></div>
+                        </td>
+                        </tr>
+                        </table>
+                    </td>
+                    </tr>
+                    </table>
+                </td>
+                <td class="pcR"></td>
+            </tr>
+            <tr>
+                <td class="pcBL"></td>
+                <td class="pcB">
+                <GEN:FOOTER FILE="../Header and Footer/Footer.html" NAME="PageFooter"></GEN:FOOTER>
+                </td>
+                <td class="pcBR"></td>
+            </tr>
+            </table>
+            </td>
+            <td class="pbR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        <tr>
+            <td class="pbBL"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbB"><img src="../Images/space.gif" alt=""/></td>
+            <td class="pbBR"><img src="../Images/space.gif" alt=""/></td>
+        </tr>
+        </table>
+        </td>
+        </tr>
+        </table>
+        <asp:ValidationSummary id="ValidationSummary1" ShowMessageBox="true" ShowSummary="false" runat="server"></asp:ValidationSummary>
+    </form>
+    </body>
+</html>

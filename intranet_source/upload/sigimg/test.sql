@@ -1,0 +1,1 @@
+(select customer_id, min(service_amount) from billing where customer_id = 1512 AND service_amount > 0 group by customer_id)

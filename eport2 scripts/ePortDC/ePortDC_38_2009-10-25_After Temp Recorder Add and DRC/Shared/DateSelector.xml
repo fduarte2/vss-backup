@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ComponentDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ironspeed.com/designer">
+  <Generator>Iron Speed Designer</Generator>
+  <Version>1.4</Version>
+  <Self>
+    <Name>DateSelector</Name>
+    <Type>Page</Type>
+    <GenerateDirectory>Shared</GenerateDirectory>
+    <Layout>Shared\DateSelector.html</Layout>
+    <DisplayName>Select Date</DisplayName>
+    <Description>(Description)</Description>
+    <CheckSum>CUSTOMIZED</CheckSum>
+    <GenClassConstructorCode>
+        base.Load += new System.EventHandler(this.Page_Load_RegisterAutoCloseScript);
+        base.Load += new System.EventHandler(this.Page_Load_RegisterOkButtonHandler);
+        base.Load += new System.EventHandler(DateSelector_Load);
+        this.Init += new EventHandler(Page_Init);
+</GenClassConstructorCode>
+    <GenClassCustomCode>
+          
+
+#region Web Control Variables
+   
+#endregion
+
+    protected string TargetName
+    {
+        get
+        {
+            return this.Request.Params["Target"];
+        }
+    }
+
+    protected string Format
+    {
+        get
+        {
+            string s = this.Request.Params["Format"];
+            if ((s == null) || (s.Length &lt; 1))
+            {
+                s = "d";
+            }
+            return s;
+        }
+    }
+
+    protected System.DateTime DefaultDate
+    {
+        get
+        {
+            string s = this.Request.Params["DefaultDate"];
+            System.DateTime d;
+            try
+            {
+                d = System.DateTime.ParseExact(s, Format, null);
+            }
+            catch //(Exception e)
+            {
+                try
+                {
+                    d = System.DateTime.Parse(s);
+                }
+                catch //(Exception e2)
+                {
+                    d = System.DateTime.Now;
+                }
+            }
+            if (d.Year == System.DateTime.MaxValue.Year &amp;&amp; 
+                d.Month == System.DateTime.MaxValue.Month &amp;&amp; 
+                d.Day == System.DateTime.MaxValue.Day)
+            {
+                //HACK: Microsoft: Workaround for an MS bug that causes a yellow screen when a Calendar control is set to 12/31/9999.
+                d = System.DateTime.Now;
+            }
+            return d;
+        }
+    }
+
+    protected string SelectedDateString
+    {
+        get
+        {
+			String dateTimeStr = this.Calendar1.SelectedDate.ToShortDateString() + " " + DateTime.Now.ToLongTimeString();
+            return DateTime.Parse(dateTimeStr).ToString(this.Format);
+        }
+    }
+
+    protected override void UpdateSessionNavigationHistory()
+    {
+        //Do nothing
+    }
+
+    private string CreateUpdateScript(string valueString)
+    {
+        System.Text.StringBuilder sb = new System.Text.StringBuilder();
+        sb.Append("&lt;script language=javascript&gt;");
+        sb.Append("\r\n");
+        sb.Append("&lt;!--");
+        sb.Append("\r\n");
+        sb.AppendFormat("updateTarget({0});", 
+            BaseClasses.Web.AspxTextWriter.CreateJScriptStringLiteral(valueString));
+        sb.Append("\r\n");
+        sb.Append("//--&gt;");
+        sb.Append("\r\n");
+        sb.Append("&lt;/script&gt;");
+        sb.Append("\r\n");
+        return sb.ToString();
+    }
+
+    private void RegisterUpdateScript()
+    {
+        const string ScriptKey = "DateUpdateScript";
+        string script = CreateUpdateScript(SelectedDateString);
+        ClientScript.RegisterStartupScript(typeof(string), ScriptKey, script);
+    }
+
+    private void Calendar1_SelectionChanged(object sender, System.EventArgs e)
+    {
+        this.RegisterUpdateScript();
+    }
+
+    private void OkButton_Script_Click(object sender, System.EventArgs e)
+    {
+        this.RegisterUpdateScript();
+    }
+
+    private void Calendar1_VisibleMonthChanged(object sender, System.Web.UI.WebControls.MonthChangedEventArgs e)
+    {
+        System.DateTime d = this.GetClosestValidVisibleDate(this.Calendar1.VisibleDate);
+        if (!this.Calendar1.VisibleDate.Equals(d))
+        {
+            this.Calendar1.VisibleDate = d;
+        }
+    }
+
+    protected System.DateTime GetClosestValidVisibleDate(System.DateTime d)
+    {
+        if (d.Year == System.DateTime.MaxValue.Year &amp;&amp; d.Month == System.DateTime.MaxValue.Month)
+        {
+            return d.AddMonths(-1);
+        }
+        else if (d.Year == System.DateTime.MinValue.Year &amp;&amp; d.Month == System.DateTime.MinValue.Month)
+        {
+            return d.AddMonths(1);
+        }
+        return d;
+    }
+    
+    private void Page_Init(object sender, EventArgs e)
+    {
+        this.Calendar1.VisibleMonthChanged -= new MonthChangedEventHandler(this.Calendar1_VisibleMonthChanged);
+        this.Calendar1.SelectionChanged -= new EventHandler(this.Calendar1_SelectionChanged);
+    }
+
+    private void Page_Load_RegisterAutoCloseScript(object sender, System.EventArgs e)
+    {
+        this.RegisterAutoCloseScript();
+    }
+
+    private void Page_Load_RegisterOkButtonHandler(object sender, System.EventArgs e)
+    {
+        if (this.OkButton != null)
+        {
+            this.OkButton.Button.Click += new System.EventHandler(this.OkButton_Script_Click);
+        }
+    }
+    
+    private void DateSelector_Load(object sender, System.EventArgs e)
+    {
+        this.Calendar1.VisibleMonthChanged += new System.Web.UI.WebControls.MonthChangedEventHandler(this.Calendar1_VisibleMonthChanged);
+        this.Calendar1.SelectionChanged += new System.EventHandler(this.Calendar1_SelectionChanged);
+    }
+
+    private void RegisterAutoCloseScript()
+    {
+        if (BaseClasses.Utils.StringUtils.InvariantUCase(this.Request.Browser.Browser).IndexOf("IE") &lt; 0)
+        {
+            return;
+        }
+        if (this.Request.Browser.MajorVersion &lt; 5)
+        {
+            return;
+        }
+
+        //attach a function to the parent window's onunload event
+        //that will close the current window
+        string script = BaseClasses.Web.AspxTextWriter.CreateJScriptBlock(
+            "function onParentUnload() { window.close(); }\r\nif (window.opener &amp;&amp; !window.opener.closed) { window.opener.attachEvent(\'onunload\', onParentUnload);}");
+        ClientScript.RegisterClientScriptBlock(typeof(string), "AutoCloseScript", script);
+    }
+
+</GenClassCustomCode>
+  </Self>
+  <ComposedOf>
+    <ContainedComponent>
+      <Name>CancelButton</Name>
+      <Type>Button</Type>
+      <Layout>ThemeButton.html</Layout>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Button-CausesValidation</Name>
+          <Value>False</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-CommandName</Name>
+          <Value>Redirect</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-Consumers</Name>
+          <Value>page</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-RedirectURL</Name>
+          <Value>Close</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-Text</Name>
+          <Value>Btn:Cancel</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+    <ContainedComponent>
+      <Name>OkButton</Name>
+      <Type>Button</Type>
+      <Layout>ThemeButton.html</Layout>
+      <PassthroughAttributes>
+        <Attribute>
+          <Name>Button-CausesValidation</Name>
+          <Value>False</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-CommandName</Name>
+          <Value>Redirect</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-Consumers</Name>
+          <Value>page</Value>
+        </Attribute>
+        <Attribute>
+          <Name>Button-Text</Name>
+          <Value>Btn:OK</Value>
+          <Type>ResourceReference</Type>
+        </Attribute>
+      </PassthroughAttributes>
+    </ContainedComponent>
+  </ComposedOf>
+</ComponentDefinition>

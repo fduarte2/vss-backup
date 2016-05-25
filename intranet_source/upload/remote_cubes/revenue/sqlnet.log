@@ -1,0 +1,714 @@
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=DSPC-S18)(USER=SARWang))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 21-DEC-05 05:30:05
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=DSPC-S18)(USER=SARWang))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 21-DEC-05 05:30:06
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 03-JUN-06 03:33:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 03-JUN-06 03:33:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 03-JUN-06 03:33:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 03-JUN-06 03:33:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 13-NOV-06 03:33:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 13-NOV-06 03:33:42
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(COMMUNITY=tcp.world)(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 13-NOV-06 03:34:24
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 13-NOV-06 03:34:24
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 29-OCT-08 03:33:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 29-OCT-08 03:33:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 29-OCT-08 03:34:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 29-OCT-08 03:34:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-DEC-08 03:33:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-DEC-08 03:33:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-DEC-08 03:34:01
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-DEC-08 03:34:01
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 25-MAR-09 03:33:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 25-MAR-09 03:33:31
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 25-MAR-09 03:34:01
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12560
+    TNS-12560: TNS:protocol adapter error
+    ns secondary err code: 0
+    nt main err code: 530
+    TNS-00530: Protocol adapter error
+    nt secondary err code: 55
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 25-MAR-09 03:34:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 27-AUG-11 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 27-AUG-11 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-SEP-12 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 16-SEP-12 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 30-SEP-12 17:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 54
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 30-SEP-12 17:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 24-NOV-13 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 24-NOV-13 03:33:00
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 15-DEC-13 03:33:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 15-DEC-13 03:33:02
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1521))(ADDRESS=(PROTOCOL=TCP)(Host=172.22.15.4)(Port=1526)))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 15-DEC-13 03:33:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal OSN connect error 12547, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=revenue.exe)(HOST=PHOENIX)(USER=schetsks))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 2.3.4.0.0 - Production
+	Oracle Bequeath NT Protocol Adapter for 32-bit Windows: Version 2.3.4.0.0 - Production
+  Time: 15-DEC-13 03:33:04
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12206
+    TNS-12206: TNS:received a TNS error during navigation
+    ns main err code: 12547
+    TNS-12547: TNS:lost contact
+    ns secondary err code: 12560
+    nt main err code: 517
+    TNS-00517: Lost contact
+    nt secondary err code: 0
+    nt OS err code: 0

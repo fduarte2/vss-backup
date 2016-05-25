@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\Brij Port\ePortDC\", ".", "{159F7960-04EE-49BB-AD25-787621482F0A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/ePortDC"
+		Debug.AspNetCompiler.PhysicalPath = "..\ePortDC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ePortDC\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ePortDC"
+		Release.AspNetCompiler.PhysicalPath = "..\ePortDC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ePortDC\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2067"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{159F7960-04EE-49BB-AD25-787621482F0A}.Debug|.NET.ActiveCfg = Debug|.NET
+		{159F7960-04EE-49BB-AD25-787621482F0A}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,573 @@
+
+172.22.16.195
+   TCP/IP Settings/IP Address = 172.22.16.195
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 9   
+   Spanning Tree Settings/AP Name = "AP195"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.191
+   TCP/IP Settings/IP Address = 172.22.16.191
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 5   
+   Spanning Tree Settings/AP Name = "AP191"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.192
+   TCP/IP Settings/IP Address = 172.22.16.192
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 6   
+   Spanning Tree Settings/AP Name = "AP192"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.198
+   TCP/IP Settings/IP Address = 172.22.16.198
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 12  
+   Spanning Tree Settings/AP Name = "AP198"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.193
+   TCP/IP Settings/IP Address = 172.22.16.193
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 7   
+   Spanning Tree Settings/AP Name = "AP193"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.197
+   TCP/IP Settings/IP Address = 172.22.16.197
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 11  
+   Spanning Tree Settings/AP Name = "AP197"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.196
+   TCP/IP Settings/IP Address = 172.22.16.196
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 10  
+   Spanning Tree Settings/AP Name = "AP196"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.194
+   TCP/IP Settings/IP Address = 172.22.16.194
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 8   
+   Spanning Tree Settings/AP Name = "AP194"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.151
+   TCP/IP Settings/IP Address = 172.22.16.151
+   OpenAir Radio/Node Type = Disabled
+   OpenAir Radio/Master List/Master 1/Channel = 4   
+   OpenAir Radio/Channel = 4   
+   Spanning Tree Settings/AP Name = "AP 151"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.182
+   TCP/IP Settings/IP Address = 172.22.16.182
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 15  
+   Spanning Tree Settings/AP Name = "AP182"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Spanning Tree Settings/Root Priority = 6   
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.171
+   TCP/IP Settings/IP Address = 172.22.16.171
+   OpenAir Radio/Subchannel = 2   
+   Spanning Tree Settings/AP Name = "AP171"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.167
+   TCP/IP Settings/IP Address = 172.22.16.167
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 7   
+   Spanning Tree Settings/AP Name = "AP167"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.153
+   TCP/IP Settings/IP Address = 172.22.16.153
+   TCP/IP Settings/DHCP Mode = Disable DHCP
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 3   
+   Spanning Tree Settings/AP Name = "AP153"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.157
+   TCP/IP Settings/IP Address = 172.22.16.157
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 7   
+   Spanning Tree Settings/AP Name = "AP157"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.154
+   TCP/IP Settings/IP Address = 172.22.16.154
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 4   
+   Spanning Tree Settings/AP Name = "AP154"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.169
+   TCP/IP Settings/IP Address = 172.22.16.169
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 10  
+   Spanning Tree Settings/AP Name = "AP169"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.166
+   TCP/IP Settings/IP Address = 172.22.16.166
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 6   
+   Spanning Tree Settings/AP Name = "AP166"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.158
+   TCP/IP Settings/IP Address = 172.22.16.158
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 8   
+   Spanning Tree Settings/AP Name = "AP158"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.186
+   TCP/IP Settings/IP Address = 172.22.16.186
+   OpenAir Radio/Subchannel = 3   
+   Spanning Tree Settings/AP Name = "AP186"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.168
+   TCP/IP Settings/IP Address = 172.22.16.168
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 9   
+   Spanning Tree Settings/AP Name = "AP168"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.156
+   TCP/IP Settings/IP Address = 172.22.16.156
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 6   
+   Spanning Tree Settings/AP Name = "AP156"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.189
+   TCP/IP Settings/IP Address = 172.22.16.189
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 4   
+   Spanning Tree Settings/AP Name = "AP189"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.164
+   TCP/IP Settings/IP Address = 172.22.16.164
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 4   
+   Spanning Tree Settings/AP Name = "AP164"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.159
+   TCP/IP Settings/IP Address = 172.22.16.159
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 2   
+   Spanning Tree Settings/AP Name = "AP159"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.179
+   TCP/IP Settings/IP Address = 172.22.16.179
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 14  
+   Spanning Tree Settings/AP Name = "AP179"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.178
+   TCP/IP Settings/IP Address = 172.22.16.178
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 13  
+   Spanning Tree Settings/AP Name = "AP178"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.200
+   TCP/IP Settings/IP Address = 172.22.16.200
+   OpenAir Radio/Channel = 6   
+   OpenAir Radio/Subchannel = 10  
+   Spanning Tree Settings/AP Name = "AP200"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.187
+   TCP/IP Settings/IP Address = 172.22.16.187
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 11  
+   Spanning Tree Settings/AP Name = "AP187"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.185
+   TCP/IP Settings/IP Address = 172.22.16.185
+   OpenAir Radio/Channel = 6   
+   OpenAir Radio/Subchannel = 5   
+   Spanning Tree Settings/AP Name = "AP185"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.172
+   TCP/IP Settings/IP Address = 172.22.16.172
+   OpenAir Radio/Subchannel = 4   
+   Spanning Tree Settings/AP Name = "AP172"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.148
+   TCP/IP Settings/IP Address = 172.22.16.148
+   Spanning Tree Settings/AP Name = "AP148"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Spanning Tree Settings/Global Flooding/Enable ARP Flooding = [ ]
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.173
+   TCP/IP Settings/IP Address = 172.22.16.173
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 11  
+   Spanning Tree Settings/AP Name = "AP173"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.152
+   TCP/IP Settings/IP Address = 172.22.16.152
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 2   
+   Spanning Tree Settings/AP Name = "AP152"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.165
+   TCP/IP Settings/IP Address = 172.22.16.165
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 5   
+   Spanning Tree Settings/AP Name = "AP165"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.199
+   TCP/IP Settings/IP Address = 172.22.16.199
+   Spanning Tree Settings/AP Name = "AP199"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.180
+   TCP/IP Settings/IP Address = 172.22.16.180
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 15  
+   Spanning Tree Settings/AP Name = "AP180"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.161
+   TCP/IP Settings/IP Address = 172.22.16.161
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 2   
+   Spanning Tree Settings/AP Name = "AP161"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.190
+   TCP/IP Settings/IP Address = 172.22.16.190
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 13  
+   Spanning Tree Settings/AP Name = "AP190"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.160
+   TCP/IP Settings/IP Address = 172.22.16.160
+   TCP/IP Settings/DHCP Mode = Disable DHCP
+   OpenAir Radio/Channel = 2   
+   Spanning Tree Settings/AP Name = "AP160"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.175
+   TCP/IP Settings/IP Address = 172.22.16.175
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 8   
+   Spanning Tree Settings/AP Name = "AP175"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.150
+   TCP/IP Settings/IP Address = 172.22.16.150
+   OpenAir Radio/Channel = 5   
+   Spanning Tree Settings/AP Name = "AP 150"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/User Name = "********************************"
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.176
+   TCP/IP Settings/IP Address = 172.22.16.176
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 9   
+   Spanning Tree Settings/AP Name = "AP176"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.155
+   TCP/IP Settings/IP Address = 172.22.16.155
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 5   
+   Spanning Tree Settings/AP Name = "AP155"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.188
+   TCP/IP Settings/IP Address = 172.22.16.188
+   TCP/IP Settings/DHCP Mode = Disable DHCP
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 12  
+   Spanning Tree Settings/AP Name = "AP188"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.174
+   TCP/IP Settings/IP Address = 172.22.16.174
+   OpenAir Radio/Channel = 5   
+   OpenAir Radio/Subchannel = 3   
+   Spanning Tree Settings/AP Name = "AP174"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.183
+   TCP/IP Settings/IP Address = 172.22.16.183
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 10  
+   Spanning Tree Settings/AP Name = "AP183"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.177
+   TCP/IP Settings/IP Address = 172.22.16.177
+   OpenAir Radio/Channel = 4   
+   OpenAir Radio/Subchannel = 12  
+   Spanning Tree Settings/AP Name = "AP177"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+
+
+
+172.22.16.162
+   TCP/IP Settings/IP Address = 172.22.16.162
+   OpenAir Radio/Channel = 2   
+   OpenAir Radio/Subchannel = 3   
+   Spanning Tree Settings/AP Name = "AP162"
+   Spanning Tree Settings/LAN ID (Domain) = 13    
+   Security/Passwords/Password = "********************************"
+   Security/Passwords/Read Only Password = "********************************"
+   
+

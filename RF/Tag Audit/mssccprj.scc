@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[TagAudit.vbp]
+SCC_Aux_Path = "X:\VSS"
+SCC_Project_Name = "$/RF/Tag Audit", ODHIAAAA

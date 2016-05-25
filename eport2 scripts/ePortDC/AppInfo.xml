@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMLDefinition Generator="Iron Speed Designer" Version="5.0" DocType="Application">
+  <ColumnDefinition />
+  <Name>ePortDC</Name>
+  <Short_Name>ePortDC</Short_Name>
+  <Namespace>ePortDC</Namespace>
+  <Directory>C:\Brij Port\ePortDC</Directory>
+  <VirtualDirectory>ePortDC</VirtualDirectory>
+  <OriginalVersion>5.0.0</OriginalVersion>
+  <Version>5.0.0</Version>
+  <CodeLanguage>CSharp</CodeLanguage>
+  <FrameworkVersion>v2_0</FrameworkVersion>
+  <CompilerValue>Framework</CompilerValue>
+  <GenerateStoredProcedures>True</GenerateStoredProcedures>
+  <RegenerateFilesOlderThan>1/1/0001 12:00:00 AM</RegenerateFilesOlderThan>
+  <Theme>Matterhorn</Theme>
+  <StdPages>VT,AR,ER,VR</StdPages>
+  <GenerateDateSelector>True</GenerateDateSelector>
+  <SmoothPanelUpdate>True</SmoothPanelUpdate>
+  <MaxGenItem>100</MaxGenItem>
+  <AddRecordDropDown>True</AddRecordDropDown>
+  <SkipNavigationLink>False</SkipNavigationLink>
+  <PrintButton>False</PrintButton>
+  <GenerateIncrementDecrementButtons>True</GenerateIncrementDecrementButtons>
+  <GenerateLargeListSelector>True</GenerateLargeListSelector>
+  <MinListItems>100</MinListItems>
+  <EnablePopupForImageFields>True</EnablePopupForImageFields>
+  <ImagePercentSize>20</ImagePercentSize>
+  <PopupThreshold>100</PopupThreshold>
+  <EnablePopupForStringFields>True</EnablePopupForStringFields>
+  <FieldMaxLength>100</FieldMaxLength>
+  <ShowRecordEditButton>True</ShowRecordEditButton>
+  <ShowRecordForeignKeyLinks>ShowRecordPage</ShowRecordForeignKeyLinks>
+  <AddRecordSaveNNewButton>True</AddRecordSaveNNewButton>
+  <LayoutFileLocation>
+  </LayoutFileLocation>
+  <AddRecord>True</AddRecord>
+  <EditEditRecord>True</EditEditRecord>
+  <EditDeleteRecord>True</EditDeleteRecord>
+  <SaveRecord>True</SaveRecord>
+  <EditRefreshRecord>True</EditRefreshRecord>
+  <EditCategoryFilter>False</EditCategoryFilter>
+  <EditDropDownFilter>AboveTable</EditDropDownFilter>
+  <EditTableSearchable>True</EditTableSearchable>
+  <EnableColumnSortEdit>True</EnableColumnSortEdit>
+  <EditPanelResetFilters>True</EditPanelResetFilters>
+  <EditRecordRowEdit>True</EditRecordRowEdit>
+  <EditRecordRowDelete>True</EditRecordRowDelete>
+  <EditRecordRowShow>True</EditRecordRowShow>
+  <EditTablePanelStyle>DefaultToTheme</EditTablePanelStyle>
+  <EditTableSize>10</EditTableSize>
+  <ShowEditRecord>True</ShowEditRecord>
+  <NewRecord>True</NewRecord>
+  <CopyRecord>True</CopyRecord>
+  <ResetFilters>True</ResetFilters>
+  <ShowDeleteRecord>True</ShowDeleteRecord>
+  <ShowRefreshRecord>True</ShowRefreshRecord>
+  <ExportToExcel>True</ExportToExcel>
+  <ExportToPDF>True</ExportToPDF>
+  <ExportToCSV>True</ExportToCSV>
+  <ShowRecordRowEdit>True</ShowRecordRowEdit>
+  <ShowRecordRowShow>True</ShowRecordRowShow>
+  <ShowRecordRowCopy>True</ShowRecordRowCopy>
+  <ShowRecordRowDelete>True</ShowRecordRowDelete>
+  <ShowTablePanelStyle>DefaultToTheme</ShowTablePanelStyle>
+  <ShowTableSize>10</ShowTableSize>
+  <ShowCategoryFilter>False</ShowCategoryFilter>
+  <ShowDropDownFilter>AboveTable</ShowDropDownFilter>
+  <ShowTableSearchable>True</ShowTableSearchable>
+  <EnableColumnSortShow>True</EnableColumnSortShow>
+  <ForeignKeyLinks>ShowRecordPage</ForeignKeyLinks>
+  <AddRecordPanelStyle>DefaultToTheme</AddRecordPanelStyle>
+  <AddRecordDetailTablesNum>Two</AddRecordDetailTablesNum>
+  <EditRecordPanelStyle>DefaultToTheme</EditRecordPanelStyle>
+  <EditRecordDetailTablesNum>Two</EditRecordDetailTablesNum>
+  <ShowRecordPanelStyle>DefaultToTheme</ShowRecordPanelStyle>
+  <ShowRecordDetailTablesNum>Two</ShowRecordDetailTablesNum>
+  <AutoTypeAheadDelay>700</AutoTypeAheadDelay>
+  <AutoTypeAhead>True</AutoTypeAhead>
+  <AutoTypeAheadMinChars>2</AutoTypeAheadMinChars>
+  <AutoTypeAheadListSize>10</AutoTypeAheadListSize>
+  <AutoTypeAheadSearch>WordsStartingWithSearchString</AutoTypeAheadSearch>
+  <AutoTypeAheadDisplayFoundText>AtBeginningOfMatchedString</AutoTypeAheadDisplayFoundText>
+  <AutoTypeAheadWordSeparators>[^a-zA-Z0-9]</AutoTypeAheadWordSeparators>
+  <EncryptURL>False</EncryptURL>
+  <DefaultMenuLocation>Menu Panels\Menu.html</DefaultMenuLocation>
+  <MenuStyle>Horizontal</MenuStyle>
+  <MenuItems>50</MenuItems>
+  <LastTreeNode>Presentation Layer (Pages)\App_Code\DC_Order\AddDC_OrderPage.Controls.cs</LastTreeNode>
+  <RegenerateAll>False</RegenerateAll>
+  <RolesTable>DC_User</RolesTable>
+  <DefaultDeploymentFolder>C:\Brij Port\ePortDC_Deploy</DefaultDeploymentFolder>
+  <GenerateMSIInstaller>False</GenerateMSIInstaller>
+</XMLDefinition>

@@ -1,0 +1,240 @@
+
+@media print {
+	div.grid_body_scroll{}
+}
+@media screen {
+	div.grid_body_scroll{}
+}
+@media print {
+	div.cellScrollOn {height:70px; overflow: auto; border:2px inset; background-color:#ffffff; padding: 2px; background-image:url(../images/formshadow.gif);}
+	div.cellScrollOff{}
+}
+@media screen 
+{
+     /* appears on the source code as "<td><div class='cellScrollOff'>foo bar</div></td>" */
+	div.cellScrollOn {height:70px; overflow: auto; border:2px inset; background-color:#ffffff; padding: 2px; background-image:url(../images/formshadow.gif);}
+	div.cellScrollOff{height:100%; overflow: none; cursor:hand;cursor:pointer;padding:2px;} 
+}
+
+/* default grid (outermost) style */
+.grid_css
+{
+	width:100%;
+}
+
+/* default grid table styles */
+.table_css
+{
+	border:black 1pt solid;border-spacing:1px;border-collapse:collapse;width:100%
+}
+/* default grid toolbar styles*/
+
+div.toolbar_css
+{
+}
+
+div.toolbar_css span.toolbar_align
+{
+	position:relative;top:-4px;
+}
+
+/* default header styles 2 */
+#cssrollovers{background-color: #b8860b; text-align: center; margin-top: 20px; margin-right: 70%; margin-left: 2%; padding: 8px; border: solid 1px #000; width: auto }
+
+/* create good looking border for cell */
+#grid_content table tr td
+{
+	padding: 0px;	
+	font-family: verdana,arial;
+	border-right: 1px solid #D0D7E5;
+}
+
+.th_css1 
+{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: #E7E7DE; 
+}
+
+/* default grid header styles 1 */
+.th_css1 a   
+{ 	
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#213952; 
+	text-decoration: none; 
+	display: block; 
+	width: 100%; 
+
+}
+.th_css1 a:hover   
+{ 
+	background-color: #CAD4DE; 
+}
+
+/* default grid row styles */
+.tr_css
+{
+	border:#D0D7E5 1pt solid;
+	font-family:verdana,arial;
+	font-size:7pt;
+	padding:0px;
+}
+.trigger{cursor: pointer;cursor: hand;}.branch{display: none;margin-left: 16px;}
+
+/* index column on the left */			
+.index_css {color:gray;font-size:7pt;}		
+
+/* action column style */
+.action_col_css {font-size:8pt;font-family:verdana;}		
+
+/* footer style */
+.tfooter_css {padding:3px;border:2px black solid;}	
+
+/* navigation button style */
+.navbtn_css {font-size:8pt;font-family:verdana,arial;}
+
+/* page navigation dropdown style */
+.pagenav_css {color:navy;}
+					
+/* default grid button */ 
+.btn {
+	BORDER-RIGHT: 1px outset;
+	ADDING-RIGHT: 1px; 
+	PADDING-RIGHT: 1px; 
+	BORDER-TOP: 1px outset; 
+	PADDING-LEFT: 1px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	BACKGROUND-IMAGE: url(../images/button_bg.gif); 
+	PADDING-BOTTOM: 1px; 
+	MARGIN: 0px 0px 0px 1px; 
+	BORDER-LEFT: 1px outset; 
+	WIDTH: 50px; 
+	CURSOR: pointer; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: 1px outset; 
+	backgroung-image: repeat-x
+}
+.btn_med {
+	BORDER-RIGHT: 1px outset; 
+	ADDING-RIGHT: 1px; 
+	BORDER-TOP: 1px outset; 
+	PADDING-LEFT: 1px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	BACKGROUND-IMAGE: url(../images/button_bg.gif); 
+	PADDING-BOTTOM: 1px; 
+	MARGIN: 0px 0px 0px 1px; 
+	BORDER-LEFT: 1px outset; 
+	WIDTH: 106px; CURSOR: pointer; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: 1px outset; 
+	backgroung-image: repeat-x;
+}
+.btn_wide {
+	BORDER-RIGHT: 1px outset; 
+	PADDING-RIGHT: 1px; 
+	BORDER-TOP: 1px outset; 
+	PADDING-LEFT: 1px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	BACKGROUND-IMAGE: url(../images/button_bg.gif); 
+	PADDING-BOTTOM: 1px; 
+	MARGIN: 0px 0px 0px 1px; 
+	BORDER-LEFT: 1px outset; 
+	WIDTH: 150px; 
+	CURSOR: pointer; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: 1px outset; 
+	backgroung-image: repeat-x
+}
+li {
+	list-style-image: url(../images/dot.gif);
+	list-style-type: disc;
+	line-height: 1.5em;
+}
+ul {
+	margin-top: 8px;
+}
+
+/* Inline edit styles */
+#grid_content div.cell
+{
+    height:100%;padding:0px;cursor:hand;cursor:pointer;
+}
+
+#grid_content div.cellText
+{
+    display:block;padding:2px;height:100%;
+}
+
+#grid_content div.cellDivTextarea
+{
+    display:none;padding:0px;
+}
+
+#grid_content .cellTextarea
+{
+    border:0px;overflow-x:auto;height:98%;padding:2px;width:100%;background-image:url(../images/formshadow.gif);
+}
+
+/* File:action.php - default form style */
+#action_window table
+{
+	width:70%;
+    padding:0pt;
+    border:1pt solid #dddddd;
+}
+
+#action_window table tr
+{
+    height:25px;
+}
+
+#action_window td.field_name{
+    background-color:#f8f8f8;
+    text-align:right;
+    width:20%;
+    font-size:8pt;
+    font-family:verdana,arial;
+    color:black;
+    font-weight:bold;
+    text-transform:capitalize;
+    padding-right:2px;
+    border-width:1px;
+	border-style:solid;
+	border-right:#696969;
+	height:23px;
+}
+#action_window td.field_value{
+    background-color:white;
+    text-align:left;
+    font-size:8pt;
+    font-family:verdana,arial;
+    height:10pt;
+    
+	border-width:1px;
+	border-style:solid;
+	border-right:#696969;
+	height:23px;
+}
+#action_window td input.form_text, textarea.form_textarea{
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	background-image:   url(../images/formshadow.gif);
+	border: 1px solid white;
+    padding:3px;
+    margin-left:0px;
+    
+    height:21px;
+}
+#action_window .field_len_count{
+    font-size:5pt;
+    font-family:arial;
+    color:gray;
+}

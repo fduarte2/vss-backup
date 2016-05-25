@@ -1,0 +1,80 @@
+SELECT A.QTY_RECEIVED, A.QTY_DAMAGED, A.WAREHOUSE_LOCATION, A.DATE_RECEIVED
+FROM CARGO_TRACKING A
+WHERE A.ARRIVAL_NUM='9193'
+AND A.RECEIVER_ID=439
+AND A.COMMODITY_CODE=5602
+AND A.PALLET_ID='61112452014507710F0091340090'
+
+
+SELECT * 
+FROM CUSTOMER_PROFILE A
+WHERE A.CUSTOMER_ID=919
+
+select *
+from clm_dc_ffm a
+where a.DC=18
+
+-- Order Total --
+SELECT COUNT(*)
+FROM CARGO_ACTIVITY A
+WHERE A.SERVICE_CODE=6
+AND A.CUSTOMER_ID=123
+AND A.ARRIVAL_NUM='XXXX'
+AND A.ORDER_NUM='YYYY'
+
+-- Insert Into CARGO_ACTIVITY --
+INSERT INTO CARGO_ACTIVITY (ACTIVITY_NUM, ARRIVAL_NUM, SERVICE_CODE, ACTIVITY_ID, PALLET_ID, ORDER_NUM, CUSTOMER_ID, DATE_OF_ACTIVITY)
+VALUES(2, '9193', 6, 0,'ZZ12345', '123',456, TO_DATE('12/02/2006 14:12:32','MM/DD/YYYY HH24:MI:SS'))
+
+
+
+-- MAX ACTIVITY_NUM --
+SELECT MAX(A.ACTIVITY_NUM)
+FROM CARGO_ACTIVITY A
+AND A.CUSTOMER_ID=123
+AND A.ARRIVAL_NUM='9193'
+AND A.PALLET_ID='1234WWSXCDE'
+
+-- Get DC by FFM --
+select a.DC
+from clm_sizemap a
+where a.FFM='xxxx'
+
+-- Find QTY_DAMAGED --
+select a.QTY_DAMAGED
+from cargo_tracking a
+where a.PALLET_ID='xxx'
+
+
+
+ "SELECT COUNT(*) from (select distinct pallet_id from " & _
+                " FROM CARGO_ACTIVITY A" & _
+                " Where A.SERVICE_CODE = 6" & _
+                " AND A.DATE_OF_ACTIVITY IS NOT NULL" & _
+                " AND A.CUSTOMER_ID=" & cus & _
+                " AND A.ARRIVAL_NUM='" & lr & "'" & _
+                " AND A.ORDER_NUM='" & order & "')"
+
+
+-- VOID FUNCTION --
+delete from CARGO_ACTIVITY a
+where a.ARRIVAL_NUM='xxxx'
+and a.CUSTOMER_ID=000
+and UPPER(a.ORDER_NUM)='dc1123'
+and UPPER(a.PALLET_ID)='12323'
+
+--Check CT before shipping out--
+select count(*)
+from cargo_tracking a
+where a.PALLET_ID='61112452003617808L7108830340'
+and a.ARRIVAL_NUM='9492'
+and a.RECEIVER_ID=439
+
+
+61112452008597804H0003440099
+
+
+select a.QTY_IN_HOUSE
+from cargo_tracking a
+where a.ARRIVAL_NUM='9499'
+and a.PALLET_ID=''

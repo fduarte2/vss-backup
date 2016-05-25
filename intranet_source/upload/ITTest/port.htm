@@ -1,0 +1,756 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0016)http://dspc-s16/ -->
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./port_files/filelist.xml">
+<link rel=Edit-Time-Data href="./port_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Port of Wilmington Applications - Access Page</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Inigo Thomas</o:Author>
+  <o:LastAuthor>Inigo Thomas</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2004-07-28T13:42:00Z</o:Created>
+  <o:LastSaved>2004-07-28T14:56:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>484</o:Words>
+  <o:Characters>2761</o:Characters>
+  <o:Lines>23</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>3390</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=Stylesheet type="text/css" media=all href=styles.css>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:536871559 0 0 0 415 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:#336633;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#999999;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin-right:0in;
+	mso-margin-top-alt:auto;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+<script language="JavaScript">
+<!-- Beginning of JavaScript -
+
+// CREDITS:
+// HeadlineWaver
+// by Urs Dudli and Peter Gehrig 
+// Copyright (c) 2001 Peter Gehrig and Urs Dudli. All rights reserved.
+// Permission given to use the script provided that this notice remains as is.
+// Additional scripts can be found at http://www.24fun.com
+// info@24fun.com
+// 8/7/2001
+
+// // // // // // // // // // // // // // // // // // // // // // // // // //
+// CONFIGURATION STARTS HERE
+// // // // // // // // // // // // // // // // // // // // // // // // // //
+
+// your messages. Add as many as you like
+var message=new Array()
+message[0]="jo    ------>    already"
+message[1]="ja    ------>    and"
+message[2]="en    ------>    I do not"
+message[3]="se    ------>    it"
+message[4]="yö    ------>    night"
+message[5]="ei    ------>    no"
+message[6]="no    ------>    well"
+message[7]="Ai    ------>    Oh!"
+message[8]="yhä   ------>   still"
+message[9]="he    ------>    they"
+message[10]="ne    ------>    they"
+message[11]="me    ------>    we"
+message[12]="te    ------>    you"
+message[13]="te    ------>    you"
+message[14]="maa    ------>    country"
+message[15]="oma    ------>    own"
+message[16]="ikä    ------>    age"
+message[17]="älä    ------>    don't"
+message[18]="itä    ------>    east"
+message[19]="isä    ------>    father"
+message[20]="pää    ------>    head"
+message[21]="jää    ------>    ice"
+message[22]="yhä    ------>    still"
+message[23]="sää    ------>    weather"
+message[24]="tie    ------>    road"
+message[25]="tee    ------>    tea"
+message[26]="koe    ------>    test"
+message[27]="voi    ------>    butter"
+message[28]="eri    ------>    different"
+message[29]="ovi    ------>    door"
+message[30]="Hei    ------>    Hi"
+message[31]="ysi    ------>    nine"
+message[32]="eli    ------>    or"
+message[33]="tai    ------>    or"
+message[34]="vai    ------>    or"
+message[35]="yli    ------>    over"
+message[36]="ohi    ------>    past"
+message[37]="kai    ------>    probably"
+message[38]="uni    ------>    sleep"
+message[39]="hän    ------>    he (male), she (female)"
+message[40]="kun    ------>    when"
+message[41]="iso    ------>    big"
+message[42]="olo    ------>    feeling"
+message[43]="tuo    ------>    that"
+message[44]="joo    ------>    yeah"
+message[45]="vyö    ------>    belt"
+message[46]="työ    ------>    work"
+message[47]="jos    ------>    if"
+message[48]="nyt    ------>    now"
+message[49]="apu    ------>    help"
+message[50]="suu    ------>    mouth"
+message[51]="muu    ------>    other"
+message[52]="puu    ------>    tree"
+message[53]="taas    ------>    again"
+message[54]="alas    ------>    down"
+message[55]="ajaa    ------>    drive"
+message[56]="vaan    ------>    instead"
+message[57]="ihan    ------>    quite"
+message[58]="pian    ------>    soon"
+message[59]="elää    ------>    live"
+message[60]="enää    ------>    not any more"
+message[61]="häät    ------>    wedding"
+message[62]="uida    ------>    swim"
+message[63]="edes    ------>    at least"
+message[64]="idea    ------>    idea"
+message[65]="mies    ------>    man"
+message[66]="upea    ------>    splendid"
+message[67]="paha    ------>    bad"
+message[68]="nuha    ------>    cold"
+message[69]="liha    ------>    meat"
+message[70]="raha    ------>    money"
+message[71]="kuha    ------>    pike perch, zander"
+message[72]="lohi    ------>    salmon"
+message[73]="piha    ------>    yard"
+message[74]="asia    ------>    affair"
+message[75]="asia    ------>    affair, matter"
+message[76]="pois    ------>    away"
+message[77]="Moi!    ------>    Hi!"
+message[78]="näin    ------>    like this"
+message[79]="Voi.    ------>    Oh!, Ah!, Alas!."
+message[80]="vain    ------>    only"
+message[81]="niin    ------>    so"
+message[82]="siis    ------>    so"
+message[83]="kuin    ------>    than"
+message[84]="päin    ------>    towards"
+message[85]="yskä    ------>    cough"
+message[86]="vika    ------>    fault"
+message[87]="ukki    ------>    granddad"
+message[88]="muki    ------>    mug"
+message[89]="auki    ------>    open"
+message[90]="ehkä    ------>    perhaps"
+message[91]="joki    ------>    river"
+message[92]="joku    ------>    someone"
+message[93]="alku    ------>    start"
+message[94]="aika    ------>    time"
+message[95]="mikä    ------>    what"
+message[96]="kuka    ------>    who"
+message[97]="tili    ------>    account"
+message[98]="olla    ------>    be"
+message[99]="veli    ------>    brother"
+
+// the URLs of your messages
+var messageurl=new Array()
+messageurl[0]="http://www.javafile.com"
+messageurl[1]="http://www.javafile.com"
+messageurl[2]="http://www.javafile.com"
+
+// the targets of the links
+// accepted values are '_blank' or '_top' or '_parent' or '_self'
+// or the name of your target-window (for instance 'main')
+var messagetarget=new Array()
+messagetarget[0]="_blank"
+messagetarget[1]="_blank"
+messagetarget[2]="_blank"
+
+// font-size
+var fntsize=15
+
+// font-color
+var fntcolor="FFFF00"
+
+// font-family
+var fntfamily="Comic Sans MS"
+
+// font-weight: 1 means bold, 0 means normal
+var fntweight=1
+
+// standstill of each message (seconds)
+var pause=3
+
+// the color of the newsborad backgorund
+var backgroundcolor="444444"
+
+// horizontal position of the slideshow (distance to the left margin of the browser-window, pixels)
+var posleft=10
+
+// vertical position of the slideshow (distance to the top margin of the browser-window, pixels)
+var postop=10
+
+// width of the textbox (pixels)
+var scrollerwidth=600
+
+// height of the textbox (pixels)
+var scrollerheight=60
+
+// borderwidth (pixels)
+var scrollerborder=2
+
+// textpadding (pixels)
+var textpadding=15
+
+// // // // // // // // // // // // // // // // // // // // // // // // // //
+// CONFIGURATION ENDS HERE
+// // // // // // // // // // // // // // // // // // // // // // // // // //
+
+// do not edit the variables below
+var linktext=""
+var textwidth=scrollerwidth-(2*textpadding)
+var textcontent=""
+var bgcontent=""
+var i_message=0
+var i_stepwave=0
+var i_maxstepwave=20
+pause=pause*1000
+if (fntweight==1) {fntweight="700"}
+else {fntweight="100"}
+
+function initiate() {
+    gettextcontent()
+	getbgcontent()
+    if (document.all) {
+		wavemessage.innerHTML=textcontent
+		wavemessagebg.innerHTML=bgcontent
+		wavemessagebg.style.posLeft=posleft
+		wavemessagebg.style.posTop=postop
+		wavemessage.style.posLeft=posleft+textpadding
+		wavemessage.style.posTop=postop+textpadding
+		enlargewave()
+    }
+    if (document.layers) {
+        document.wavemessage.left=posleft+textpadding
+		document.wavemessage.top=postop+textpadding
+		document.wavemessagebg.document.write(bgcontent)
+        document.wavemessagebg.document.close()
+		document.wavemessagebg.left=posleft
+		document.wavemessagebg.top=postop
+        changemessage()
+    }
+}
+
+function enlargewave() {
+    if (i_stepwave<=i_maxstepwave) {
+	    wavemessage.filters.wave.phase=i_stepwave
+	    wavemessage.filters.wave.strength=i_stepwave
+        wavemessage.filters.wave.lightstrength=i_stepwave
+	    wavemessage.filters.wave.freq=i_stepwave
+        i_stepwave++
+	    var timer=setTimeout("enlargewave()",50)
+    }
+    else {
+        clearTimeout(timer)
+        changemessage()
+    }
+}
+
+function reducewave() {
+    if (i_stepwave>0) {
+	    wavemessage.filters.wave.phase=i_stepwave
+	    wavemessage.filters.wave.strength=i_stepwave
+	    wavemessage.filters.wave.lightstrength=i_stepwave
+	    wavemessage.filters.wave.freq=i_stepwave
+        i_stepwave--
+	    var timer=setTimeout("reducewave()",50)
+    }
+    else {
+        clearTimeout(timer)
+        var timer=setTimeout("enlargewave()",pause)
+    }
+}
+
+function changemessage() { 
+    i_message++
+    if (i_message>=message.length) {i_message=0}
+    gettextcontent()
+
+    if (document.all) { 
+        wavemessage.innerHTML=textcontent
+        reducewave()
+    }
+    
+    if (document.layers) {
+        document.wavemessage.document.write(textcontent)
+        document.wavemessage.document.close()
+        var timer=setTimeout("changemessage()",pause)
+    }
+    
+}
+
+function gettextcontent() {
+	textcontent="<span style='font-size:"+fntsize+"pt;font-family:"+fntfamily+";font-weight:"+fntweight+";width:"+textwidth+"px'>"
+	textcontent+="<font color="+fntcolor+">"+message[i_message]+"</font> "
+	// textcontent+="<a href="+messageurl[i_message]+" target="+messagetarget[i_message]+"> "
+	textcontent+="<font color="+fntcolor+">"+linktext+"</font></a></span>"
+}
+
+function getbgcontent() {
+	bgcontent="<table width="+scrollerwidth+" height="+scrollerheight+" border="+scrollerborder+"><tr><td bgcolor="+backgroundcolor+"> </td></tr></table>"
+}
+window.onload=initiate
+// - End of JavaScript - -->
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+<link href=favicon.ico rel="SHORTCUT ICON">
+</head>
+
+<body bgcolor=white lang=EN-US link="#336633" vlink="#999999" style='tab-interval:
+.5in' alink="#999999" leftmargin=0 topmargin=0>
+
+<div class=Section1>
+
+<div align=center>
+
+<table border=0 cellspacing=1 cellpadding=0 width="99%" style='width:99.0%;
+ mso-cellspacing:.7pt;mso-padding-alt:0in 0in 0in 0in'>
+ <tr>
+  <td width="100%" colspan=2 style='width:100.0%;padding:0in 0in 0in 0in'>
+  <table border=0 cellspacing=0 cellpadding=0 style='mso-cellspacing:0in;
+   mso-padding-alt:0in 0in 0in 0in'>
+   <tr>
+    <td style='padding:0in 0in 0in 0in'>
+    <p class=MsoNormal><img width=810 height=88 id="_x0000_i1025"
+    src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\application_access.jpg"></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="10%" valign=top style='width:10.0%;background:#4D76A5;padding:
+  0in 0in 0in 0in'>
+  <table border=0 cellpadding=0 style='mso-cellspacing:1.5pt;mso-padding-alt:
+   0in 0in 0in 0in'>
+   <tr style='height:375.0pt'>
+    <td width="10%" style='width:10.0%;padding:.75pt .75pt .75pt .75pt;
+    height:375.0pt'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width="90%" valign=top style='width:90.0%;padding:.75pt .75pt .75pt .75pt;
+    height:375.0pt'>
+    <table border=0 cellpadding=0 style='mso-cellspacing:1.5pt;mso-padding-alt:
+     0in 0in 0in 0in'>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/index.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Home</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/documents/"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Documents</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/documents/forms.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Forms</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/ts_help.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Help Desk</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/director_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Directors</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/supervisor_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Supervisors</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/lcs_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>LCS</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/inventory_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Inventory</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/ccds_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>CCDS</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/claims_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Claims</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/finance_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Finance</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/accounting_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>Accounting</span></b>
+      </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/hr_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>HR</span></b> </a></p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:.75pt .75pt .75pt .75pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/tech_login.php"><b><span
+      style='font-size:10.0pt;font-family:Verdana;color:#EECD11'>TS</span></b> </a></p>
+      </td>
+     </tr>
+    </table>
+<!--
+<p>
+   <a href="index.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Home</font></b>
+   </a>
+</p>
+<p>
+   <a href="documents/">
+      <b><font face="Verdana" size="2" color="#EECD11">Documents</font></b>
+   </a>
+</p>
+<p>
+   <a href="documents/">
+      <b><font face="Verdana" size="2" color="#EECD11">Forms</font></b>
+   </a>
+</p>
+<p>
+   <a href="ccds_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">CCDS</font></b>
+   </a>
+</p>
+   <a href="ts_help.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Help Desk</font></b>
+   </a>
+</p>
+<p>
+   <a href="finance_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Finance</font></b>
+   </a>
+</p>
+<p>
+   <a href="inventory_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Inventory</font></b>
+   </a>
+</p>
+<p>
+   <a href="lcs_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">LCS</font></b>
+   </a>
+</p>
+<p>
+   <a href="supervisor_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Supervisor</font></b>
+   </a>
+</p>
+<p>
+   <a href="tech_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">TS</font></b>
+   </a>
+</p>
+<p>
+   <a href="director_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Dir Apps</font></b>
+   </a>
+</p>
+<p>
+   <a href="hr_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">HR</font></b>
+   </a>
+</p>
+
+<p>
+   <a href="accounting_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Accounting</font></b>
+   </a>
+</p>
+<p>
+   <a href="claims_login.php">
+      <b><font face="Verdana" size="2" color="#EECD11">Claims</font></b>
+   </a>
+</p>
+-->
+    <p class=MsoNormal><o:p></o:p></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+  <td width="90%" valign=top style='width:90.0%;padding:0in 0in 0in 0in'>
+  <table border=0 cellspacing=0 cellpadding=0 width="65%" style='width:65.0%;
+   mso-cellspacing:0in;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+   <tr>
+    <td width="1%" style='width:1.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p><span style='font-size:18.0pt;font-family:Verdana;color:#0066CC'>Application
+    Access Home</span> </p>
+    <div class=MsoNormal align=center style='text-align:center'>
+    <hr size=2 width="100%" align=center>
+    </div>
+    <p class=MsoNormal align=center style='text-align:center'></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span style='display:none;mso-hide:all'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+  <table border=0 cellspacing=0 cellpadding=0 width="65%" style='width:65.0%;
+   mso-cellspacing:0in;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+   <tr>
+    <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width="70%" valign=top style='width:70.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p><b><span style='font-size:10.0pt;font-family:Verdana'>The single point
+    of access to:</span> <o:p></o:p></b></p>
+    <table border=0 cellspacing=0 cellpadding=0 width="100%" style='width:100.0%;
+     mso-cellspacing:0in;mso-padding-alt:1.5pt 1.5pt 1.5pt 1.5pt'>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1027"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/ship_schedule/"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Ship Schedule</span></a>
+      </p>
+      </td>
+     </tr>
+     <tr>
+      <td width="10%" style='width:10.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1028"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td width="90%" style='width:90.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/documents/EmployeeDir.xls"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>DSPC Phone Book</span></a>
+      </p>
+      </td>
+     </tr>
+     <tr>
+      <td width="10%" style='width:10.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1029"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td width="90%" style='width:90.0%;padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/ccds_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Cold Chain
+      Distribution Systems</span></a> </p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1030"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/finance_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Finance
+      Applications</span></a> </p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1031"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/inventory_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Inventory
+      Applications</span></a> </p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1032"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/lcs_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Labor Control
+      Systems</span></a> </p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1033"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/supervisor_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Supervisor
+      Applications</span></a> </p>
+      </td>
+     </tr>
+     <tr>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><img border=0 width=8 height=8 id="_x0000_i1034"
+      src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\yellowbulletsmall.gif"></p>
+      </td>
+      <td style='padding:1.5pt 1.5pt 1.5pt 1.5pt'>
+      <p class=MsoNormal><a href="http://dspc-s16/tech_login.php"><span
+      style='font-size:10.0pt;font-family:Verdana;color:navy'>Technology
+      Solutions Applications</span></a> </p>
+      </td>
+     </tr>
+    </table>
+    <p class=MsoNormal><b><o:p></o:p></b></p>
+    </td>
+    <td width="30%" style='width:30.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p><img border=0 width=218 height=170 id="_x0000_i1035"
+    src="Port%20of%20Wilmington%20Applications%20-%20Access%20Page_files\FSI-comp.jpg"></p>
+    </td>
+   </tr>
+   <tr>
+    <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td width="100%" colspan=2 valign=top style='width:100.0%;padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+    <p><span style='font-size:10.0pt;font-family:Verdana'>The Port of
+    Wilmington has been recognized by American Association of Port Authorities
+    (AAPA) as a leading port in developing and perfecting technology solutions
+    for scanning, billing and inventory capabilities.<o:p></o:p></span></p>
+    <p><span style='font-size:10.0pt;font-family:Verdana'>We are moving further
+    by rewriting the systems and incorporating them into web applications to
+    make them more reliable, web accessible and user friendly.<o:p></o:p></span></p>
+    <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+  <table border=0 cellspacing=0 cellpadding=0 width="65%" style='width:65.0%;
+   mso-cellspacing:0in;mso-padding-alt:3.0pt 3.0pt 3.0pt 3.0pt'>
+   <tr>
+    <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <p class=MsoNormal>&nbsp;</p>
+    </td>
+    <td style='padding:3.0pt 3.0pt 3.0pt 3.0pt'>
+    <div class=MsoNormal align=center style='text-align:center'>
+    <hr size=2 width="100%" align=center>
+    </div>
+    <p class=MsoNormal><span style='font-size:7.5pt;font-family:Verdana'>©2003
+    Port of Wilmington, DE, Diamond State Port Corporation. All Rights
+    Reserved.</span> </p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+</div>
+
+</div>
+
+<div style='position:absolute' id=wavemessagebg></div>
+
+<div style='filter:"wave\(\)";position:absolute' id=wavemessage>
+</body>
+
+</html>

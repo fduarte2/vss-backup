@@ -1,0 +1,1542 @@
+﻿Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Attempt to stop service PrintService.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Attempt to stop service PrintService.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Attempt to stop service PrintService.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Creating EventLog source PrintService in log Application...
+Rolling back assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Restoring event log to previous state for source PrintService.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Attempt to stop service PrintService.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Creating EventLog source PrintService in log Application...
+Rolling back assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Restoring event log to previous state for source PrintService.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Creating EventLog source PrintService in log Application...
+Rolling back assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Restoring event log to previous state for source PrintService.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Creating EventLog source PrintService in log Application...
+Rolling back assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Restoring event log to previous state for source PrintService.
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Warning: The source PrintService is not registered on the local machine.
+Service PrintService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Uninstalling assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Removing EventLog source PrintService.
+Service PrintService is being removed from the system...
+Service PrintService was successfully removed from the system.
+Installing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog
+Installing service PrintService...
+Service PrintService has been successfully installed.
+Creating EventLog source PrintService in log Application...
+Committing assembly 'C:\ePortPrinterService\ePortPrinter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\ePortPrinterService\ePortPrinter.exe
+   logfile = C:\ePortPrinterService\ePortPrinter.InstallLog

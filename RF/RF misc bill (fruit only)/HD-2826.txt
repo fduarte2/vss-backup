@@ -1,0 +1,4 @@
+// 3-14-2007 - Paul
+Truck-In Rate was hard coded at the following modules: 
+1. cmdRet_Click
+2. grdData_AfterColUpdate

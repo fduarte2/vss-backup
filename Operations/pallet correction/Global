@@ -1,0 +1,21 @@
+Attribute VB_Name = "modGlobal"
+Option Explicit
+Global OraSession As Object
+Global OraDatabase As Object
+Global dsCARGO_TRACKING As Object
+Global dsCARGO_ACTIVITY As Object
+Global dsVESSEL_PROFILE As Object
+Global dsVOYAGE_CARGO As Object
+Global dsCOMMODITY_PROFILE As Object
+Global dsCUSTOMER_PROFILE As Object
+Global gsPVItem As String
+Global dsCARGO_ACTIVITY_ARCHIVE As Object
+
+'Variables that are to be passed on to the next form
+Global gsServiceName() As String
+Global giServiceCode As Integer
+Global bEdit As Boolean
+
+
+
+    

@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[cargoTransfer.vbp]
+SCC_Aux_Path = "X:\VSS"
+SCC_Project_Name = "$/BNI/cargo transfer", EFHIAAAA

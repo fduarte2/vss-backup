@@ -1,0 +1,201 @@
+5011,Argentine-Apples & Pears,Argentine
+5017,Argentine-Lemons,Argentine
+5031,Argentine-Apple Juice,Argentine
+5032,Argentine-Lemon Juice,Argentine
+5033,Argentine-Pear Juice,Argentine
+5034,Argentine Grape/Kiwi Juice,Argentine
+5098,Argentine-Non Vessel,Argentine
+5099,Argentine-Fruits & Others,Argentine
+1302,Haitian Vehicle,Autos
+2000,Vehicle Total,Autos
+2100,VW Total,Autos
+2111,VW Autos,Autos
+2151,VW-Previously Owned Vehicles,Autos
+2199,VW-Other Cargo,Autos
+2200,Hual Total,Autos
+2211,Hual-Chrysler Others,Autos
+2212,Hual-Chrysler Autos,Autos
+2213,Hual-Chrysler Small Trucks,Autos
+2214,Hual-Chrysler Large Trucks,Autos
+2221,Hual-Ford Others,Autos
+2222,Hual-Ford Autos,Autos
+2223,Hual-Ford Small Trucks,Autos
+2224,Hual-Ford Large Trucks,Autos
+2231,Hual-GM Others,Autos
+2232,Hual-GM Autos,Autos
+2233,Hual-GM Small Trucks,Autos
+2234,Hual-GM Large Trucks,Autos
+2251,Hual-Commercial Others,Autos
+2252,Hual-Commercial Autos,Autos
+2253,Hual-Commercial Small Trucks,Autos
+2254,Hual-Commercial Large Trucks,Autos
+2299,Hual-Others,Autos
+2331,GM Imported,Autos
+OTHR,"HUAL, Other Vehicle",Autos
+VEHI,Vehicle Summary,Autos
+VOLK,Volkswagen,Autos
+5833,C&S-Apple Juice,C&S
+5841,C&S-Beef/Meat,C&S
+5845,C&S-Fish/Seafood,C&S
+5849,C&S-Dairy,C&S
+5851,C&S-Pet Food,C&S
+5899,C&S-Others,C&S
+5100,Pac Sea-Lauritzen,Chilean
+5101,Pac Sea-Pacific Seaways,Chilean
+5103,Pac Sea-Dole,Chilean
+5198,Pac Sea-Non Vessel,Chilean
+5199,Pac Sea-Other,Chilean
+5200,Dole Fresh Fruit-Lauritzen,Chilean
+5201,Dole Fresh Fruit-Pacific Seaways,Chilean
+5203,Dole Fresh Fruit-Dole,Chilean
+5298,Dole Fresh Fruit-Non Vessel,Chilean
+5299,Dole Fresh Fruit-Others,Chilean
+5300,Del Monte-Lauritzen,Chilean
+5301,Del Monte-Pacific Seaways,Chilean
+5303,Del Monte-Dole,Chilean
+5398,Del Monte-Non Vessel,Chilean
+5399,Del Monte-Others,Chilean
+5900,Lauritzen Cargo,Lauritzen
+5901,Lauritzen-Pacific Seaways,Lauritzen
+5903,Lauritzen-Dole,Lauritzen
+5998,Lauritzen-Non Vessels,Lauritzen
+5999,Lauritzen-Others,Lauritzen
+1100,Chiquita Container Total,Chiquita
+1121,Chiq Cont. Fruits Import,Chiquita
+1122,Chiquita Paper Import,Chiquita
+1149,Chiquita General Import,Chiquita
+1151,Chiquita Fruits Export,Chiquita
+1172,Chiquita Paper Export,Chiquita
+1199,Chiquita General Export,Chiquita
+1200, Dole Container Total,Chiquita
+8535,Citrosuco-Orange Juice,Citrosuco
+8599,Citrosuco-Other,Citrosuco
+5601,Spanish Clementines,Citrus
+5602,Moroccan Clementines,Citrus
+5603,South African Citrus,Citrus
+5615,Australian Oranges,Citrus
+1221,Dole Cont. Fruits Import,Dole
+1222,Dole Paper Import,Dole
+1249,Dole General Cargo Import,Dole
+1251,Dole Cont. Fruits Export,Dole
+1272,Dole Paper Export,Dole
+1299,Dole General Cargo Export,Dole
+7110,Amer Minerals-Chrome Ore,Dry Bulk
+7145,Amer Minerals-Mangenese Ore,Dry Bulk
+7150,Amer Minerals-Magnesite Bulk,Dry Bulk
+7151,Amer Minerals-Magnesite Bags,Dry Bulk
+7198,Amer Minerals-Bagged,Dry Bulk
+7199,Amer Minerals-Others,Dry Bulk
+7230,LaFarge-Gypsum,Dry Bulk
+7335,E I DuPont-Illmenite Ore,Dry Bulk
+7375,E I DuPont-Titanium Ore,Dry Bulk
+7405,I C S-Aluminum Sulphate,Dry Bulk
+7440,I C S-Iron Sulphate,Dry Bulk
+7470,I C S-Sodium Nitrate Bulk,Dry Bulk
+7471,I C S-Sodium Nitrate Bags,Dry Bulk
+7555,Port Contractors-Petrolcoke,Dry Bulk
+7562,Port Contractors-Oxychem Salt,Dry Bulk
+7563,Port Contractors-Road Salt,Dry Bulk
+7564,Port Contractors-Cement Klinker,Dry Bulk
+7565,Port Contractors-UREA,Dry Bulk
+7599,Port Contractors-Others,Dry Bulk
+7930,Dry Bulk Charters-Etibor 48 Bulk,Dry Bulk
+7950,Dry Bulk Charters-Magnesite Bulk,Dry Bulk
+7951,Dry Bulk Charters-Magnesite Bags,Dry Bulk
+7963,Dry Bulk Charters-Road Salt,Dry Bulk
+7965,Dry Bulk Charters-Recycled Glass,Dry Bulk
+7976,Dry Bulk Charters-Recycled Tires,Dry Bulk
+7999,Dry Bulk Charters-Others,Dry Bulk
+4152,Gearbulk-Drywall,Forest Products
+4161,Gearbulk-Packaged Lumber,Forest Products
+4162,Gearbulk-Plywood,Forest Products
+4171,Gearbulk-Woodpulp,Forest Products
+4172,Gearbulk-Liner Board,Forest Products
+4173,Gearbulk-Newsprint,Forest Products
+4174,Gearbulk-Paper,Forest Products
+4199,Gearbulk-Others,Forest Products
+4261,Saga Line-Packaged Lumber,Forest Products
+4262,Saga Line-Plywood,Forest Products
+4271,Saga Line-Woodpulp,Forest Products
+4272,Saga Line-Liner Board,Forest Products
+4273,Saga Line-Newsprint,Forest Products
+4274,Saga Line-Paper,Forest Products
+4299,Saga Line-Others,Forest Products
+4472,ICS Fiberboard,Forest Products
+4592,Iggesund Products Paperboard,Forest Products
+4961,Forest Prdts Charter-Packaged Lumber,Forest Products
+4962,Forest Prdts Charter-Plywood,Forest Products
+4963,Futter Lumber,Forest Products
+4971,Forest Prdts Charter-Woodpulp,Forest Products
+4972,Forest Prdts Charter-Liner Board,Forest Products
+4973,Forest Prdts Charter-Newsprint,Forest Products
+4974,Forest Prdts Charter-Paper,Forest Products
+4999,Forest Prdts Charter-Other,Forest Products
+4361,Holmen Packaged Lumber,Holmen
+4374,Holmen Paper,Holmen
+4384,Billerud Sack Paper (Holmen),Holmen
+4399,Holmen Other,Holmen
+5635,Premier Orange Juice,Juice
+5696,Chilled Juice Non-Vessel,Juice
+5697,Frozen Juice Non-Vessel,Juice
+5699,Misc Refrigerated,Juice
+5700,Kyokuyo,KY
+5731,KY-Kiwi Juice,KY
+5733,KY-Apple Juice,KY
+5741,KY-Beef/Meat,KY
+5745,KY-Fish/Seafood,KY
+5749,KY-Dairy,KY
+5751,KY-Pet Food,KY
+5799,KY-Others,KY
+5541,McDonalds' Meat,Meat
+5645,Seafood Exports,Meat
+5651,Poultry,Meat
+9210,General Charter-Cattle,Meat
+9205,General Charter-Zinc,Metals
+9207,General Charter-Aluminium,Metals
+9209,General Charter-Lead,Metals
+9229,General Charter-Copper,Metals
+0,None,None
+12,Door Sill ranges,None
+100,Pallet Sales,None
+911,Emergency Code,None
+1000,Container Total,None
+1301,Haitan Containers,None
+4601,Furniture,None
+4981,Empty Paper Container Return,None
+6111,Temp,None
+9100,Passenger Vessels,None
+9289,Hazardous Materials,None
+9299,General Charter-Others,None
+0XXX,Capital Codes for E&M Only,None
+OPEN,Open,None
+5611,NYK New Zealand Apples,NZ Fruit
+5409,David Oppen-New Zealand Kiwi Fruit,Oppenheimer
+5411,David Oppen-New Zealand Apples & Pears,Oppenheimer
+5498,David Oppen-Non Vessel,Oppenheimer
+5499,David Oppen-Others,Oppenheimer
+8101,Delaware Terminal-Petroleum Products,Petroleum
+8201,Sico Oil-Petroleum Products,Petroleum
+3000,ALL STEEL,Steel
+3100,Nucor,Steel
+3102,Nucor-Hot Rolled Coils,Steel
+3104,Nucor-Cold Rolled Coils,Steel
+3199,Nucor-Others,Steel
+3202,Van Ommeren-Hot Rolled Coils,Steel
+3204,Van Ommeren-Cold Rolled Coils,Steel
+3212,Van Ommeren-Wire Coils,Steel
+3222,Van Ommeren-Steel Beams,Steel
+3223,Van Ommeren-Steel Slabs,Steel
+3224,Van Ommeren-Steel Pipe,Steel
+3226,Van Ommeren-Steel Plate,Steel
+3228,Van Ommeren-Re-bar,Steel
+3299,Van Ommeren-Others,Steel
+3302,Steel Charters-Hot Rolled Coils,Steel
+3304,Steel Charters-Cold Rolled Coils,Steel
+3312,Steel Charters-Wire Coils,Steel
+3322,Steel Charters-Steel Beams,Steel
+3323,Steel Charters-Steel Slabs,Steel
+3324,Steel Charters-Steel Pipe,Steel
+3326,Steel Charters-Steel Plate,Steel
+3328,Steel Charters-Steel Re-bar,Steel
+3399,Steel Charters-Others,Steel

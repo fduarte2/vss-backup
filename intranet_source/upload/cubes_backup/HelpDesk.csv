@@ -1,0 +1,390 @@
+Case#,Submitted,From,Priority (H/M/L),Deadline,Target Completion,Status,Status As Of,Assigned To,Problem/Issue
+6,06/11/2003,GBAILEY,H,None,TBD,Assigned to,01/06/2004,Matthew,Display in Lobby with PowerPoint presentation set to repeat. Customized for Visits.
+10,06/11/2003,ABRIZOLAKI,H,ASAP,07/17/2003,TS Done-Awaiting OK,,Seth,Allow Editing of Pre-bills. Keep audit trail
+32,06/12/2003,EPHILHOWER,H,asap,06/17/2003,Assigned to,,Matthew,Need to beable to change printer in BNI system
+38,06/13/2003,LTREUT,H,asap,TBD,Assigned to,10/20/2003,Seth,we need the ability to import recoreds from exel in to the Misc. Billing Screen. to cut down the time it takes to manually bill for misch charges this was requested 2 years argo.
+67,07/01/2003,MARTYM,H,07/02/2003,TBD,TS Done-Awaiting OK,11/19/2003,Matthew,Fix Oppenheimer Eloads - TS Note: Use FTP instead of drive mapping. 
+83,07/02/2003,MARTYM,H,ASAP,,Assigned to,,Matthew,Oppenheimer orders do not automatically resend and may be lost when server goes down.
+99,07/03/2003,Maritime Exchange,H,07/17/2003,07/10/2003,Assigned to,,Matthew,Increase Bandwidth for Maritime Exchange office to 712K. 
+130,07/10/2003,JJAFFE,H,None Spec,,Assigned to,10/27/2003,Richard,Move Solomon Data into Oracle
+144,07/14/2003,DNIESSEN,M,07/14/2003,16-Jul,TS Done-Awaiting OK,10/23/2003,Matthew,Microphone was changed and doesn't recognize words/Need to retrain software
+153,07/15/2003,TSCOTT,H,07/18/2003,21-Jul,Assigned to,,Matthew,Internet Access to Ceridian (for transmission of payroll)
+168,07/16/2003,LTRUET,M,07/25/2003,07/25/2003,Waiting on user,10/13/2003,Seth,"Determine Specifications of reports to auto-email JDS. Coordinate w/ customer A. Lane, L. Truet and TS Dept."
+169,07/16/2003,FFITZGERALD,H,ASAP,07/25/2003,TS Done-Awaiting OK,10/09/2003,Matthew,Start Supervisor usage of LCS Scanners
+170,07/16/2003,DNIESSEN,M,07/31/2003,07/31/2003,TS Done-Awaiting OK,10/20/2003,Seth,Email Over 60 hours reports to Ops & HR directors weekly from LCS. Request entered by I. Thomas.
+171,07/16/2003,FFITZGERALD,M,ASAP,,Assigned to,,Matthew,Apply DSPC barcode to C&S Pallets on discharge and track through inspection and loadout. Entered by I. Thomas.
+173,07/16/2003,LTREUT,M,ASAP,08/15/2003,Waiting on user,08/18/2003,Seth,Provide ability to email Juice Withdrawals once a day to bill-to address. Inigo's Note: Use PHP and the intranet.
+187,07/17/2003,SSHOEMAKER,M,,TBD,Assigned to,,Seth,Create or modify reports to our specifications in Oracle - Discoverer? ERS?
+188,07/17/2003,SSHOEMAKER,M,,,Assigned to,,Richard,Batch/Transaction reports summarized by natural accounts in Oracle
+189,07/17/2003,SSHOEMAKER,M,,,Assigned to,,Richard,Oracle AR statements redefined for monthly letters
+190,07/17/2003,SSHOEMAKER,M,,,Assigned to,,Richard,Add Ceridian interface for payroll checking info to Oracle Cash Management
+193,07/18/2003,Customer - M. Skoog,H,,TBD,TS Done-Awaiting OK,09/15/2003,Matthew,Work with Mike Skoog @ Giumarra on adding more computers to Eloads. He'll be here from CA week of 7/21
+195,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Assigned to,,Seth,Build volume discounts into billing system
+196,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Assigned to,,Seth,Build cutomer rate profile matrix(as in CCDS now)
+197,07/18/2003,ABRIZOLAKI,L,,TBD,Assigned to,,Seth,Flag Inventory systems for outstanding custmer accounts
+204,07/18/2003,ABRIZOLAKI,H,,TBD,Working on now,08/18/2003,Seth,Master invoice program must be rewritten. When pre-bills are requested they cannot be deleted as not to printand involves IS intervention
+205,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Assigned to,,Seth,"Water charges,propane,and diesel sales automated"
+206,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Assigned to,,Seth,Under customer maintenance need option to make customer status inactive.
+207,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Working on now,12/04/2003,Seth,RF invoices are not centered at all. The date desc. and amount should be aligned
+208,07/18/2003,ABRIZOLAKI,H,ASAP,TBD,Working on now,09/29/2003,Seth,some descriptions showing on invoices must be changed(ex. palletized loading is advance truck loading)
+210,07/18/2003,ABRIZOLAKI,H,ASAP,08/19/2003,Assigned to,10/27/2003,Seth,LCS to have a report that shows all o/s labor tickets not yet signed or turned into acctg.
+227,07/21/2003,MCUTLER,M,07/25/2003,07/25/2003,TS Done-Awaiting OK,09/04/2003,Matthew,Cannot send email attachments
+229,07/21/2003,MHAHN,H,asap,07/25/2003,Assigned to,,Seth,"Need the ability to make customers ""inactive"" in BNI. Email to follow with details"
+239,07/22/2003,BDEMPSEY,H,,,Assigned to,08/01/2003,Richard,"In ""Edit pallet details"", need ability to use ctrl key to highlight additional pallets"
+240,07/22/2003,BDEMPSEY,M,ASAP,,Assigned to,07/29/2003,Richard,"In Edit pallet Combo,need stacking field added to fields available"
+242,07/22/2003,BDEMPSEY,H,,,Assigned to,,Richard,Would like program that shows me automatically which warehouse rows are empty.
+244,07/22/2003,BDEMPSEY,H,ASAP,,Assigned to,,Richard,Need RPC to appear on truck form when it is a RPC pallet. Also size should change when it is a RPC
+245,07/22/2003,BDEMPSEY,M,,,Assigned to,,Richard,"When Oppenheimer sends ship file toEDI, would like to recieve copy of file in form that can be opened in excel"
+246,07/22/2003,BDEMPSEY,M,ASAP,,Assigned to,,Richard,"In ""Edit pallet details"" And Edit pallet combo would like to be able to undo last change."
+247,07/22/2003,ARIZZO,M,07/29/2003,07/29/2003,TS Done-Awaiting OK,10/27/2003,Seth,Storage Time on inventory report on older product needs to be corrected.
+248,07/22/2003,BDEMPSEY,L,,,Assigned to,,Richard,"Would like to change names of In ""Edit pallet details"" andedit pallet combo to avoid confusion"
+249,07/22/2003,EPHILHOWER,H,,07/22/2003,TS Done-Awaiting OK,09/17/2003,Seth,Pre bills should compile without the manifest being lockec by inventory. Seth had to lock the manifest for the Harv Verdy V 252. Should lock automatically.
+252,07/22/2003,BDEMPSEY,L,,,Assigned to,,Richard,Would like to be able to see all locations a particular has had. (history of location)
+259,07/22/2003,WSTANSBURY,H,ASAP,08/07/2003,Waiting on user,08/20/2003,Seth,Need to be able to view (not modify) time in LCS
+261,07/22/2003,WSTANSBURY,H,08/06/2003,08/05/2003,TS Done-Awaiting OK,10/22/2003,Matthew,Create Daily Custom Code List function for LCS Palm Pilots
+263,07/23/2003,SSHOEMAKER,H,,08/15/2003,Waiting on user,08/18/2003,Richard,All directors should have access to Oracle on their desktop for account inquiry and reports so they can check info relevant to their departments as needed
+264,07/23/2003,BBARKER,H,,07/24/2003,Working on now,08/26/2003,Matthew,My computer does not run icetec applications. I need Icetec applications to monitor temperature graphs.
+272,07/24/2003,TKEEFER,L,08/29/2003,08/29/2003,Assigned to,,Matthew,Multimail PlugIn is incompatible with Documents to Go 4.001. You must upgrade to 4.002 message is recived during hot sync with Palm
+278,07/24/2003,MHAHN,H,asap,07/31/2003,Assigned to,10/22/2003,Seth,4 digit ship number needs to show on tracker reports & CCDS invoices
+302,07/29/2003,ITHOMAS,H,ASAP,,Assigned to,07/29/2003,Matthew,Determince source of Outlook 2000 email to Gene
+309,07/30/2003,MPALLMANN,H,08/01/2003,,TS Done-Awaiting OK,08/15/2003,Matthew,Oppenheimer FTP Install
+310,07/30/2003,MPALLMANN,M,08/04/2003,,Assigned to,07/30/2003,Matthew,Automatic user Logoff after 30 min.
+311,07/30/2003,MPALLMANN,M,08/04/2003,,Assigned to,07/30/2003,Matthew,Password Rotation
+312,07/30/2003,MPALLMANN,M,08/01/2003,,Assigned to,07/30/2003,Matthew,OWA message: Password expires in 0 days
+319,07/31/2003,ARIZZO,H,08/04/2003,,Assigned to,12/08/2003,Seth,Please arrange to only require the mark numbers and not letters necessary when utilizing the mark box.
+320,07/31/2003,ARIZZO,M,07/16/2003,,TS Done-Awaiting OK,10/13/2003,Seth,When expediting an order please try to condense viewing area so that all information is directly visible to eliminate scrolling up and down.
+325,07/31/2003,TSCOTT,H,07/31/2003,,Assigned to,10/30/2003,Matthew,CD in Tazzy's computer is not working. Cannot get W2s.
+326,07/31/2003,MPALLMANN,M,ASAP,,TS Done-Awaiting OK,08/01/2003,Matthew,Hiring Hall machines need to be shut down (power going out)
+331,08/01/2003,VFARKAS,L,,,Working on now,09/12/2003,Seth,"When reprinting Cold Chain invoices, invoice number does not print on the copy."
+332,08/01/2003,PBROWN,M,asap,,Assigned to,08/04/2003,Richard,Could someone install the accounts payable module on Susan Annone's computer...Thank you...Pamela Brown
+333,08/04/2003,GBAILEY,H,ASAP,,Assigned to,08/04/2003,Matthew,Gene's printout of calendar is lighter than usual. Printer may need new toner.
+334,08/04/2003,GBAILEY,H,ASAP,,Working on now,08/05/2003,Richard,"Per Gene - Add range to Warehouse Utilization Report. Display average, min, max for a week. "
+335,08/04/2003,MARTYM,H,08/27/2003,,Assigned to,08/04/2003,Seth,CCDS Truckers Log needs to be implemented with full reporting module.
+336,08/04/2003,MARTYM,M,08/28/2003,,TS Done-Awaiting OK,08/20/2003,Seth,CCDS: Add Automated E-mail when an item is ADDED to the manifest.
+337,08/04/2003,MHAHN,H,ASAP,,TS Done-Awaiting OK,08/04/2003,Seth,Lot on Vinson are is in the system twice. tracker # 53031 & 53033. Tracker 53033 is correct. Tracker 53031 should be deleted
+343,08/04/2003,DCASTAG,M,08/04/2003,,TS Done-Awaiting OK,08/14/2003,Matthew,Printer by D. Castagna needs toner
+348,08/04/2003,VNBECKER,H,08/04/2003,,Waiting on user,08/15/2003,Matthew,V. Nohi Becker - Laptop shut off while typing a document
+349,08/05/2003,AOUTLAW,H,08/05/2003,,TS Done-Awaiting OK,08/15/2003,Matthew,B. Senseny - cell phone cannot send or recieve calls
+350,08/05/2003,BDEMPSEY,H,ASAP,,Assigned to,08/05/2003,Matthew,Customer has problem verifying shipped data.
+354,08/05/2003,MORECRAF,L,"asap,if po",,TS Done-Awaiting OK,12/08/2003,Seth,double labor tickets please see email
+362,08/06/2003,VFARKAS,H,31-Aug,,Assigned to,08/07/2003,Matthew,Linda Horne's PC should be replaced due to the age of machine to assist with current applications and programs speed and hangups
+365,08/07/2003,MPALLMANN,M,08/07/2003,,Assigned to,08/07/2003,Matthew,Provide copy of parts program.
+369,08/07/2003,ABRIZOLAKI,H,Aug.8/03,,TS Done-Awaiting OK,10/27/2003,Seth,Need CCDS report for revenue summarized by customer (Crystal??)
+370,08/07/2003,SSHOEMAKER,M,08/31/2003,,Working on now,09/10/2003,Richard,I can't access reports in Ceridian I need to clear checks. Seth is aware of error messages.
+371,08/08/2003,DTHOMP,H,Yesterday,,Waiting on user,08/20/2003,Matthew,"Color printer does not print; needs new ""Drum Life"" kit."
+372,08/08/2003,DTHOMP,M,08/22/2003,,Assigned to,08/12/2003,Matthew,Office supply order forms on-line w/provisions made for approvals.
+377,08/11/2003,MPALLMANN,M,08/11/2003,,TS Done-Awaiting OK,08/12/2003,Matthew,Ben needs pallets removed for Oppenheimer 1003017.
+380,08/11/2003,DNIESSEN,H,08/29/2003,,TS Done-Awaiting OK,08/12/2003,Matthew,purchase and train guards in use of scanners for LCS and scanning their rounds
+386,08/12/2003,SMARINELLI,H,Aug.18/03,,Assigned to,08/15/2003,Matthew,Susan Marinelli needs to be set up for fruit printer
+390,08/18/2003,MARTYM,H,soon,,TS Done-Awaiting OK,12/08/2003,Seth,Need to have 'Standpak' (Item #) show up on various inventry reports for customers
+391,08/18/2003,MARTYM,M,Soon,,TS Done-Awaiting OK,08/21/2003,Seth,"On tracker report would like to show 'Manifested Qty', 'Qty Rec'd' & 'Qty Rejected' if possible"
+394,08/18/2003,ARIZZO,H,08/29/2003,,Assigned to,08/19/2003,Matthew,Cold Chain phones need modified to handle Caller Identification - A. Rizzo
+400,08/21/2003,AOUTLAW,L,09/19/2003,,Assigned to,08/21/2003,Matthew,Internet explorer does not display pages - using netscape for now
+401,08/21/2003,MARTYM,M,08/25/2003,,TS Done-Awaiting OK,08/25/2003,Seth,Is it possible to have the CCDS system recognize 'Petfood' and have the following statement print out on the Bill of Lading: 'DO NOT FEED TO CATTLE OR OTHER RUMINANTS' / 
+405,08/25/2003,ARIZZO,H,08/29/2003,,TS Done-Awaiting OK,09/02/2003,Seth,Invoices and customer inventories should be segrated by product. 
+406,08/25/2003,TKEEFER,H,ASAP,,Working on now,08/27/2003,Richard,Set up TRACS Online for reports of vessel and cargo statistics
+409,08/26/2003,ARIZZO,H,08/29/2003,,Working on now,09/04/2003,Matthew,Start Scanning Richmond Petfood (Ship-out)
+414,08/27/2003,MPHILLIPS,H,08/27/2003,,TS Done-Awaiting OK,09/04/2003,Matthew,Michael Phillips - Palm did not download correctly to LCS - entries not showing up in LCS
+415,08/27/2003,MPHILLIPS,H,08/27/2003,,TS Done-Awaiting OK,09/04/2003,Matthew,Michael Phillips - Palm needs replacement batteries
+416,08/27/2003,MHAHN,H,asap,,Assigned to,08/27/2003,Seth,bni customer system should notify when changes are made. Similar to the way the CCDS system does via email
+418,08/28/2003,MHAHN,H,asap,,Assigned to,08/29/2003,Seth,Need screen that will give us ability to correspond 4 digit vessel # & 7 digit vessel #. Ex if 4 digit # is entering screen will give 7 digit #
+420,08/28/2003,LHORNE,L,,,Working on now,09/29/2003,Seth,"ABILITY TO CHOOSE PRINTER FROM A DROP DOWN BOX, WITHOUT GOING OUT OF SCREEN"
+421,08/28/2003,DDONOFRIO,M,08/28/2003,,TS Done-Awaiting OK,09/04/2003,Matthew,D. Donofrio - cannot access DSPC Intranet
+425,08/29/2003,ITHOMAS,H,ASAP,,Assigned to,08/29/2003,Richard,"Online Leased Space Page with Edit for Finance, and View only for Marketing and Operations"
+427,09/02/2003,PAUL KELLEY,H,09/02/2003,,TS Done-Awaiting OK,09/04/2003,Matthew,P. Kelley - Locations for meat are not showing up on scanners 
+431,09/02/2003,DGAMBLE,M,ASAP,,TS Done-Awaiting OK,09/04/2003,Matthew,How do I access the Help Desk?
+432,09/02/2003,GBAILEY,H,ASAP,,Assigned to,09/02/2003,Matthew,Set up Groups on Phone System and Pickup for Group from desk phone
+433,09/02/2003,ITHOMAS,M,ASAP,,Assigned to,09/02/2003,Richard,Create Database of AAPA weekly reports
+440,09/05/2003,ITHOMAS,H,ASAP,,Assigned to,09/05/2003,Richard,Set up Month End snap shot of Financials for Directors
+442,09/08/2003,AOUTLAW,H,10/03/2003,,Working on now,10/20/2003,Seth,Implement Claims System
+446,09/09/2003,ARIZZO,H,09/09/2003,,TS Done-Awaiting OK,09/15/2003,Matthew,USDA - Fax machine not recieving properly
+450,09/15/2003,ITHOMAS,M,11/01/2003,,Assigned to,09/15/2003,Seth,John Chagin- Automatic E-Mail of reports.
+451,09/15/2003,ITHOMAS,M,11/01/2003,,Working on now,12/08/2003,Seth,John Chagin- E-Port access!
+453,09/16/2003,JJAFFE,H,,,Assigned to,09/17/2003,Richard,"The DSPC Inventory Report does not show meat. Also, nothing from Wing E is shown, yet the Whse Util report shows 1670 pallets for E.Report should not be live also"
+455,09/16/2003,TSCOTT,H,ASAP,,Assigned to,10/30/2003,Matthew,Tazzy cannot open attachments (server is running slow).
+464,09/17/2003,MARTYM,M,09/19/2003,,Assigned to,09/22/2003,Matthew,Pet food scanning: need a 'Void' function to take a pallet off truck order.
+465,09/17/2003,MARTYM,M,09/19/2003,,Assigned to,09/22/2003,Matthew,Pet food scanning: after scanning a plt. the last seven digits of the barcode should show on the screen (actual plt. number)
+466,09/17/2003,ITHOMAS,H,09/17/2003,,Assigned to,09/22/2003,Matthew,V. Nohi Becker - Instructions to update website from remote site
+469,09/18/2003,MARTYM,M,09/23/2003,,Assigned to,09/22/2003,Seth,Need a screen in which we can edit meat manifest. Changes need to be made on occasion.
+470,09/18/2003,RWANG,M,09/30/2003,,Assigned to,11/26/2003,Seth,Change Vessel Number in CCDS System- Syncronize with the BNI's system. (Also look at RF Vessel Numbers as well)
+472,09/18/2003,ARIZZO,L,09/25/2003,,TS Done-Awaiting OK,10/27/2003,Seth,"The C&S vessel Pacific V 302 inspection E-port overages, shortages & rejections need to be corrected."
+477,09/22/2003,MHAHN,H,asap,,Assigned to,09/24/2003,Richard,Need to be able to view RF Tag Audit screen before printing
+478,09/23/2003,MICHAELP,L,09/23/2003,,TS Done-Awaiting OK,09/25/2003,Matthew,M. Phillips- Computer Screen not working properly
+479,09/23/2003,DGAMBLE,L,09/23/2003,,TS Done-Awaiting OK,09/26/2003,Matthew,D. Gamble - Printer in Supervisors Office not printing
+481,09/23/2003,LSANCHEZ,L,09/23/2003,,Assigned to,09/24/2003,Matthew,L. Sanchez - CCDS Printer low on toner
+485,09/24/2003,ITHOMAS,M,09/24/2003,,Assigned to,09/24/2003,Matthew,Setup Public Forms in Outlook.
+491,09/24/2003,DPETERSON,M,09/25/2003,,Assigned to,09/24/2003,Matthew,NEED ACCESS TO FILES AND E-MAIL FOR AT CCDS
+495,09/25/2003,PHEMPHILL,M,10/03/2003,,Assigned to,09/25/2003,Matthew,"Need capability for DSPC Directors, tenants, Bill Boles, Pat Hemphill, Vered Nohi-Becker & Debra Thompson to email info to gatehouses"
+496,09/25/2003,MPALLMANN,H,ASAP,,TS Done-Awaiting OK,09/30/2003,Matthew,Scanners 244 and 051 were not scanning.
+501,09/25/2003,ARIZZO,M,10/03/2003,,Assigned to,09/25/2003,Matthew,CCDS needs newer telephones that have caller ID feature
+504,09/25/2003,DDONALD,M,ASAP,,Assigned to,09/25/2003,Seth,WHY DO ENVENTORY DO SOME MISCELLANEOUS BILLING AND WE DO THE REST?
+505,09/26/2003,ITHOMAS,H,09/30/2003,,Assigned to,09/29/2003,Matthew,Install AboutTime on all machines and sync with 172.22.15.121 (eport) NTP Server
+509,09/26/2003,BDEMPSEY,H,,,TS Done-Awaiting OK,12/15/2003,Matthew,Cell phone attennna broken: need new phone
+510,09/26/2003,SWINTERS,M,09/26/2003,,TS Done-Awaiting OK,10/09/2003,Matthew,Copier feeder produces bad copies
+512,09/26/2003,DTHOMP,M,10/10/2003,,Assigned to,09/29/2003,Matthew,Pls equip Susan Annone with a card scan. She inputs the business cards that the Ex Dir receives and this wld be helpful to her. Tnx.
+517,09/29/2003,LTRUET,M,10/31/2003,,Assigned to,10/10/2003,Seth,BNI Withdrawl needs to be converted to Shipping Tally/BOL (and in php)
+525,09/30/2003,PHEMPHILL,H,09/30/2003,,TS Done-Awaiting OK,10/01/2003,Matthew,Can't get into Outlook
+526,09/30/2003,DTHOMP,H,10/01/2003,,Assigned to,10/01/2003,Matthew,"Gene wld like to get his telephone messages via on-line ""Note Pad"". Wld someone show me how? "
+527,09/30/2003,ABRIZOLAKI,H,Oct.31/03,,Assigned to,10/01/2003,Seth,Storage invoices are crossing months. when this happens we should get an invoice per month per customer.
+530,09/30/2003,DDONALD,H,ASAP,,TS Done-Awaiting OK,10/23/2003,Seth,Vessel Billing - Missed one wharfage invoice (C)
+531,09/30/2003,LHORNE,L,ASAP,,TS Done-Awaiting OK,10/08/2003,Seth,Vessel Billing Report - Unexpected numbers show up on the report
+536,09/30/2003,OPTEMP,H,ASAP,,TS Done-Awaiting OK,10/01/2003,Matthew,IBM Dot Matix not lined up properly. (x)
+537,09/30/2003,DTHOMP,L,,,Assigned to,10/01/2003,Matthew,"Message light on phone in boardroom. Pls make sure callers cannot lv messages in boardroom, breakroom, conference rooms, or copy room telephones per GB."
+539,10/01/2003,ITHOMAS,M,10/03/2003,,Assigned to,10/01/2003,Matthew,Make an icon on every DSPC desktop/workstation and drop off updated Excel Spreadsheet with a check mark for machines completed and a note for why the others were not completed. 
+540,10/01/2003,ITHOMAS,M,12/01/2003,,Assigned to,10/01/2003,Matthew,Create link in EPort so presentations done outside could be posted there as a backup to the laptop.
+543,10/01/2003,LTREUT,H,this week,,Assigned to,10/01/2003,Matthew,"please give to Minnette Archie & Marty M a ""Fake out"" printer like my DSP-16, Please note that Seth installed my fake printer, he will know what this is."
+544,10/01/2003,LTREUT,H,10/29/2003,,Assigned to,10/01/2003,Matthew,"Inventory report is printing off line, and causing pages to print with one line, this is a mess"
+548,10/02/2003,BBOLES,H,10/17/2003,,Assigned to,10/02/2003,Richard,"Can you develope a software program, email capable, intranet & possible internet for visitor notification to gatehouses. "
+556,10/03/2003,MARTYM,M,SOON,,Assigned to,10/10/2003,Matthew,Would like to get Mike Billingsley (CCDS) a larger monitor/screen
+557,10/03/2003,MARTYM,H,,,Assigned to,10/10/2003,Seth,"RF System - When a plt. that was missed being scanned in, is shipped out on an order, the 'received date' should automatically register as the last day the vessel worked."
+566,10/08/2003,PAUL KELLEY,L,,,Assigned to,10/10/2003,Matthew,scanners and LR# for the C&S 
+568,10/08/2003,CCATHCART,H,10/10/2003,URGENT,Assigned to,10/10/2003,Matthew,C. Cathcart - Media Converter for Crane
+569,10/09/2003,MPALLMANN,H,10/31/2003,,TS Done-Awaiting OK,11/19/2003,Matthew,Oppenheimer FTP online
+570,10/09/2003,TKEEFER,H,ASAP,,Assigned to,10/10/2003,Matthew,Tom should have view only status for Gene's calendar
+577,10/13/2003,MPALLMANN,H,ASAP,,TS Done-Awaiting OK,10/13/2003,Matthew,Chan's computer is inserting duplicate records in LCS.
+592,10/15/2003,GHARRIS,H,ASAP,,TS Done-Awaiting OK,11/05/2003,Seth,I was able to accidentally enter an entry for Ricky Smith. I should not be able to change another Supervisors time.
+596,10/15/2003,PSHUKLA,M,ASAP,,TS Done-Awaiting OK,11/10/2003,Matthew,Word Document Attachment does not print correctly
+602,10/16/2003,ABRIZOLAKI,L,,,Assigned to,10/16/2003,Seth,Validation asset code with Oracle Finance in creating invoice and credit/debt memo process.
+603,10/16/2003,DNIESSEN,H,asap,,Assigned to,10/16/2003,Richard,template for dept. salary workhours
+606,10/16/2003,PSHUKLA,M,10/20/2003,,TS Done-Awaiting OK,11/10/2003,Matthew,Can not dial through the new computer
+607,10/16/2003,BBOLES,H,10/17/2003,,Waiting on user,10/23/2003,Matthew,I need to have a message for the old phone number for the maingate (472-4604) automatically transferred to the new maingate phone number (472-7864) along with a message advising of the number change.
+611,10/16/2003,DCASTAG,L,16-Oct,,Assigned to,10/16/2003,Matthew,screen saver timing
+613,10/17/2003,SWALKER,H,10/20/2003,,Assigned to,10/17/2003,Matthew,Request to move John Reece contacts off my outlook and give to Randy Horne/Have access to Randy's calender on outlook
+614,10/17/2003,MPALLMANN,H,ASAP,,TS Done-Awaiting OK,10/20/2003,Matthew,DDonofrio needed help hotsyncing his Palm.
+616,10/17/2003,MCUTLER,H,ASAP,,Waiting on user,10/23/2003,Matthew,MCutler needed correction for Palm (OPEN AREA instead of STEEL).
+617,10/17/2003,BBOLES,L,10/20/2003,,TS Done-Awaiting OK,11/24/2003,Matthew,Matt. Either you fixed this or it fixed itself. Thanks
+621,10/17/2003,MARTYM,H,ASAP,,Assigned to,10/20/2003,Matthew,THE MATRIX PRINTER (WITHDRAWAL ORDERS) INVENTORY DEPT. HAS BEEN ACTING UP ON NUMEROUS OCCASIONS LATELY. NEEDS REPLACING OR MAJOR SURGERY
+628,10/20/2003,ABRIZOLAKI,H,10/30/2003,,Working on now,10/22/2003,Seth,Information on reprint of invoices can be altered and this should not be possible. A reprint should be a snapshot of original invoice
+629,10/20/2003,RHORNE,M,10/22/2003,,Assigned to,10/21/2003,Matthew,User Rights change so new input can be entered
+631,10/21/2003,DDONOFRIO,H,ASAP,,TS Done-Awaiting OK,10/23/2003,Matthew,Problems downloading information from Palm.
+632,10/21/2003,MCUTLER,H,ASAP,,TS Done-Awaiting OK,10/23/2003,Matthew,Cannot save records in Palm LCS.
+637,10/21/2003,ABRIZOLAKI,M,10/31/2003,,Assigned to,10/21/2003,Seth,Edit Prebill program- Set up for extra description on invoice when we have special requests from CCDS or other
+640,10/21/2003,ARIZZO,H,10/22/2003,,TS Done-Awaiting OK,10/22/2003,Seth,Please fun a report on all TIS from Swift to Fairbank Farms from January 2004 to present.
+643,10/22/2003,ABRIZOLAKI,H,10/31/2003,,Assigned to,10/22/2003,Seth,Need to inactivate customer accounts in BNI
+645,10/22/2003,OPTEMP,M,,,TS Done-Awaiting OK,11/26/2003,Seth,IF POSSIBLE ELIMINATE CUT ON CENTURY'S BILL OF LADING
+646,10/23/2003,MARTYM,H,ASAP,,Assigned to,10/30/2003,Seth,"Activity Report (All) needs to be reorganized. When Lisa prints out report, information is missing when compared to Lynn's report."
+648,10/23/2003,ABRIZOLAKI,H,10/24/2003,,Assigned to,10/23/2003,Seth,Futter Lumber is requesting load#on invoices. 
+650,10/23/2003,MARTYM,M,ASAP,,TS Done-Awaiting OK,11/26/2003,Seth,"Need CCDS system to recognize Century Intl when printing BL, customer does not want 'cut' to appear on BL."
+651,10/23/2003,MARTYM,M,ASAP,,Assigned to,10/23/2003,Seth,Need an edit screen to correct mistakes on scanned pet food loads. Also need RF system to not scan the same plt. more than once.
+653,10/23/2003,ITHOMAS,H,10/29/2003,,Working on now,11/24/2003,Matthew,"All sysadmin, root and TS related passwords: DSPC, Workstations, Tally, EDI, AOL, Voicemail, Scanner, Linux Root, Apache, Backup, Exchange, NAV, Oracle DBs, Router "
+654,10/23/2003,ITHOMAS,H,10/30/2003,,Assigned to,10/23/2003,Matthew,List of Critical Spares needed for the season
+655,10/23/2003,ITHOMAS,H,11/13/2003,,Assigned to,10/23/2003,Matthew,List of all files backed up on servers and workstations
+656,10/23/2003,ITHOMAS,M,11/11/2003,,Assigned to,10/23/2003,Matthew,Voicemail software on Inigo's computer. Need to be able to listen and dial-out from computer.
+661,10/27/2003,EPHILHOWER,H,ASAP,,Assigned to,10/28/2003,Seth,"Is there a way when you enter the customer # on a free from invoice, it will show you the customer name?"
+662,10/27/2003,SSHOEMAKER,M,10/31/2003,,Waiting on user,11/03/2003,Seth,How does the LCS system map payroll info from input service codes to GL coding? Is this hard coded?
+665,10/28/2003,PSHUKLA,H,10/27/2003,,TS Done-Awaiting OK,11/10/2003,Matthew,printer is not working
+666,10/28/2003,AMARKOW,H,ASAP,,Assigned to,10/28/2003,Matthew,Problems printing to HR printer.
+667,10/29/2003,MHAHN,H,ASAP,,Assigned to,10/29/2003,Seth,Need ability to create a second credit note against an invoice
+669,10/29/2003,SSHOEMAKER,H,ASAP,,Assigned to,10/29/2003,Richard,"Oracle Report Payables Distribution has columns for account codes, but no data appears. This report/information crucial to audit."
+670,10/29/2003,RHORNE,H,,,Assigned to,10/29/2003,Matthew,Please provide access to the drive containing AutoCad and BCAD for Kysa and I. No one else should have access.
+672,10/29/2003,MARCHIE,H,,,TS Done-Awaiting OK,11/06/2003,Seth,when I run the inventory in BNI Reports I get a full page and then a partial page. So instead of printing and 8 page inventory it prints 16 pages.
+673,10/29/2003,AMARKOW,L,,,Assigned to,10/29/2003,Seth,"Could I please have ""hours details"" from LCS added to my computer?"
+674,10/29/2003,ABRIZOLAKI,H,11/30/2003,,Assigned to,10/29/2003,Seth,RF Storage bills- need prebill or edit function to make changes/deletions when necessary
+676,10/29/2003,VFARKAS,H,11/05/2003,,Assigned to,10/30/2003,Matthew,To have a laptop loaded with ADI software for director's financial reviews during month end
+677,10/29/2003,VFARKAS,M,11/28/2003,,Assigned to,10/30/2003,Matthew,To have a permanent laptop in accounting for various uses including month end director reviews
+679,10/30/2003,PHEMPHILL,H,SOON,,Assigned to,10/30/2003,Matthew,Palm for Pat Hemphill.
+680,10/30/2003,BBARKER,H,SOON,,Assigned to,10/30/2003,Matthew,Palm for Bob Barker.
+683,10/30/2003,DNIESSEN,H,11/03/2003,,Waiting on user,11/03/2003,Seth,LCS Logic change
+684,10/31/2003,LTREUT,M,11/07/2003,,Assigned to,10/31/2003,Seth,Would like to have the ability to insert pending information on to the inventory work sheet when needed. 
+686,11/03/2003,MPHILLIPS,H,ASAP,,TS Done-Awaiting OK,11/04/2003,Matthew,Phone damaged in fall.
+690,11/03/2003,PKELLY,H,ASAP,,TS Done-Awaiting OK,11/10/2003,Matthew,Problems uploading Palm. Cannot Hotsync.
+691,11/03/2003,TSCOTT,H,ASAP,,Assigned to,11/03/2003,Matthew,Problems printing from CD Software.
+693,11/04/2003,RHORNE,M,ASAP,,Assigned to,11/04/2003,Matthew,Determine status of cabling in 2nd floor of Tug Murray Bldg. Contact Kysa to be shown the room with cabling.
+694,11/04/2003,RHORNE,M,ASAP,,Assigned to,11/04/2003,Matthew,Plotter must be restricted to Kysa and myself. Others should not be able to see this as an available printer. 
+696,11/04/2003,MHAHN,H,ASAP,,TS Done-Awaiting OK,11/05/2003,Seth,service / asset and commodity codes are not defaulting in when creating new credit or debit memo
+700,11/05/2003,ABRIZOLAKI,H,12/01/2003,,Assigned to,11/05/2003,Seth,We cannot use G/L accounts with service /commodity/asset as we want. They are linked in the background and everthing is pushed to account 3180.
+701,11/05/2003,LHORNE,H,,,TS Done-Awaiting OK,11/06/2003,Seth,REFER TO REPORT OF TRANSFERRED JUICE DURING THE MON TH... COULD IT SHOW CUSTOMER FROM AS WELL AS TO AND THE DATE OF TRANSFER
+703,11/06/2003,LHORNE,H,asap,,Assigned to,11/06/2003,Seth,"would like to have pre bill numbers for truck unloading, and loading for -1, 3, and 5635 customer 1638,249 vessels. at present it creates an invoice but no prebill. "
+704,11/06/2003,LHORNE,H,11/06/2003,,TS Done-Awaiting OK,11/06/2003,Seth,Add Code for Wing E(x) for storage billing program.
+707,11/07/2003,MARTYM,M,11/26/2003,,Assigned to,11/07/2003,Matthew,Would like to have access to a laptop during Chilean Fruit Season and have access to wip and Operations Screen.
+708,11/07/2003,MARTYM,H,NOW,,Assigned to,11/07/2003,Seth,Misc. Billing Printout needs to be reformatted so that all information typed into description shows on the printout. As of now info is cut off.
+711,11/10/2003,RSMITH,H,ASAP,,TS Done-Awaiting OK,11/12/2003,Matthew,Need Palm program reloaded.
+712,11/10/2003,LTREUT,H,11/14/2003,,TS Done-Awaiting OK,11/17/2003,Seth,Add CHOCK statement to all Shipping Tallys
+713,11/11/2003,LTREUT,M,11/28/2003,,Assigned to,11/11/2003,Seth,We would like to have the ability to enter and track suppliers or Importers in our system. Please see me
+714,11/11/2003,LTREUT,M,11/28/2003,,Assigned to,11/11/2003,Seth,"We would like to have the ability to enter repeated ship to address and store in BNI , and have this information print on Dummy & WO"
+716,11/11/2003,LTREUT,H,12/15/2003,,Assigned to,11/11/2003,Seth,"We need in Transfer Screen a check to trigger automatic billing of surcharge, this billing should not be manual, need to be automated"
+717,11/11/2003,TSCOTT,H,ASAP,,TS Done-Awaiting OK,11/11/2003,Seth,Can't export hours to Ceridian
+718,11/11/2003,LTREUT,M,12/31/2003,,Assigned to,11/11/2003,Seth,"We would like to be able to utilize both slots for the Truck/Trailer. and have this info print on WO, Only I would like to use one for customer release/info "
+721,11/11/2003,ABRIZOLAKI,H,11/11/2003,,Waiting on user,12/04/2003,Seth,Transfer for $7.00 surcharge for final billing month(when cargo leaves) not on current billing report
+722,11/11/2003,VFARKAS,H,11/12/2003,,TS Done-Awaiting OK,11/17/2003,Seth,Surcharges for transferred Argentine Juice do not compute for the last month cargo is in storage/cargo is shipped. For all other months the surcharge computes.
+727,11/11/2003,ITHOMAS,H,,,TS Done-Awaiting OK,12/18/2003,Richard,"Send tempareture change request email to Randy Horne, Bob Barker and Bill Stansbury"
+728,11/12/2003,WSTANSBURY,M,,,Assigned to,11/12/2003,Richard,"Send detail daily Palm Usage email to Bill Stansbury (Must have: supervisor, hrs paid, hrs from palm, % . If % <> 100 then provide details: emp name, hrs.)"
+729,11/12/2003,MHAHN,H,asap,,TS Done-Awaiting OK,12/04/2003,Seth,Fish storage is billing only to Mazetta not to importer of record
+731,11/12/2003,SWALKER,L,11/13/2003,,Assigned to,11/12/2003,Matthew,problems with outlook
+734,11/12/2003,MHAHN,M,11/30/2003,,Waiting on user,12/04/2003,Seth,lot 54653 is showing as zero pallets / 7 cartons. should show as 1 pallet. Please review pallets in storage to see if any others are showing as zero. These will not pick up in storage program
+736,11/13/2003,SWALKER,L,11/12/2003,,Assigned to,11/13/2003,Matthew,debra's ;comupter is running slow
+737,11/13/2003,VNBECKER,M,11/14/2003,,Assigned to,11/13/2003,Matthew,"PDF program - I can't convert all files to DPF, and I can't locate my PDF program. Is it possible that it was deleted? Thanks. V"
+740,11/14/2003,VFARKAS,H,12/31/2003,,Assigned to,11/14/2003,Seth,Juice transfer surcharges generated automatically and not done manually. Surcharges to be generated at time of transfer. Rules for BNI Juice transfers have been established
+743,11/18/2003,SHARON,L,ASAP,,Assigned to,11/18/2003,Matthew,PLEASE CHANGED EMAIL NAME FROM BREZIAL TO SHARON CORBIN THANKS
+745,11/19/2003,ABRIZOLAKI,H,11/30/2003,,Working on now,12/04/2003,Seth,"Invoices that are more than 1 page must have customer information ,invoice number , date on all pages. This is a top priority request and must be set for the current system in BNI and RF"
+746,11/19/2003,ABRIZOLAKI,H,11/30/2003,,Working on now,12/08/2003,Seth,Help Desk item 745 should also include CCDS. All basic invoice information should be on the top of every page of any invoice
+747,11/19/2003,MHAHN,M,12/05/2003,,TS Done-Awaiting OK,12/04/2003,Seth,setup user names & passwords for eport for Chilean Fruit information on all customers for Antonia and Meredith
+749,11/20/2003,CCATHCART,M,,,Assigned to,11/20/2003,Matthew,Connection between handheld & desktop
+751,11/20/2003,ABRIZOLAKI,H,11/30/2003,,Assigned to,11/20/2003,Seth,Argentine Juice surcharge to be automatically invoiced when transfer is made/storage is run.
+752,11/20/2003,ABRIZOLAKI,H,11/30/2003,,Assigned to,11/20/2003,Seth,For transfers between customers on Chilean fruit the order # of the transferee is needed on the invoice.This was requested by Guimarra. may not be relevant for all customers
+753,11/20/2003,LHORNE,M,asap,,Assigned to,11/20/2003,Seth,"could you please scan a blank BNI invoice, and a blank CCDS invoice into the WHIP "
+757,11/21/2003,PSHERMAN,L,,,Assigned to,11/21/2003,Matthew,Laptop will not let you save on helpdesk
+759,11/21/2003,TRAVEL,H,ASAP,,Assigned to,11/21/2003,Matthew,Deletes employees
+761,11/21/2003,BBARKER,H,,,Assigned to,11/21/2003,Matthew,Can you install AOL on my lap top so I can dial into auto mtrix.
+763,11/21/2003,WSTANSBURY,M,,,Assigned to,11/21/2003,Matthew,Russell Corbin cannot access TS Help Desk Log on his computer.
+765,11/24/2003,RCORBIN,H,ASAP,,TS Done-Awaiting OK,12/15/2003,Matthew,R Corbin could not HotSync Palm.
+766,11/24/2003,MORECRAF,L,12/31/2003,,Assigned to,11/24/2003,Matthew,We need a box of floppy disks (Supervisors Cameras)
+767,11/24/2003,EPHILHOWER,H,ASAP,,TS Done-Awaiting OK,11/26/2003,Seth,Kiwi juice not caculating/Tex/Beef billed as inspected not non inspect also not caculating correctly.
+770,11/25/2003,SWALKER,H,11/25/2003,,Assigned to,11/25/2003,Matthew,set up email where i can group the board of directors in one
+771,11/25/2003,RCORBIN,H,ASAP,,TS Done-Awaiting OK,12/18/2003,Richard,when an indiviual has been payed a DH from 12 to 1 and I try to pay them another one from 6 to 7 it will not take.
+772,11/25/2003,RHORNE,M,,,Working on now,12/18/2003,Richard,Refrigerator temperature daily report
+773,11/25/2003,RHORNE,M,,,Assigned to,11/25/2003,Richard,Refrigerator compressor status report
+775,11/25/2003,MICHAELP,H,asap,,Assigned to,11/25/2003,Matthew,"When transfering an employee, another one is deleted in the palm pilot..."
+777,11/25/2003,WSTANSBURY,M,,,Assigned to,11/25/2003,Matthew,"Dannye, Michael & Russell's palm pilot is still loosing information when it comes to 'Ducans'"
+778,11/25/2003,WSTANSBURY,H,ASAP,,TS Done-Awaiting OK,12/15/2003,Matthew,I need a computer and phone set up in the Supervisors area.
+783,11/26/2003,ITHOMAS,H,11/28/2003,,Assigned to,11/26/2003,Matthew,The internet is too slow around here. Please fix it as soon as possible.
+784,11/26/2003,ITHOMAS,H,11/28/2003,,TS Done-Awaiting OK,11/26/2003,Matthew,Deleting Employees during Upload
+785,11/26/2003,ITHOMAS,H,11/26/2003,,Assigned to,11/26/2003,Matthew,Will not let Ron Betts pick up information off the computer
+786,11/26/2003,DDONOFRIO,M,12/04/2003,,Assigned to,11/26/2003,Matthew,Cargo Activity Report installed on my computer
+787,11/28/2003,WSTANSBURY,H,12/05/2003,,Assigned to,11/28/2003,Seth,I cannot access Operation's Labor tickets. (I need to verify or in some cases print labor tickets for the Billing dept.)
+789,12/01/2003,MHAHN,L,03/01/2004,,Waiting on user,12/04/2003,Seth,Customer #s for customers that have inventory need to be updated. List of customers to be sent to Seth via email
+794,12/01/2003,MHAHN,H,asap,,Assigned to,12/01/2003,Seth,shuttle beef free time not calculating correctly lots 54923 & 54924
+796,12/01/2003,JJAFFE,L,,,Assigned to,12/01/2003,Matthew,Over the road Chilean cargo is not captured accurately in Tonnage by Commodity Report. Can it be made right? 
+797,12/02/2003,TKEEFER,M,,,TS Done-Awaiting OK,12/18/2003,Richard,3 day over the road cargo report
+799,12/03/2003,RCORBIN,H,now,,TS Done-Awaiting OK,12/15/2003,Matthew,"I have no,no,no phone at all"
+800,12/03/2003,PKELLEY,L,,,Assigned to,12/03/2003,Matthew,could't log in
+802,12/04/2003,SMARINELLI,M,,,Assigned to,12/04/2003,Matthew,In DSPC Documents the Wilmington Phone book is no longer accessible. 
+803,12/04/2003,RCORBIN,L,,,TS Done-Awaiting OK,12/18/2003,Richard,when an indiviual has been payed a DH from 12 to 1 and I try to pay them another one from 6 to 7 it will not take.
+804,12/04/2003,RCORBIN,L,,,TS Done-Awaiting OK,12/18/2003,Richard,When I have to pay a oerson for half of a DT hour for dole bannanas and dole grapes it will not take.
+806,12/04/2003,RBETTS,H,12/05/2003,,TS Done-Awaiting OK,12/15/2003,Matthew,having a problem with my palm lcs icon/ some application is running which doesn't let me get into palm lcs
+807,12/04/2003,GBAILEY,M,ASAP,,Assigned to,12/04/2003,Matthew,Set Outlook to use Word similar to what Tom Keefer has.
+808,12/04/2003,GBAILEY,M,ASAP,,Assigned to,12/04/2003,Matthew,Would like to use Thesauras within MS Word
+809,12/04/2003,MICHAELP,L,notice,,Assigned to,12/04/2003,Matthew,"Kiosk machine did not have cursor. Called Pat, problem fixed, but we had same problem last year"
+810,12/04/2003,MICHAELP,H,12/04/2003,,Assigned to,12/04/2003,Matthew,"scanner #211, same as last year,( no host error. please wait). needs to be address immediately Problem was continous last year...."
+812,12/04/2003,MICHAELP,H,12/04/2003,,TS Done-Awaiting OK,12/15/2003,Matthew,"Please respond to 795, I haven't had any feedback....12/7/2003 is the beginning of the season..."
+813,12/04/2003,RBETTS,M,12/05/2003,,Assigned to,12/04/2003,Matthew,can't get internet explorer to come up unless i shut my computer down
+814,12/04/2003,RBETTS,H,ASAP,,Working on now,01/02/2004,Matthew,Need New Computer. Matt this is okayed by me (Inigo). I entered the item for Ron Betts.
+815,12/05/2003,BBARKER,M,,,TS Done-Awaiting OK,12/10/2003,Matthew,I need to be able to E-mail temp. graphs from the new acer computer.
+819,12/08/2003,FFITZGERALD,H,12/08/2003,,TS Done-Awaiting OK,12/18/2003,Richard,Add Fred to Security Log distribution list
+821,12/08/2003,GBAILEY,M,ASAP,,TS Done-Awaiting OK,12/31/2003,Matthew,Emails to David N auto complete still to David Niessen. He should be off the Global Address List
+823,12/08/2003,FFITZGERALD,H,ASAP,,Assigned to,12/08/2003,Matthew,"Cargo Dwell/Storage Time Statistics e.g. Average, Median, Min, Max etc. "
+825,12/09/2003,PKELLEY,H,,,TS Done-Awaiting OK,12/15/2003,Matthew,Richmond petfood pallets for KY there are not scanning properly thanks pk
+826,12/09/2003,AMARKOW,H,12/12/2003,,Assigned to,12/09/2003,Matthew,Need laptop upgraded and able to dial in from home (per Gene). Entered by I.Thomas.
+827,12/09/2003,RHORNE,M,12/09/2003,,Assigned to,12/09/2003,Matthew,Check with Mike Webster on accessing temperatures for the automated email
+828,12/10/2003,MBILLIN,L,ASAP,,Assigned to,12/10/2003,Matthew,COPIER COLD CHAIN.. DOES NOT COPY.. MICHAEL
+829,12/10/2003,RCORBIN,H,ASAP,,TS Done-Awaiting OK,12/10/2003,Seth,LCS - Hourly details by two supervisors were messed up and cannot be corrected.
+830,12/10/2003,TKEEFER,M,,,Assigned to,12/10/2003,Richard,The page for car reservations doesn’t seem to be working
+831,12/10/2003,LTREUT,M,,,Assigned to,12/10/2003,Richard,Need an application to update BNI cargo received date for particular vessel.
+832,12/10/2003,RCORBIN,H,ASAP,,TS Done-Awaiting OK,12/18/2003,Richard,will not allow me to pay an A employee after 6:00 after he has been paid by another supervisor
+833,12/11/2003,JJAFFE,M,,,Assigned to,12/11/2003,Matthew,The Oracle reports I run go very slowly compared to those who have Windows XP on their computer. Can I get WIndows XP
+834,12/11/2003,MBILLIN,L,,,Assigned to,12/11/2003,Matthew,THANK YOU.. MICHAEL
+835,12/11/2003,MHAHN,M,01/01/2004,,Assigned to,12/11/2003,Seth,"Order # should show on all Chilean fruit invoices. Examples truckloading, dock returns, transfers"
+836,12/11/2003,PSHERMAN,H,12/12/2003,,TS Done-Awaiting OK,12/15/2003,Matthew,Update Description field for Sbrocco
+838,12/12/2003,EPHILHOWER,H,ASAP,,TS Done-Awaiting OK,12/15/2003,Matthew,COPIER NOT WORKING - TONIA HAS PUT IT ON THE HELP DESK TWICE #715-11/11 & #791 12/09
+841,12/12/2003,SANNONE,M,,,Assigned to,12/12/2003,Richard,Allow Susan to directly copy new version employee phone directory to the intranet
+842,12/12/2003,MBILLIN,L,ASAP,,Assigned to,12/12/2003,Matthew,NEED TONER LASER JET CCDS.. HP 4050N.. THANKS MICHAEL
+845,12/15/2003,WSTANSBURY,H,asap,,Assigned to,12/15/2003,Matthew,Palm Pilot does not dump employee information for one to the next. (Russell Corbin)
+846,12/15/2003,WSTANSBURY,H,asap,,Assigned to,12/15/2003,Matthew,Palm Pilot does not records employee scan card correctly. (Russell Corbin)
+847,12/15/2003,MBILLIN,L,,,Assigned to,12/15/2003,Matthew,COPIER CCDS.. DOES NOT COPY..MICHAEL
+849,12/16/2003,BBARKER,M,,,Assigned to,12/29/2003,Richard,I would like to have LCS service code 7459 set up to pay an employee the refrigeration mechanics rate of $20.65. 
+850,12/16/2003,ABRIZOLAKI,H,"Feb1,2004",,Assigned to,12/16/2003,Seth,Argentine Juice-Storage and Surcharge to beset up and working as per contract by Feb.1(as per Tom Keefer). Storage to be re-done and surcharge is a new program
+851,12/16/2003,MCUTLER,H,12/15/2003,,TS Done-Awaiting OK,01/02/2004,Matthew,Timesheet only displays current selection. Should show all employees for the day.
+854,12/17/2003,ARIZZO,H,12/17/2003,,TS Done-Awaiting OK,12/31/2003,Matthew,CCDs needs toner for jet printer. 
+857,12/18/2003,JJAFFE,M,,,Working on now,12/31/2003,Matthew,Oracle reports are very slow compared to others. Is the hub is slowing down reports since they are so network intense. Please check network connection
+858,12/18/2003,RCORBIN,H,ASAP,,Assigned to,12/19/2003,Matthew,PAML FREEZES UP WILE TRING TO WORK IN THE COLD
+860,12/22/2003,MBILLIN,L,,,Assigned to,12/22/2003,Matthew,COPIER DOES NOT WORK.. MICHAEL
+864,12/23/2003,PKELLEY,H,12/26/2003,,TS Done-Awaiting OK,01/02/2004,Matthew,Making sure the scanners are loaded for the cool express a C&S ship Mon 12/29/03 6 scanner please check with Monique on locations thanks P Kelley
+865,12/23/2003,MHAHN,H,ASAP,,Assigned to,12/23/2003,Matthew,toner needs to be changed in printer
+869,12/30/2003,RCORBIN,H,asap,,Assigned to,12/30/2003,Matthew,when a empolyee gives your the wrong number and you pay them in lcs palm you can not delete them so that the real supervisor can pay them.
+870,12/30/2003,MHAHN,M,,,Waiting on user,12/30/2003,Seth,storage invoices for commodity 5199 are not calculating correct free time. Free time in system is correct (10 days)
+871,12/30/2003,SSHOEMAKER,H,ASAP,,Assigned to,12/30/2003,Matthew,"ADP System backups - if not nightly in IT dept, need to know path for backup files done manually through ADP system."
+872,12/30/2003,LSANCHEZ,M,01/30/2004,,Assigned to,12/30/2003,Seth,NEED COLUMN FOR CONTAINER NUMBER IN MANIFEST REPORT
+873,12/31/2003,TSCOTT,H,ASAP,,Assigned to,12/31/2003,Matthew,Could not upload Ceridian Data.
+874,12/31/2003,ITHOMAS,M,01/31/2004,,Assigned to,12/31/2003,Seth,Install CardScan for Drivers license and email directly to Sbrocco
+875,12/31/2003,MHAHN,H,asap,,Assigned to,12/31/2003,Seth,Need ability to access customer inventory by pallet by ship by day for each RF customer
+876,12/31/2003,ABRIZOLAKI,H,Jan.10/04,,Assigned to,12/31/2003,Seth,"Urgently need Inventory report for RF- by customer,pallet number ,date and ship#."
+877,01/02/2004,FFITZGERALD,H,ASAP,,Assigned to,01/02/2004,Matthew,Cannot get into OWA from home (using AOL).
+879,01/02/2004,ITHOMAS,H,01/02/2004,,Assigned to,01/02/2004,Matthew,Cleanup Exchange Mailboxes.
+880,01/02/2004,ITHOMAS,H,01/12/2004,,Assigned to,01/02/2004,Matthew,Complete Exchange Defrag over the weekend with Infosystems being here
+881,01/02/2004,GBAILEY,L,,,Assigned to,01/02/2004,Matthew,Cannot print my cardfile. Strange symbols come out.
+882,01/02/2004,RBETTS,H,12/31/2003,,TS Done-Awaiting OK,01/02/2004,Matthew,R. Betts - Cannot access Outlook
+883,01/02/2004,RBETTS,H,12/31/2003,,TS Done-Awaiting OK,01/02/2004,Matthew,R. Betts - Palm will not hot sync
+884,01/02/2004,PSHERMAN,M,12/31/2003,,Assigned to,01/02/2004,Matthew,L. Treut - Operations fax alarm keeps reporting no paper
+885,01/02/2004,PSHERMAN,L,01/16/2004,,Assigned to,01/02/2004,Matthew,L. Treut - Additional document scanners needed for Operations
+886,01/02/2004,PSHERMAN,H,12/31/2003,,Assigned to,01/02/2004,Matthew,L. Sanchez - CCDS printer out of toner
+887,01/02/2004,GBAILEY,H,01/02/2004,,Assigned to,01/02/2004,Matthew,G. Bailey - Copier will not staple documents
+888,01/02/2004,MHAHN,M,01/31/2004,,Assigned to,01/02/2004,Seth,CCDS system is allowing custs to have inventory with 0 pallets and cartons in house. System should reject this when entered by user. 
+889,01/02/2004,SBREZIAL,H,ASAP,,TS Done-Awaiting OK,01/02/2004,Seth,Need to changed the quantities of a shipped-out CCDS lot
+890,01/02/2004,SBREZIAL,H,ASAP,,TS Done-Awaiting OK,01/02/2004,Seth,Need to change the owner of one CCDS lot from POW to Wilderness
+891,01/02/2004,ARIZZO,M,01/09/2004,,Assigned to,01/05/2004,Richard,Breakdown Warehouse Utilization report so that the report can list space capacity in individual boxes.
+892,01/02/2004,R BETTS,H,01/02/2004,,Assigned to,01/05/2004,Matthew,Palm is not Synchronizing with computer
+893,01/02/2004,R BETTS,L,01/16/2004,,Assigned to,01/02/2004,Matthew,I have about 2000 items in my deleted folders. Please help me to delete them
+894,01/03/2004,MARTYM,H,01/05/2004,,Assigned to,01/03/2004,Seth,Inspect cargo should be blocked from making shipping tally if there is no release date. Message should come up 'Not Released'.
+895,01/05/2004,RSMITH,H,01/05/2004,,Assigned to,01/05/2004,Seth,Time Card program missing 'WEEKS' entry in LCS
+896,01/05/2004,MHAHN,L,03/01/2004,,Assigned to,01/05/2004,Seth,CCDS manifest reports need to give total info for entire vessel
+897,01/05/2004,MARCHIE,M,SOON,,Assigned to,01/05/2004,Matthew,"Manual feed tray takes first page, then grabs the rest of the stack."
+898,01/05/2004,DDONOFRIO,H,ASAP,,Assigned to,01/05/2004,Matthew,Computer crashes when starting up.
+899,01/05/2004,DDONALD,M,01/05/2004,,TS Done-Awaiting OK,01/05/2004,Seth,RF MISC billing rate set at 6.24 -> 6.49 in system.
+900,01/05/2004,ARIZZO,H,01/13/2004,,Assigned to,01/05/2004,Seth,Kim from MAC needs access to E-Port. Coordinate Site visit.
+901,01/05/2004,MORECRAF,H,01/06/2004,,Assigned to,01/05/2004,Seth,Kopke needs automated E-Mail service for daily activity report.
+902,01/05/2004,RBETTS,H,ASAP,,Working on now,01/07/2004,Matthew,Cannot print from excel or get into Outlook.
+903,01/05/2004,MPHILLIPS,H,ASAP,,Assigned to,01/05/2004,Matthew,Kiosk Door 8 not printing.
+904,01/05/2004,DDONALD,M,01/07/2004,,Assigned to,01/05/2004,Matthew,Low toner on Printer. Prints are too clear
+905,01/05/2004,PSHERMAN,H,01/05/2004,,Assigned to,01/05/2004,Matthew,Cannot recieve emails from customer in Philadelphia 
+906,01/05/2004,PSHERMAN,H,01/05/2004,,Assigned to,01/05/2004,Matthew,Kiosk Printer at Door 8 not printing
+907,01/05/2004,PSHERMAN,H,01/05/2004,,Assigned to,01/05/2004,Matthew,Kiosk at wing E door 30 out of paper/paper jam
+908,01/05/2004,PSHERMAN,M,01/05/2004,,Assigned to,01/05/2004,Matthew,change default printer for Andre to Minette's printer
+909,01/05/2004,PSHERMAN,M,01/05/2004,,Assigned to,01/05/2004,Matthew,Supervisors printer problem with feeding legal paper one at a time
+910,01/05/2004,PSHERMAN,H,01/05/2004,,Assigned to,01/05/2004,Matthew,M. Phillips- Scanner 208 - barcode reader not working on scanner
+911,01/05/2004,PSHERMAN,H,01/05/2004,,Assigned to,01/05/2004,Matthew,M. Phillips - Scanner 51 recieving no host error
+912,01/06/2004,PHEMPHILL,M,01/08/2004,,Assigned to,01/06/2004,Matthew,Need a new mouse. This is a reoccuring problem. Matt adjusted a few times but it appears I need a new one.
+913,01/06/2004,MHAHN,H,asap,,TS Done-Awaiting OK,01/06/2004,Seth,cust # 90381 was added to CCDS system but customer # has already been used in BNI. Please change customer # to 90383 before this is added to BNI & Oracle
+914,01/06/2004,RBETTS,H,01/07/2004,,Assigned to,01/06/2004,Matthew,I NEED A SCANNER FOR FRUIT. I NEED TO BE ABLE TO IDENTIFY DIFFERENT COMPANIES
+915,01/06/2004,PSHERMAN,H,01/06/2004,,Assigned to,01/06/2004,Matthew,Operations withdrawl printer stuck on pause - cannot print
+916,01/06/2004,GBAILEY,H,ASAP,,Assigned to,01/06/2004,Matthew,Create a generic email address for HR Director
+917,01/06/2004,GBAILEY,H,ASAP,,Assigned to,01/06/2004,Seth,Document Management system for Board Reports
+918,01/06/2004,GBAILEY,H,ASAP,,Assigned to,01/06/2004,Matthew,Set up email to use word as the default editor and spell check work like with word
+919,01/06/2004,GBAILEY,H,ASAP,,Assigned to,01/06/2004,Richard,Box level utilization - see Ann Rizzo email
+920,01/06/2004,PSHERMAN,M,01/06/2004,,Assigned to,01/06/2004,Matthew,"D. Thompson - error on 2nd floor copier, will not copy"
+921,01/06/2004,PSHERMAN,M,01/06/2004,,Assigned to,01/06/2004,Matthew,R. Wang - cell phone antenna broken - needs replaced
+922,01/06/2004,PSHERMAN,H,01/06/2004,,Assigned to,01/06/2004,Matthew,Accounting - Invoice printer needs new ribbon
+923,01/06/2004,WSTANSBURY,H,01/06/2004,,Assigned to,01/06/2004,Matthew,Fix apparent missing of data from LCS Palm Pilots
+924,01/06/2004,WSTANSBURY,H,01/06/2004,,Working on now,01/07/2004,Matthew,Meal Hour not computing right with LCS Palm Pilots
+925,01/06/2004,WSTANSBURY,H,01/06/2004,,Working on now,01/07/2004,Matthew,Time sheet shows 8 hrs and 9.5 for same day for same employee. 
+926,01/06/2004,WSTANSBURY,H,01/09/2004,,Assigned to,01/06/2004,Matthew,Employee 7443 for Paul Kelley has two Mondays on one week's timecard
+927,01/06/2004,WSTANSBURY,H,01/07/2004,,Assigned to,01/06/2004,Richard,Add one line for cargo with no location in the Daily Utilization report. Check with Inigo.
+928,01/06/2004,WSTANSBURY,H,01/12/2004,,Assigned to,01/06/2004,Matthew,Tally Printer for Wing F
+929,01/06/2004,WSTANSBURY,H,ASAP,,Assigned to,01/06/2004,Matthew,Use designated scanners for each supervisor for better audit
+930,01/06/2004,MHAHN,H,asap,,Assigned to,01/06/2004,Seth,tonnage report did not update with container vessels billed today
+931,01/06/2004,SSHOEMAKER,H,asap,,Assigned to,01/06/2004,Matthew,Move extra ADP computer from HR directors office to Tazzy's office with A/B switch
+932,01/06/2004,SSHOEMAKER,H,ASAP,,Assigned to,01/06/2004,Matthew,"Make ADP available to Andy, Tiffany, Sue and Tazzy at their own workstations"
+933,01/06/2004,SSHOEMAKER,H,ASAP,,Assigned to,01/06/2004,Matthew,Can' t print ADP reports from HR director computer - we get .dll errors
+935,01/07/2004,LHORNE,H,ASAP,,TS Done-Awaiting OK,01/07/2004,Seth,BNI Storage - Need to change the Free Time End date for Vessel 8323 from 1/2/04 to 1/3/04 and rerun the storage program.
+936,01/07/2004,PSHERMAN,L,01/07/2004,,Assigned to,01/07/2004,Matthew,Increase volume on Security Scanners 
+937,01/07/2004,PSHERMAN,H,01/07/2004,,Assigned to,01/07/2004,Matthew,Replace current Cell phone in guard gate with phone number that is on the DSPC Directory
+938,01/07/2004,PSHERMAN,M,01/16/2004,,Assigned to,01/07/2004,Matthew,"CCDS phones need recording for ""Directions to the Port of Wilmington"""
+939,01/07/2004,PSHERMAN,L,01/16/2004,,Assigned to,01/07/2004,Matthew,Automated Phone Directions need updated - north/south directions should be reversed
+940,01/07/2004,TKEEFER,M,asap,,Assigned to,01/07/2004,Matthew,Color printer in Marketing is not working
+941,01/07/2004,DDONOFRIO,H,01/12/2004,,Assigned to,01/07/2004,Matthew,"Harddrive on original pc crashed, need all information installed onto new pc"
+942,01/07/2004,MARTYM,H,ASAP,,Assigned to,01/07/2004,Seth,Would like to have an abreviated report by Chilean Fruit Customer Sub-totals and Grand total of plts in house. (No piece of plts)
+943,01/07/2004,RHORNE,H,,,Assigned to,01/07/2004,Matthew,Need to complete daily equipment/box status report
+944,01/08/2004,KSKINNER,M,SOON,,Assigned to,01/08/2004,Matthew,I need Microsoft Project on my computer.
+945,01/08/2004,LTREUT,H,ASAP,,TS Done-Awaiting OK,01/08/2004,Seth,Could not save in Withdraw.
+946,01/08/2004,PKELLEY,H,ASAP,,Assigned to,01/08/2004,Matthew,Petfood scanner 213 not taking order number.
+947,01/08/2004,MARTYM,H,ASAP,,Assigned to,01/08/2004,Matthew,Computer crashes before it finishes booting.
+948,01/08/2004,RSMITH,H,ASAP,,Assigned to,01/08/2004,Matthew,Palm freezing up.
+949,01/08/2004,DDONOFRIO,H,01/09/2004,,Assigned to,01/08/2004,Matthew,A scanner has been missing from my closet . I should have 8 scanners.
+950,01/08/2004,DTHOMP,H,01/08/2004,,Assigned to,01/08/2004,Matthew,Scanner not working.
+951,01/08/2004,MARTYM,M,ASAP,,Assigned to,01/08/2004,Seth,"CCDS's copier in the brick building will not feed multiple sheets, only copies one at a time manually."
+952,01/08/2004,MARTYM,H,01/09/2004,,Assigned to,01/08/2004,Matthew,Please recover my files and update the shortcuts in my desktop
+953,01/08/2004,MARTYM,M,01/12/2004,,Assigned to,01/08/2004,Matthew,Instlall Auto Save feature in my Excel
+954,01/08/2004,RBETTS,H,01/08/2004,,TS Done-Awaiting OK,01/09/2004,Richard,Palm won't synch Scanned Employees
+955,01/09/2004,MBILLIN,L,L,,Assigned to,01/09/2004,Matthew,FAX CCDS # 3400 NEEDS TONER..THANKS M
+956,01/09/2004,ITHOMAS,M,,,Assigned to,01/09/2004,Matthew,Monitor Palm hot sync failure problem
+957,01/09/2004,ITHOMAS,M,,,Assigned to,01/09/2004,Matthew,Looking for new solution for palm lcs
+958,01/10/2004,RBETTS,H,01/10/2004,,Assigned to,01/10/2004,Seth,Palm frozed up.
+959,01/10/2004,RBETTS,H,01/10/2004,,Assigned to,01/10/2004,Matthew,I can't log in to my computer
+960,01/10/2004,MPHILLIPS,H,01/10/2004,,Assigned to,01/10/2004,Seth,Palm won't synch employees
+961,01/10/2004,DDONOFRIO,H,01/10/2004,,Assigned to,01/10/2004,Matthew,Scanner 233 is having problems (bad pallet scanned)
+962,01/10/2004,DDONOFRIO,H,01/10/2004,,Assigned to,01/10/2004,Matthew,Scanner 214 times out. (5 sec)
+963,01/10/2004,DDONOFRIO,H,01/10/2004,,Assigned to,01/10/2004,Matthew,Scanner 233 No host response (Bad pallet scanned)
+964,01/10/2004,DDONOFRIO,H,01/10/2004,,Assigned to,01/10/2004,Matthew,Scanner 226 No host Response (Bad pallet Scanned)
+965,01/10/2004,DDONOFRIO,M,01/13/2004,,Assigned to,01/10/2004,Matthew,One of the batery chargers is not working
+966,01/10/2004,DDONOFRIO,L,01/16/2004,,Assigned to,01/10/2004,Matthew,Light Bulb in Warehouse C is burnt. Please replace
+967,01/10/2004,RCORBIN,H,01/11/2004,,Assigned to,01/10/2004,Seth,Time from Monday 5 doesn't show in Time Card
+968,01/10/2004,MMARTY,M,01/10/2004,,Assigned to,01/10/2004,Matthew,Scanner has No host Response

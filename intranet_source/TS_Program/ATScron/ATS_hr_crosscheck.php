@@ -1,0 +1,94 @@
+<?
+/* Adam Walter, 8/25/07
+*	Cron that geenrates a tab-delimited file name *.xls
+*	sent to HR to be used to scrutinize timesheets prior to upload
+*	Includes a record for all "active" employees, approved or not.
+*
+*	Cron'ed at Tuesday at noon, but can be manually run from the HR
+*	area of intranet anytime after noon on tuesday (until the following week)
+***************************************************************************/
+
+	$conn = ora_logon("SAG_OWNER@BNI", "SAG");
+	if($conn < 1){
+		printf("Error logging on to the Oracle Server: ");
+		printf(ora_errorcode($conn));
+		printf("</body></html>");
+		exit;
+	}
+	$cursor = ora_open($conn);
+
+	$offset = date("w") + 6;
+
+	$date = date('d-M-Y', mktime(0,0,0,date('m'),date('d')-$offset,date('Y')));
+	$print_date = date('m/d/Y', mktime(0,0,0,date('m'),date('d')-$offset,date('Y')));
+
+	$handle = fopen("ATS_crosscheck.xls", "w");
+	fwrite($handle, "Week of:  ".$print_date."\n\n");
+	fwrite($handle, "Employee\tL.Name\tF.Name\tStatus\tConditional?\tRegular\tHoliday\tPersonal\tVacation\tSick\tOT\t\tTotal\n");
+
+	$sql = "SELECT SUBSTR(ATE.EMPLOYEE_ID, 2, 6) THE_EMP, FIRST_NAME, LAST_NAME, DECODE(CONDITIONAL_SUBMISSION, 'Y', 'CONDITIONAL', ' ') THE_COND, 
+				STATUS, WEEK_TOTAL_REG, WEEK_TOTAL_HOLIDAY, WEEK_TOTAL_PERSONAL, WEEK_TOTAL_VACATION, WEEK_TOTAL_SICK, 
+				WEEK_TOTAL_OVERTIME, WEEK_TOTAL_TOTAL 
+			FROM AT_EMPLOYEE ATE, TIME_SUBMISSION TS 
+			WHERE EMPLOYMENT_STATUS = 'ACTIVE' 
+				AND ATE.EMPLOYEE_ID = TS.EMPLOYEE_ID 
+				AND WEEK_START_MONDAY = '".$date."' 
+			ORDER BY STATUS, THE_COND ASC NULLS LAST, LAST_NAME";
+	ora_parse($cursor, $sql);
+	ora_exec($cursor);
+	while(ora_fetch_into($cursor, $row, ORA_FETCHINTO_NULLS|ORA_FETCHINTO_ASSOC)){
+		fwrite($handle,
+				$row['THE_EMP']."\t".
+				$row['LAST_NAME']."\t".
+				$row['FIRST_NAME']."\t".
+				$row['STATUS']."\t".
+				$row['THE_COND']."\t".
+				$row['WEEK_TOTAL_REG']."\t".
+				$row['WEEK_TOTAL_HOLIDAY']."\t".
+				$row['WEEK_TOTAL_PERSONAL']."\t".
+				$row['WEEK_TOTAL_VACATION']."\t".
+				$row['WEEK_TOTAL_SICK']."\t".
+				$row['WEEK_TOTAL_OVERTIME']."\t\t".
+				$row['WEEK_TOTAL_TOTAL']."\n");
+	}
+
+	fclose($handle);
+
+	$fd=fopen ("ATS_crosscheck.xls", "r");
+   	$File=fread($fd,filesize("ATS_crosscheck.xls"));
+   	fclose ($fd);
+   	$File=chunk_split(base64_encode($File));
+
+	$mailTO = "tscott@port.state.de.us";
+//	$mailTO = "awalter@port.state.de.us";
+	$mailsubject = "Timesheet Crosscheck Spreadsheet";
+	$mailheaders = "From: " . "NoReplies@port.state.de.us\r\n";
+	$mailheaders = "CC: " . "skennard@port.state.de.us\r\n";
+//	$mailheaders .= "Bcc: " . "awalter@port.state.de.us\r\n"; -- 2/23/2012
+//	$mailheaders .= "Bcc: " . "ithomas@port.state.de.us\r\n";
+	$mailheaders .= "Bcc: " . "archive@port.state.de.us\r\n";
+	$mailheaders .= "MIME-Version: 1.0\r\n";
+	$mailheaders .= "Content-Type: multipart/mixed; boundary=\"MIME_BOUNDRY\"\r\n";
+	$mailheaders .= "X-Sender: NoReplies@port.state.de.us\r\n";
+	$mailheaders .= "X-Mailer: PHP4\r\n";
+
+	$Content="--MIME_BOUNDRY\r\n";
+	$Content.="Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
+	$Content.="Content-Transfer-Encoding: quoted-printable\r\n";
+	$Content.="\r\n";
+//	$Content.="Reminder to enter your items for tomorrow's Directors Meeting and to update the Hot List by 11 PM tonight.\r\n\r\n";
+//	$Content.="Thank you.\r\n\r\n";
+//	$Content.="For a tutorial see attachment below: \r\n";
+	$Content.="\r\n\r\n";
+	$Content.="--MIME_BOUNDRY\r\n";
+	$Content.="Content-Type: application/excel; name=\"ATS_crosscheck.xls\"\r\n";
+	$Content.="Content-disposition: attachment\r\n";
+	$Content.="Content-Transfer-Encoding: base64\r\n";
+	$Content.="\r\n";
+	$Content.=$File;
+	$Content.="\r\n";
+	$Content.="--MIME_BOUNDRY--\r\n";
+
+	mail($mailTO, $mailsubject, $Content, $mailheaders);
+//	mail("awalter@port.state.de.us", $mailsubject, $Content, $mailheaders);
+?>

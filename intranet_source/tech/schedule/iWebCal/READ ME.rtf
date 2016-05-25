@@ -1,0 +1,135 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fswiss\fcharset77 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww15120\viewh18920\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b\fs24 \cf0 iWebCal READ ME\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b0 \cf0 iWebCal v1.1\
+Last updated Apr 13, 2003
+\f0\b \
+\
+Getting Started\
+
+\f1\b0 To get started displaying calendars with iWebCal, take a look at the file named 
+\f0\b index.php
+\f1\b0 . Follow the instructions and you should be up and running quickly. Some understanding of PHP is assumed.
+\f0\b \
+\
+Licensing (GPL)\
+
+\f1\b0 iWebCal is now distributed under the GNU General Public License. This will give users and developers more freedom than the previous iWebCal license.
+\f0\b \
+\
+Documentation\
+
+\f1\b0 More complete API Documentation is available on the Web at http://iWebCal.com/doc. We're in the process of making documentation available from the iWebCal SourceForge project (http://sourceforge.net/docman/index.php?group_id=77635) too. \
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 Info for Licensees
+\f1\b0 \
+There's a Licensing Page at http://interfacethis.com/iwebcal/licensing. There you'll find the "Powered by iWebCal" graphic, various other buttons and graphics, links to documentation, and other items of interest to licensees.\
+\
+
+\f0\b Version History\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b0 \cf0 Also available at http://iWebCal.com/doc
+\f0\b \
+
+\f1\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 v1.1\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f1\b0 \cf0 - Safari support in all views (workaround for variable dimensions)\
+- Fixed bug where anything in a sixth week wouldn't be shown\
+- In the Calendar object, improved parsing of input file: Can now read local files (on the server) in addition to remote (via http).\
+- If the Calendar object is passed a folder rather than a file, its isValid variable is still set to false, but a new folderContents variable now contains an array of ics files in the folder. In all other cases, folderContents is set to false, so it can also be used to verify that a folder was passed in.\
+- Modified the sample index.php file so it can read folders: It uses the above feature of the Calendar object to\
+get the list of ICS files in the folder, then displays the first and provides a popup list of calendars in place\
+of the usual static calendar title. Selecting from the list switches to the selected calendar.\
+- Sub-items of calendar items (like alarms) are now ignored properly at calendar creation time. A future version may store this data instead.\
+- Added support for the Notes (DESCRIPTION) field of an event.\
+- Added a global variable for the width of the task display, and set its default to a static value.\
+- Updated the Property object so calendar information containing colons and semicolons (as part of the actual data) is read correctly.\
+- Calendar objects can now tack extra developer-specified variables onto the URLs they create for navigating around the calendar. You can specify additional URL variables using the new Calendar method addURLVariable(), which takes a variable name and a variable value, in that order. The sample index.php file includes an example.\
+- Some code clean-up.
+\f0\b \
+\
+v1.0.5
+\f1\b0  (January 27, 2003)\
+- iCal 1.0.2 stores all-day events differently from previous versions. This update supports the new format. (The old format is still supported.)\
+- iCal 1.0.2 stores repeating events differently from previous versions. This update supports the new format. (The old format is no longer supported for some events.)\
+- Events created in programs other than iCal and ending at midnight are not displayed with the correct duration.
+\f0\b \
+\
+v1.0.4
+\f1\b0  (January 15, 2003)\
+- Note that the version numbering scheme has changed slightly.\
+- Improved support for RFC 2445, including better support for non-iCal ICS files. Fix submitted by Randy Pearson.
+\f0\b \
+\
+v1.03
+\f1\b0  (November 21, 2002)\
+- Added a new index.php file that should display a single calendar with a minimum of coding. This should help get new users up and running quickly. It's not covered in the API docs, but in fact may allow a quick start without reading the docs.\
+- Some minor bug fixes and changes to global variable handling so the index page and original site can coexist without maintaining two code bases.
+\f0\b \
+
+\f1\b0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f0\b \cf0 v1.02
+\f1\b0  (November 20, 2002)\
+Made some minor alterations in preparation for releasing the source.\
+\
+
+\f0\b v1.01
+\f1\b0  (October 30, 2002)\
+- Updated Task code to support configurations other than that on the iWebCal server, with the addition of a variable in the main iWebCal.php file to specify where a re-sort should link.\
+- Added copyright info to all PHP files in preparation for licensing and open sourcing.\
+\
+
+\f0\b v1.0 
+\f1\b0 (October 23, 2002)\
+- Added Task view, including priority- and completion-based coloring, the ability to show and hide completed tasks, and sorting by field.\
+\
+
+\f0\b v1.0b4
+\f1\b0 \
+- Improved the repeating event bug fix to support multiple PHP versions\
+- Reorganized source files for easier modification\
+- Added and incorporated variables for portability between server configurations\
+\
+
+\f0\b v1.0b3
+\f1\b0  (October 3, 2002)\
+- Fixed a bug that caused weekly repeating events to appear every day (works in PHP 4.2.3 only now).\
+\
+
+\f0\b v1.0b2
+\f1\b0 \
+- Changed character encoding to support accent marks, Japanese characters, etc.\
+\
+
+\f0\b v1.0b1
+\f1\b0 \
+Initial version.\
+\
+------------------------------------------------------------------------------\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural
+
+\f2\i \cf0 iWebCal v1.1\
+Copyright (C 2003 David A. Feldman.\
+\
+This program is free software; you can redistribute it and/or modify it under the terms of version 2 of the GNU General Public License as published by the Free Software Foundation.\
+\
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\
+\
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA. Or, visit http://gnu.org.\
+}

@@ -1,0 +1,8 @@
+modWindowsRoutines = 66, 66, 656, 510, 
+modEncrypt = 0, 0, 925, 440, C
+frmRateEditAuthenticate = 20, 108, 1009, 903, C, 371, 136, 709, 436, C
+frmCMPV = 4, 26, 1009, 919, C, 326, 1, 669, 324, C
+frmPVps = 66, 87, 779, 636, C, 339, 4, 715, 627, C
+frmCreditMemo = 248, 15, 1255, 887, , 27, 2, 1012, 799, C
+Module1 = 154, 203, 867, 752, C
+modCM = 110, 145, 823, 694, C

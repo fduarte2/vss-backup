@@ -1,0 +1,269 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=j:\LCS_SF\LCS
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+SSCSDK32.DLL=
+u25TOTAL.DLL=
+u25STORE.DLL=
+Crystal=
+SSCALA32.OCX=
+SSDW3B32.OCX=
+u2LBAR.DLL=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+D:\ORANT\BIN\ORADC.OCX=
+C:\Program Files\Common Files\designer\MSDE.DLL=
+C:\WINNT\system32\FM20.DLL=
+D:\ORANT\BIN\OIP22.TLB=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\Mscomct2.ocx=
+C:\WINNT\system32\Comdlg32.ocx=
+C:\WINNT\system32\crpe32.dll=
+C:\WINNT\system32\crystl32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\system32\Msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+D:\ORANT\BIN\OIP22.TLB=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\FM20.DLL=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\Program Files\Common Files\designer\MSDE.DLL=Yes
+C:\WINNT\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINNT\system32\Comdlg32.ocx=Yes
+C:\WINNT\system32\CRYSTL32.OCX=Yes
+C:\WINNT\system32\CRPE32.DLL=Yes
+C:\WINNT\system32\implode.dll=Yes
+C:\WINNT\system32\crpaig32.dll=Yes
+C:\WINNT\system32\msvcrt.dll=Yes
+C:\WINNT\system32\MFC42.DLL=Yes
+C:\WINNT\Crystal\crxlat32.dll=Yes
+C:\WINNT\Crystal\p2bbde.dll=Yes
+C:\WINNT\system32\P2BBND.DLL=Yes
+C:\WINNT\system32\P2BDAO.DLL=Yes
+C:\WINNT\Crystal\p2bxbse.dll=Yes
+C:\WINNT\system32\P2CTDAO.DLL=Yes
+C:\WINNT\system32\P2IRDAO.DLL=Yes
+C:\WINNT\Crystal\p2sifmx.dll=Yes
+C:\WINNT\system32\p2smon.dll=Yes
+C:\WINNT\system32\P2SODBC.DLL=Yes
+C:\WINNT\Crystal\p2sora7.dll=Yes
+C:\WINNT\Crystal\p2ssql.dll=Yes
+C:\WINNT\Crystal\p2ssyb10.dll=Yes
+C:\WINNT\Crystal\p2soledb.dll=Yes
+C:\WINNT\Crystal\u2ddisk.dll=Yes
+C:\WINNT\Crystal\u2dmapi.dll=Yes
+C:\WINNT\Crystal\u2dnotes.dll=Yes
+C:\WINNT\Crystal\u2dpost.dll=Yes
+C:\WINNT\Crystal\u2dvim.dll=Yes
+C:\WINNT\Crystal\u2dapp.dll=Yes
+C:\WINNT\Crystal\u2fcr.dll=Yes
+C:\WINNT\Crystal\u2fhtml.dll=Yes
+C:\WINNT\Crystal\u2fodbc.dll=Yes
+C:\WINNT\Crystal\u2frec.dll=Yes
+C:\WINNT\Crystal\u2frtf.dll=Yes
+C:\WINNT\Crystal\u2fsepv.dll=Yes
+C:\WINNT\Crystal\u2ftext.dll=Yes
+C:\WINNT\Crystal\u2fwks.dll=Yes
+C:\WINNT\Crystal\u2fwordw.dll=Yes
+C:\WINNT\Crystal\u2fxls.dll=Yes
+C:\WINNT\Crystal\u25dts.dll=Yes
+C:\WINNT\Crystal\u2l2000.dll=Yes
+C:\WINNT\Crystal\u2lcom.dll=Yes
+C:\WINNT\Crystal\u2ldts.dll=Yes
+C:\WINNT\Crystal\u2lsamp1.dll=Yes
+C:\WINNT\Crystal\u252000.dll=Yes
+C:\WINNT\system32\Mscomct2.ocx=Yes
+D:\ORANT\BIN\ORADC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+J:\LCS_SF\LCS\SimplifiedLabor.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Sheridan\SSDatWd3\ssdw3b32.ocx=Yes
+C:\Sheridan\SSDatWd3\ssmedt32.dll=Yes
+C:\Sheridan\SSDatWd3\ssprn32.dll=Yes
+C:\Sheridan\SSCalWdg\SSCALA32.OCX=Yes
+C:\WINNT\system32\SSFM1032.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+\\Dspc-s6\LCS\LCS Code\LCS-VER7.0\Labor.exe=$(AppPath)
+C:\WINNT\system32\Msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+D:\ORANT\BIN\OIP22.TLB=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\FM20.DLL=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDE.DLL=$(WinSysPath)
+C:\WINNT\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\Comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\CRYSTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\CRPE32.DLL=$(WinSysPath)
+C:\WINNT\system32\implode.dll=$(AppPath)
+C:\WINNT\system32\crpaig32.dll=$(WinSysPath)
+C:\WINNT\system32\msvcrt.dll=$(WinSysPath)
+C:\WINNT\system32\MFC42.DLL=$(WinSysPath)
+C:\WINNT\Crystal\crxlat32.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2bbde.dll=$(WinSysPath)
+C:\WINNT\system32\P2BBND.DLL=$(WinSysPath)
+C:\WINNT\system32\P2BDAO.DLL=$(WinSysPath)
+C:\WINNT\Crystal\p2bxbse.dll=$(WinSysPath)
+C:\WINNT\system32\P2CTDAO.DLL=$(WinSysPath)
+C:\WINNT\system32\P2IRDAO.DLL=$(WinSysPath)
+C:\WINNT\Crystal\p2sifmx.dll=$(WinSysPath)
+C:\WINNT\system32\p2smon.dll=$(WinSysPath)
+C:\WINNT\system32\P2SODBC.DLL=$(WinSysPath)
+C:\WINNT\Crystal\p2sora7.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssql.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2ssyb10.dll=$(WinSysPath)
+C:\WINNT\Crystal\p2soledb.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ddisk.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dmapi.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dnotes.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dpost.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dvim.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2dapp.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fcr.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fhtml.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fodbc.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frec.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2frtf.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fsepv.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ftext.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwks.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fwordw.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2fxls.dll=$(WinSysPath)
+C:\WINNT\Crystal\u25dts.dll=$(AppPath)
+C:\WINNT\Crystal\u2l2000.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2lbar.dll=$(AppPath)
+C:\WINNT\Crystal\u2lcom.dll=$(WinSysPath)
+C:\WINNT\Crystal\u2ldts.dll=$(AppPath)
+C:\WINNT\Crystal\u2lsamp1.dll=$(AppPath)
+C:\WINNT\Crystal\u252000.dll=$(WinSysPath)
+C:\WINNT\system32\Mscomct2.ocx=$(WinSysPath)
+D:\ORANT\BIN\ORADC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+J:\LCS_SF\LCS\SimplifiedLabor.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Sheridan\SSDatWd3\ssdw3b32.ocx=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssmedt32.dll=$(WinSysPath)
+C:\Sheridan\SSDatWd3\ssprn32.dll=$(WinSysPath)
+C:\Sheridan\SSCalWdg\SSCALA32.OCX=$(WinSysPath)
+C:\WINNT\system32\SSFM1032.DLL=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+\\Dspc-s6\LCS\LCS Code\LCS-VER7.0\Labor.exe=No
+C:\WINNT\system32\implode.dll=No
+C:\WINNT\Crystal\u25dts.dll=No
+C:\WINNT\Crystal\u2lbar.dll=No
+C:\WINNT\Crystal\u2ldts.dll=No
+C:\WINNT\Crystal\u2lsamp1.dll=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+J:\LCS_SF\LCS\SimplifiedLabor.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Labor
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Labor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Labor]
+Icon1=SimplifiedLabor.exe
+Title1=Labor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=j:\LCS_SF\LCS
+ProjectFolder=J:\LCS_SF\LCS
+ServerSideCab=
+File1=j:\LCS_SF\LCS\setup.exe
+File2=j:\LCS_SF\LCS\Setup.Lst
+File3=j:\LCS_SF\LCS\SimplifiedLabor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

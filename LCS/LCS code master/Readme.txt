@@ -1,0 +1,1 @@
+Note that Master.exe is a super user app, and should only be installed on the User's hard drive, i.e. Jon Jaffe - with a desktop shortcut

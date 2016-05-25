@@ -1,0 +1,12 @@
+This directory is the housing of the vessel productivity report pages.
+
+Only the .php files are necessary to the operation of these scripts.
+
+All of the xls files have been going to the wrong directory.  They are going to the webroot directory (/web/web_pages).
+
+At this time (Jan 18, 2007) the only XLS files that go to that directory are from this program.  So I feel safe in saying if you want to remove 
+files from that area, go ahead. 
+
+Or don't, and keep them to go back to if necessary.
+
+The scripts work as is, so rather than try and "fix" this, I'm going to let it go as is.

@@ -1,0 +1,126 @@
+* {
+	font-family: Verdana, sans-serif;
+	webkit-print-color-adjust: exact !important;
+}
+div {
+	margin: 0;
+}
+
+
+.cardholder {
+	display: block;
+	max-width: 7in;
+	/*page-break-after: always;*/
+}
+
+.cardholder--back {
+	direction: rtl;
+}
+
+.card {
+	width: 3.5in;
+	height: 2in;
+	border: 1px solid #999;
+	font-size: 0.9em;
+	border-top: none;
+	border: none;
+	display: inline-block;
+	direction: ltr;
+	vertical-align: top;
+}
+
+.cardholder > :nth-child(4n+1), .cardholder > :nth-child(4n+2) {
+	transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.cardholder > :nth-child(10n) {
+	page-break-after: always;
+}
+.card--front {
+	text-align: center;
+}
+.card--back {
+	text-align: left;
+	display: none;
+}
+.card__training, .card__issued {
+	margin-left: 2em;
+	font-size: 0.9em;
+}
+.card__issued {
+	margin-bottom: 0.3em;
+}
+.card__training ul {
+	text-align: left;
+	margin: 0;
+	padding-left: 1em;
+	list-style: none;
+}
+.card__logobox {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	align-items: center;
+	justify-content: space-around;
+	height: 4em;
+	margin: 0;
+	background-image: linear-gradient(#ccc, transparent);
+}
+.card__logobox img {
+	flex-shrink: 0;
+	margin: 0.4em 0.7em;
+	margin-right: -0.4em;
+}
+.card__logobox span {
+	margin: 0.4em 0.9em;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 1.1em;
+}
+.card__title {
+	font-size: 1.2em;
+	font-family: Arial;
+	margin: 1em;
+}
+.card__barcode {
+	flex-grow: 3;
+}
+
+button, a {
+	margin: 0.5em 0;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block;
+	min-height: 2.5em;
+	font-size: 1.005em;
+}
+
+.noprint {
+	margin: 1em 2em;
+}
+
+
+.noprint li {
+	padding: 0.2em;
+}
+
+@media print {
+	.noprint {
+		display: none;
+	}
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+}
+@page
+{
+	size: 8.5in 11in;
+	margin: 0.75 0.5in;
+}

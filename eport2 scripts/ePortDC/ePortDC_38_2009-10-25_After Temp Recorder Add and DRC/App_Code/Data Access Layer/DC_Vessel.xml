@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XMLDefinition Generator="Iron Speed Designer" Version="5.0" Type="GENERIC">
+  <ColumnDefinition>
+    <Column InternalName="0" Priority="1" ColumnNum="0">
+      <columnName>VesselId</columnName>
+      <columnUIName>%ISD_DEFAULT%</columnUIName>
+      <columnType>Number</columnType>
+      <columnDBType>smallint</columnDBType>
+      <columnLengthSet>5.0</columnLengthSet>
+      <columnDefault>
+      </columnDefault>
+      <columnDBDefault>
+      </columnDBDefault>
+      <columnIndex>Y</columnIndex>
+      <columnUnique>Y</columnUnique>
+      <columnFunction>notrim</columnFunction>
+      <columnDBFormat>
+      </columnDBFormat>
+      <columnPK>Y</columnPK>
+      <columnPermanent>N</columnPermanent>
+      <columnComputed>N</columnComputed>
+      <columnIdentity>N</columnIdentity>
+      <columnReadOnly>N</columnReadOnly>
+      <columnRequired>Y</columnRequired>
+      <columnNotNull>Y</columnNotNull>
+      <columnVisibleWidth>%ISD_DEFAULT%</columnVisibleWidth>
+      <columnTableAliasName>
+      </columnTableAliasName>
+    </Column>
+    <Column InternalName="1" Priority="2" ColumnNum="1">
+      <columnName>ArrivalDate</columnName>
+      <columnUIName>%ISD_DEFAULT%</columnUIName>
+      <columnType>Date</columnType>
+      <columnDBType>smalldatetime</columnDBType>
+      <columnLengthSet>
+      </columnLengthSet>
+      <columnDefault>
+      </columnDefault>
+      <columnDBDefault>
+      </columnDBDefault>
+      <columnIndex>N</columnIndex>
+      <columnUnique>N</columnUnique>
+      <columnFunction>notrim</columnFunction>
+      <columnDBFormat>
+      </columnDBFormat>
+      <columnPK>N</columnPK>
+      <columnPermanent>N</columnPermanent>
+      <columnComputed>N</columnComputed>
+      <columnIdentity>N</columnIdentity>
+      <columnReadOnly>N</columnReadOnly>
+      <columnRequired>N</columnRequired>
+      <columnNotNull>N</columnNotNull>
+      <columnVisibleWidth>%ISD_DEFAULT%</columnVisibleWidth>
+      <columnTableAliasName>
+      </columnTableAliasName>
+    </Column>
+    <Column InternalName="2" Priority="3" ColumnNum="2">
+      <columnName>FixedFreight</columnName>
+      <columnUIName>%ISD_DEFAULT%</columnUIName>
+      <columnType>Currency</columnType>
+      <columnDBType>money</columnDBType>
+      <columnLengthSet>19.4</columnLengthSet>
+      <columnDefault>
+      </columnDefault>
+      <columnDBDefault>
+      </columnDBDefault>
+      <columnIndex>N</columnIndex>
+      <columnUnique>N</columnUnique>
+      <columnFunction>
+      </columnFunction>
+      <columnDBFormat>
+      </columnDBFormat>
+      <columnPK>N</columnPK>
+      <columnPermanent>N</columnPermanent>
+      <columnComputed>N</columnComputed>
+      <columnIdentity>N</columnIdentity>
+      <columnReadOnly>N</columnReadOnly>
+      <columnRequired>N</columnRequired>
+      <columnNotNull>N</columnNotNull>
+      <columnVisibleWidth>%ISD_DEFAULT%</columnVisibleWidth>
+      <columnTableAliasName>
+      </columnTableAliasName>
+    </Column>
+    <Column InternalName="3" Priority="4" ColumnNum="3">
+      <columnName>VesselName</columnName>
+      <columnUIName>%ISD_DEFAULT%</columnUIName>
+      <columnType>String</columnType>
+      <columnDBType>nchar</columnDBType>
+      <columnLengthSet>30</columnLengthSet>
+      <columnDefault>
+      </columnDefault>
+      <columnDBDefault>
+      </columnDBDefault>
+      <columnIndex>N</columnIndex>
+      <columnUnique>N</columnUnique>
+      <columnFunction>
+      </columnFunction>
+      <columnDBFormat>
+      </columnDBFormat>
+      <columnPK>N</columnPK>
+      <columnPermanent>N</columnPermanent>
+      <columnComputed>N</columnComputed>
+      <columnIdentity>N</columnIdentity>
+      <columnReadOnly>N</columnReadOnly>
+      <columnRequired>Y</columnRequired>
+      <columnNotNull>Y</columnNotNull>
+      <columnVisibleWidth>%ISD_DEFAULT%</columnVisibleWidth>
+      <columnTableAliasName>
+      </columnTableAliasName>
+    </Column>
+  </ColumnDefinition>
+  <TableName>DC_Vessel</TableName>
+  <Version>2</Version>
+  <Owner>dbo</Owner>
+  <TableCodeName>DC_Vessel</TableCodeName>
+  <TableAliasName>DC_Vessel_</TableAliasName>
+  <ConnectionName>DatabaseePort1</ConnectionName>
+  <canCreateRecords Source="Database">Y</canCreateRecords>
+  <canEditRecords Source="Database">Y</canEditRecords>
+  <canDeleteRecords Source="Database">Y</canDeleteRecords>
+  <canViewRecords Source="Database">Y</canViewRecords>
+  <ConcurrencyMethod>BinaryChecksum</ConcurrencyMethod>
+  <AppShortName>ePortDC</AppShortName>
+  <TableStoredProcPrefix>pePortDCDC_Vessel</TableStoredProcPrefix>
+</XMLDefinition>

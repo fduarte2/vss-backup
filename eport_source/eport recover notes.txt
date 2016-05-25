@@ -1,0 +1,3 @@
+known additional tasks to "recover" eport:
+
+Simlink to /opt/www/functions folder needs to be placed as /opt/www/secure/functions

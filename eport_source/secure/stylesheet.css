@@ -1,0 +1,77 @@
+@media all
+{
+	body {margin: 0;}
+	
+	/* Default fonts and bullets */
+	html, body, table {
+		font-family: Verdana, sans-serif;
+		font-size: normal;
+		font-weight: normal;
+		
+		list-style-image: url(images/yellowbulletsmall.gif);
+		list-style-type: square;
+	}
+	table {
+		font-size: small;
+	}
+	
+	/* Use this when you want to right-align a number in a table, for example */
+	.number {text-align: right;}
+	
+	hr {margin: 4px;}
+	
+	/* Use these classes when creating tables */
+	.aTable {
+		border-collapse: collapse;
+		margin: 1em 0;
+	}
+	.aTable, .aTable td, .aTable th, .aTable caption {
+		border: 1px solid black;
+		padding: 4px;
+		font-size: small;
+		background-color: white;
+		color: black;
+	}
+	.aTable caption {
+		font-weight: bold;
+		font-size: medium;
+	}
+	.aTable th {
+		background: #F2F2F2;
+		font-weight: bold;
+	}
+	
+	
+	
+	.fullWidthTable {width: 100%;}
+	
+	/* Use the "alert" class for when you want to alert the user of an error or warning */
+	.alert {color: red;}
+	
+	.message {color: blue;}
+	
+	/* Page header */
+	h1 {
+		font-size: x-large;
+		color: #0066CC;
+		font-weight: normal;
+		margin: 4px;
+		
+		border-bottom: 1px solid #D1D7DC;
+		padding-bottom: 8px;
+	}
+	
+	/* Enclose text in a span with one of the below classes to set the title attribute text as a tooltip
+		Also changes the cursor to "point-help" and dot-underlines the text. */
+	abbr, acronym, .help {
+		border-bottom: 1px dotted #333;
+		cursor: help;
+	}
+	
+	/* When making forms, enclose each label-field pair in a div with class "field" */
+	.field, .submitButton {
+		margin: 8px;
+		margin-right: 20px;
+	}
+	.field {display: inline-block;}
+}

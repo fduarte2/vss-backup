@@ -1,0 +1,7 @@
+modGlobal = 25, 28, 1287, 875, 
+frmSimplified = 132, 174, 1265, 817, , 200, 200, 1293, 817, C
+employeeHourlyRecord = 429, 35, 1522, 819, 
+ceridianPay = 50, 50, 1143, 667, C
+hazardPay = 175, 175, 1268, 792, C
+frmSelectDate = 11, 25, 1104, 905, , 236, 192, 1329, 809, C
+frmCeridianEntry = 150, 150, 1335, 705, C, 75, 75, 1168, 692, C

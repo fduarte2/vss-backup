@@ -1,0 +1,205 @@
+<?
+/*
+*	Adam Walter, Sep 2013.
+*
+*	DC-order outbound activity page
+*************************************************************************/
+
+	$rfconn = ocilogon("SAG_OWNER", "OWNER", "RF");
+//	$rfconn = ocilogon("SAG_OWNER", "RFTEST238", "RFTEST");
+	if($rfconn < 1){
+		printf("Error logging on to the RF Oracle Server: ");
+//		printf(ora_errorcode($conn));
+		exit;
+	}
+
+	$submit = $HTTP_POST_VARS['submit'];
+	$vessel = $HTTP_POST_VARS['vessel'];
+
+//	if($user != "martym" && $user != "susan" && $user != "portc"){
+//		echo "<font color=\"#FF0000\">User not authorized for this page.</font>";
+//		exit;
+//	}
+
+	if($submit != "" && $vessel != ""){
+		$filename = $vessel."-".date('mdYhis').".xls";
+		$reference_loc = "/clementine/activity_XLS/".$filename;
+		$fullpath = "/var/www/secure/".$reference_loc;
+		$handle = fopen($fullpath, "w");
+
+/*						<tr>
+							<td colspan=\"16\" align=\"left\"><font size=\"3\" face=\"Verdana\"><b>Arrival#:  ".$vessel."</b></font></td>
+						</tr><br><br>";
+*/
+		$output = "<table border=\"1\" width=\"100%\" cellpadding=\"4\" cellspacing=\"0\">";
+		$output .= "<tr><td colspan=\"19\"><b>*  Customer PO's of \"NO PO\" indicate that order(s) were not expedited by DSPC</b></td></tr>";
+		$output .= "<tr>
+							<td><font size=\"2\" face=\"Verdana\"><b>Vessel</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Warehouse Ship/Stored</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Pallet #</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Date Received</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Importer</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Label</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Pack</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Size</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Producer</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Memo</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Boxes received</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Boxes shipped</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Boxes storage</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Order#</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Customer PO*</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Ship Date</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>Customer</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>DMG Cartons</b></font></td>
+							<td><font size=\"2\" face=\"Verdana\"><b>HOSP/REGRADE</b></font></td>
+						</tr>";
+		// step 1:  main SQL with all pallets for DC-clems.
+		//NVL(wm_concat(DISTINCT CA.ORDER_NUM), 'NOT SHIPPED') THE_ORD
+		$sql = "SELECT VP.VESSEL_NAME, SUBSTR(CT.PALLET_ID, 14, 10) THE_SUBPALLET, NVL(TO_CHAR(DATE_RECEIVED, 'MM/DD/YYYY HH24:MI:SS'), 'NOT RECEIVED') THE_REC, CT.CARGO_SIZE, CT.EXPORTER_CODE, CT.QTY_RECEIVED, 
+					SUM(CA.QTY_CHANGE) THE_SUM, CT.QTY_IN_HOUSE, MAX(CA.ORDER_NUM) THE_ORD, DECODE(COUNT(DISTINCT CA.ORDER_NUM), 0, '', 1, '', '*') ORD_COUNT_ASTERISK,
+					TO_CHAR(MIN(DATE_OF_ACTIVITY), 'MM/DD/YYYY') THE_MIN, NVL(QTY_DAMAGED, 0) THE_DAMAGE,
+					DECODE(CARGO_STATUS, 'H', 'HOSPITAL', 'R', 'REGRADE', 'B', 'BOTH', ' ') THE_STATUS, CT.DATE_RECEIVED, CP.CUSTOMER_NAME
+				FROM CARGO_TRACKING CT, (SELECT * FROM CARGO_ACTIVITY ORDER BY ORDER_NUM) CA, VESSEL_PROFILE VP, CUSTOMER_PROFILE CP
+				WHERE CT.PALLET_ID = CA.PALLET_ID(+)
+					AND CT.RECEIVER_ID = CA.CUSTOMER_ID(+)
+					AND CT.ARRIVAL_NUM = CA.ARRIVAL_NUM(+)
+					AND CA.SERVICE_CODE(+) = '6'
+					AND CA.ACTIVITY_DESCRIPTION(+) IS NULL
+					AND CT.ARRIVAL_NUM = TO_CHAR(VP.LR_NUM)
+					AND CT.RECEIVER_ID = CP.CUSTOMER_ID
+					AND (CT.RECEIVER_ID = ".$eport_customer_id."
+						OR
+						".$eport_customer_id." = 0
+						)
+					AND CT.ARRIVAL_NUM = '".$vessel."'
+				GROUP BY VP.VESSEL_NAME, SUBSTR(CT.PALLET_ID, 14, 10), NVL(TO_CHAR(DATE_RECEIVED, 'MM/DD/YYYY HH24:MI:SS'), 'NOT RECEIVED'), CT.CARGO_SIZE, CT.EXPORTER_CODE, CT.QTY_RECEIVED, CT.QTY_IN_HOUSE,
+					NVL(QTY_DAMAGED, 0), DECODE(CARGO_STATUS, 'H', 'HOSPITAL', 'R', 'REGRADE', 'B', 'BOTH', ' '), CT.DATE_RECEIVED, CP.CUSTOMER_NAME
+				ORDER BY DATE_RECEIVED NULLS LAST, SUBSTR(CT.PALLET_ID, 14, 10)";
+//		echo $sql."<br>";
+		$short_term_data = ociparse($rfconn, $sql);
+		ociexecute($short_term_data);
+		if(!ocifetch($short_term_data)){
+			echo "<font color=\"#FF0000\">Vessel Has no cargo in system yet.</font>";
+			exit;
+		} else {
+			$xls_link = "<table border=\"0\" width=\"100%\" cellpadding=\"4\" cellspacing=\"0\">
+								<tr>
+									<td align=\"center\"><font size=\"3\" face=\"Verdana\"><b><a href=\"".$reference_loc."\">Click Here for the Excel File</a></b></font></td>
+								</tr>
+							</table><br><br>";
+			echo $xls_link;
+			do {
+				$vessel_name = ociresult($short_term_data, "VESSEL_NAME");
+				$importer = ociresult($short_term_data, "CUSTOMER_NAME");
+				$pallet = ociresult($short_term_data, "THE_SUBPALLET");
+				$rec = str_replace(" ", "<br>", ociresult($short_term_data, "THE_REC"));
+				$size = ociresult($short_term_data, "CARGO_SIZE");
+				$pkg = ociresult($short_term_data, "EXPORTER_CODE");
+				$qty_rec = ociresult($short_term_data, "QTY_RECEIVED");
+				$qty_IH = ociresult($short_term_data, "QTY_IN_HOUSE");
+				$qty_chng = (0 + ociresult($short_term_data, "THE_SUM"));
+				$order_display = ociresult($short_term_data, "THE_ORD").ociresult($short_term_data, "ORD_COUNT_ASTERISK");
+				$order_subsql = "('".str_replace(",", "','", ociresult($short_term_data, "THE_ORD"))."')";
+				$dmg = ociresult($short_term_data, "THE_DAMAGE");
+				$status = ociresult($short_term_data, "THE_STATUS");
+				if($order_display == "NOT SHIPPED"){
+					$cust_PO = "";
+					$delv_date = "";
+					$consignees = "";
+				} else {
+//								AND DCO.ORDERNUM IN ".$order_subsql;
+//								NVL(wm_concat(DCO.CUSTOMERPO), 'NO PO') THE_CUST, wm_concat(TO_CHAR(DCO.DELIVERYDATE, 'MM/DD/YYYY')) THE_DATE, wm_concat(DCC.CONSIGNEENAME) THE_CONS
+					$sql = "SELECT NVL(DCO.CUSTOMERPO, 'NO PO') THE_CUST, TO_CHAR(DCO.DELIVERYDATE, 'MM/DD/YYYY') THE_DATE, DCC.CONSIGNEENAME THE_CONS
+							FROM (SELECT * FROM DC_ORDER ORDER BY ORDERNUM) DCO, DC_CONSIGNEE DCC
+							WHERE DCO.CONSIGNEEID = DCC.CONSIGNEEID
+								AND DCO.ORDERNUM = '".ociresult($short_term_data, "THE_ORD")."'";
+//					echo $sql."<br>";
+					$short_term_data2 = ociparse($rfconn, $sql);
+					ociexecute($short_term_data2);
+					ocifetch($short_term_data2);
+//					$cust_PO = str_replace(",", "<br>", ociresult($short_term_data2, "THE_CUST"));
+//					$consignees = str_replace(",", "<br>", ociresult($short_term_data2, "THE_CONS"));
+					$cust_PO = ociresult($short_term_data2, "THE_CUST");
+					$consignees = ociresult($short_term_data2, "THE_CONS");
+					if(ociresult($short_term_data2, "THE_DATE") == ""){
+						$delv_date = ociresult($short_term_data, "THE_MIN");
+					} else {
+//						$delv_date = str_replace(",", "<br>", ociresult($short_term_data2, "THE_DATE"));
+						$delv_date = ociresult($short_term_data2, "THE_DATE");
+					}
+				}
+			
+				$output .= "<tr>
+									<td><font size=\"2\" face=\"Verdana\">".$vessel." - ".$vessel_name."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">P.O.W.</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$pallet."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$rec."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$importer."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">MAROC</font></td>
+									<td><font size=\"2\" face=\"Verdana\">N/A</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$size."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">N/A</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$pkg."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$qty_rec."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$qty_chng."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$qty_IH."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$order_display."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$cust_PO."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$delv_date."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$consignees."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">".$dmg."</font></td>
+									<td><font size=\"2\" face=\"Verdana\">&nbsp;".$status."</font></td>
+								</tr>";
+			} while(ocifetch($short_term_data));
+
+			$output .= "</table>";
+			fwrite($handle, $output);
+			echo $output;
+			fclose($handle);
+			exit;
+		}
+	}
+
+?>
+<table border="0" width="100%" cellpadding="4" cellspacing="0">
+   <tr>
+      <td width="1%">&nbsp;</td>
+      <td>
+	 <p align="left">
+		<font size="5" face="Verdana" color="#0066CC">DC-Outbound Summary
+</font>
+	    <hr>
+	 </p>
+      </td>
+   </tr>
+</table>
+
+<table border="0" width="100%" cellpadding="4" cellspacing="0">
+<form name="get_data" action="dc_outbound_index.php" method="post">
+	<tr>
+		<td width="10%"><font size="2" face="Verdana"><b>Vessel:</b>&nbsp;&nbsp;</td>
+		<td><select name="vessel">
+					<option value="">Please Select a Vessel</option>
+<?
+//					AND CONT_UNLOADING = 'Y'
+		$sql = "SELECT LR_NUM, LR_NUM || '-' || VESSEL_NAME THE_VESSEL FROM VESSEL_PROFILE 
+				WHERE SHIP_PREFIX IN ('CLEMENTINES')
+					AND LR_NUM IN
+						(SELECT VESSELID FROM DC_ORDER)
+				ORDER BY LR_NUM DESC";
+		$short_term_data = ociparse($rfconn, $sql);
+		ociexecute($short_term_data);
+		while(ocifetch($short_term_data)){
+?>
+						<option value="<? echo ociresult($short_term_data, "LR_NUM"); ?>"<? if(ociresult($short_term_data, "LR_NUM") == $vessel){ ?> selected <? } ?>><? echo ociresult($short_term_data, "THE_VESSEL") ?></option>
+<?
+		}
+?>
+				</select></font></td>
+	</tr>
+	<tr>
+		<td colspan="2"><input type="submit" name="submit" value="Retrieve"><hr></td>
+	</tr>
+</form>
+</table>

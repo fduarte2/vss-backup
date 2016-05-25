@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" -->
+<html><head><link rel='stylesheet' type='text/css' href='style.css' />
+<script src='highlight/jssc3.js' type='text/javascript'></script>
+<link href='highlight/style.css' rel='stylesheet' type='text/css' />
+</head><body>
+<h1><img src='img/work.jpg' style='vertical-align: bottom;margin-right:4px;'>Sigma.Column</h1>
+<div class="linb-custom-left"><ul><li><img src="img/bracket.gif"><a href ="index.html">Index</a></li><li><img src="img/class.gif"><a href ="sigma.html">Sigma</a></li><li><img src="img/class.gif"><a href ="sigma_grid.html">Sigma.Grid</a></li><li><img src="img/class.gif"><a href ="sigma_column.html">Sigma.Column</a></li><li><img src="img/class.gif"><a href ="sigma_column_editor.html">Sigma.Column.Editor</a></li><li><img src="img/class.gif"><a href ="sigma_dataset.html">Sigma.DataSet</a></li><li><img src="img/class.gif"><a href ="sigma_dataset_field.html">Sigma.DataSet.Field</a></li><li><img src="img/class.gif"><a href ="sigma_grid_pageinfo.html">Sigma.Grid.PageInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_sortinfo.html">Sigma.Grid.SortInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_filterinfo.html">Sigma.Grid.FilterInfo</a></li><li><img src="img/class.gif"><a href ="sigma_grid_event.html">Sigma.Grid.Event</a></li><li><img src="img/class.gif"><a href ="sigma_grid_eventtarget.html">Sigma.Grid.EventTarget</a></li><li><img src="img/class.gif"><a href ="sigma_toolfactroy.html">Sigma.ToolFactroy</a></li><li><img src="img/class.gif"><a href ="dataexchange.html">DataExchange</a></li></ul></div>
+<div class='linb-custom-block'>
+<h2><img src="img/bracket.gif">Instance Properties</h2>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="align">align</a></span><br>String. Alignment of this column. Could be "left", "right", "center". Set to 'left' by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="chartColor">chartColor</a></span><br>String.   To specify color of this column in chart. <br>Sample<br><textarea name="code" class="javascript">chartColor: 'eecc99'</textarea><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="editor">editor</a></span><br>Object. To specify a editor for this column. See <a href="sigma_column_editor.html">Sigma.Column.Editor</a><br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="emptyText">emptyText</a></span><br>String. To specify what to show in case of null on this column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="filterable">filterable</a></span><br>String. To specify whether end user can filter on this column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="frozen">frozen</a></span><br>Bool.		To specify column is frozen. Those frozen column will never scroll horizontally and will always show up in left the side of grid.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="frozenable">frozenable</a></span><br>Bool.	To specify whethe column can be frozen by end user manually.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="getSortValue">getSortValue : function(value , record){</a></span><br>To specify comparable value.<br>value: Value of cell.<br>record: Data record of row.<br>returns: Comparable value.<br>The following sample shows how to sort football score.<br><textarea name="code" class="javascript">var colsConfig = [
+		{ id : 'score'    , header : "Score" , width : 100
+			getSortValue : function(value , record){
+				 var goals = value.split(":");
+				 return Number(goals[0]) - Number(goals[1]);
+			}		
+		}
+];</textarea><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="groupable">groupable</a></span><br>Bool. To specify whether this column can be grouped by end user.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="grouped">grouped</a></span><br>Bool. To specify whether this column is in group.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="hdRenderer">hdRenderer:function(header,colObj,grid)</a></span><br>Column header renderer.<br>header: Header title of column.<br>cobj: Column object.<br>grid: Grid object.<br>returns: HTML code for column header.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="headAlign">headAlign</a></span><br>String. Alignment of this column header. Set to 'left' by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="header">header</a></span><br>String.	Title of column header.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="hidden">hidden</a></span><br>Bool. To indicate whether column is hidden or not. Read only..<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="hideable">hideable</a></span><br>Bool. To specify whether end user can hide column mannually. Set to true by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="id">id</a></span><br>String. Id of column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="inChart">inChart</a></span><br>Bool.   To specify whether value of this column will appear in chart or not.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="minWidth">minWidth</a></span><br>Integer. To specify minimum column width when user resizes column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="moveable">moveable</a></span><br>Bool. To specify whether column can exchange position with others by user dragging column's header. Set to true by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="printable">printable </a></span><br>Bool. To specify whether this column will be printed out. Set to true by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="renderer">renderer:function(value ,record,colObj,grid,colNo,rowNo)</a></span><br>Cell renderer.<br>value: Cell value. <br>record: Record of the record where cell is at.<br>colObj: Column object.<br>grid: Grid object.<br>colNo: Column number.<br>rowNo: Row number.<br>returns: HTML code for cell.<br>sample<br><textarea name="code" class="javascript">var colsConfig = [
+		{ id : 'score'   , header : 'Score' , width : 70 ,
+			renderer : function(value ,record,columnObj,grid,colNo,rowNo){
+				   if (value>4) {
+						total = '<span style="color:green" >'+ total +'</span>';
+				   }else if (value<3) {
+						total = '<span style="color:red" >'+ total +'</span>';
+				   }
+				   return '<span style="color:yellow" >'+ total +'</span>';
+			}
+		}
+];</textarea><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="resizable">resizable</a></span><br>Bool. To specify whether column is resizable by user dragging risizing handler.  Set to true by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="sortable">sortable</a></span><br>Bool. To specify whether column is sortable by user clicking column's header. Set to true by default.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="sortFn">sortFn:function(r1,r2)</a></span><br>This function is for developer to define how to sort record.<br>r1: Array or object in row1.<br>r2: Array or object in row2.<br>return: integer. Return 1 if r1 is geater than r2; return -1 if r2 is greater than r1; return 0 if r1 is equal to r2.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="sortOrder">sortOrder</a></span><br>String. Could be 'asc', 'desc' or null.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="styleClass">styleClass</a></span><br>String. To specify css style of the column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="toolTip">toolTip</a></span><br>Boolean. To specify whether tip pop should show up on this column.<br><br></div>
+<div><img src="img/attribute.gif"><span class='linb-func-name'><a name="width">width</a></span><br>Integer.	 Width of column in pixel. Percentage not supported.<br><br></div>
+</div>
+<div class='linb-custom-block'>
+<h2><img src="img/bracket.gif">Instance Methods</h2>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="customRowAttribute">customRowAttribute(record,rn,grid) </a></span><br>Fired when row style is need. Return css snippet to change <td> style.<br>record: Array or object. Data record of a row.<br>rn: Integer. Row number.<br>grid. Grid object.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="freeze">freeze:function()</a></span><br>To freeze this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="getColumnNo">getColumnNo:function()</a></span><br>To get index of this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="hide">hide:function()</a></span><br>To hide this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="setWidth">setWidth:function(width)</a></span><br>To set column width.<br>width: Integer.  Column new width in pixel.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="show">show:function()</a></span><br>To show this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="toggle">toggle:function()</a></span><br>To show/hide this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="toggleGroupCol">toggleGroupCol:function()</a></span><br>To group/ungroup this column.<br><br></div>
+<div><img src="img/function.gif"><span class='linb-func-name'><a name="unfreeze">unfreeze:function()</a></span><br>To thaw this column.<br><br></div>
+</div>
+<script type='text/javascript'>
+jssc.colorAll("code");
+</script>
+</body></html>

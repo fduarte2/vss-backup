@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="ePortPrinter.Properties.Settings.ePortConnectionString"
+            connectionString="Data Source=EPORT2;Initial Catalog=ePort;Integrated Security=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <appSettings>
+        <add key="ePortPollingMilliSec" value="2000" />
+        <add key="ePortConnectionString" value="Server=EPORT2;Database=ePort;Trusted_Connection=True;" />
+        <add key="ePortLogFolder" value="D:\" />
+        <add key="ePortFormDocumentsFolder" value="C:\ePortFormDocuments\" />
+        <add key="ePortFormTemplatesFolder" value="C:\ePortFormTemplates\" />
+        <add key="ePortSignatureFolder" value="C:\Inetpub\wwwroot\Signature\ePortSignature\" />
+        <add key="ePortTallyApp" value="C:\ePortTallyApp\CLMTally.exe" />
+        <add key="ePortPrinter" value="\\PHOENIX\Inv01" />
+        <add key="ePortSMTPServer" value="svr-exc01.PortofWilmingtonDE.int" />
+        <add key="ePortEmailFrom" value="eport2@port.state.de.us" />
+        <add key="ePortEmailToDC" value="eport2@port.state.de.us" />
+        <add key="ePortEmailToDC440" value="eport2@port.state.de.us" />
+        <add key="ePortEmailToOrderAlert" value="eport2@port.state.de.us" />
+        <add key="ePortEmailToCustoms" value="eport2@port.state.de.us" />
+        <add key="ePortEmailToAdmin" value="sadu@port.state.de.us" />
+    </appSettings>
+</configuration>

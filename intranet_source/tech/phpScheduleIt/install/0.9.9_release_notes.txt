@@ -1,0 +1,59 @@
+=================================================
+=       phpScheduleIt 0.9.9  Release Notes      =
+=                  05/09/2004                   =
+=                                               =
+=     http://phpscheduleit.sourceforge.net      =
+=        lqqkout13@users.sourceforge.net        =
+=================================================
+
+
+-------------------------------------------------
+-                   Overview                    -
+-------------------------------------------------
+    The purpose of this document is to inform the end-user of the changes
+in phpScheduleIt 0.9.9 from 0.9.3.  Please see the readme.html file for setup
+instructions, general program information, and the changelog.
+
+-------------------------------------------------
+-              Changes from 0.9.3               -
+-------------------------------------------------
+    Many changes and feature enhancements have been implemented in this version.
+The amount and type of changes required a database schema change, hence the update
+files.
+	This version has accomplished some of the tasks that were designated
+for version 1.0.0, so those items have been removed from the 1.0.0 todo list.
+
++               Summary of changes              +
+	* Blackout times have been implemented
+	* Reservation class bug has been fixed. (See http://sourceforge.net/tracker/index.php?func=detail&amp;aid=902323&amp;group_id=95547&amp;atid=611780 for more info)
+	* Reservation summaries have been added with a configurable option to display them on the schedule
+	* Schedule now displays correct days when showing less than 7 at a time
+	* Advanced recurring reservation features added
+	* Read-only version of the schedule can be seen by unregistered or users that are not logged in
+	* Admin has the power to reset a password for a user
+	* Minor UI changes
+	* Auto-assign permissions are now per-resource instead of global
+	* Multiple schedules are now supported with a GUI for managing them
+	* Better support for non-MySQL databases
+	* Registration email is now plain-text
+	* Inclusion of PHPMailer to send all email communications.
+	* A bug that prevented phpScheduleIt from running in BSD enviornments has been fixed.
+
+
+-------------------------------------------------
+-           To be implemented in 1.0.0          -
+-------------------------------------------------
+    This section will describe the hopeful and probable roadmap of phpScheduleIt.
+This is not a final list, but a guide to where the developers of phpScheduleIt
+see the application heading.
+
+  * Multiple language support
+
+-------------------------------------------------
+-            Possible 1.0.0 features            -
+-------------------------------------------------
+  * GUI-based highly configurable announcements
+  * Horizontally scrollable reservation tables for wide tables
+  * Collapsible tables on My Control Panel
+  * User-selectable reservation block colors
+  * Improved e-mail tools

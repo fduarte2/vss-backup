@@ -1,0 +1,90 @@
+Sigma Grid Change Log
+v2.2--------------------------------------------
+-Added-
+Easy way to export data to pdf/xml/excel/csv.
+More than 20 API functions added
+Easy way to change row style
+-Fixed-
+8 bugs fixed.
+v2.1.02-----------------------------------------
+-Fixed-
+Swap lines when editing a cell
+Demo wording issues
+Removal of social book marks on demo page for faster loading 
+
+-Added-
+Mulit language supported 
+
+v2.1--------------------------------------------
+-Enhanced-
+Grouping performance 
+Go to specific page by striking enter key
+Editable frozen column 
+Validation before submission
+Print all pages instead of current page 
+Comlumn rendererer template supported 
+
+-Added-
+Grid Event onSelectCell. 
+Grid function getDisplayColumns
+Grid property parameters & queryParameters 
+Column function setHeader 
+Column textarea editor
+Index column with unique key
+Submission with modified fields only
+Customization comparasion to support data sorting 
+Grid function loadFailure/saveFailure to deal with backend error 
+Grid property selectRowByCheck to simplify checkBox column
+Toolbar button customization
+
+-Fixed-
+Horizental scroll dispear in case of empty grid  
+Printing enhancement
+Duplicated rows added in paginal grid
+
+-obsolote-
+Grid function getColumnValue. User could access cell value by record[0] or record["id"] 
+
+-How Upgrade From 2.0 to 2.1-
+1. Functions/Properties name changed.
+saveURL/loadUrl changed to saveURL/loadURL
+toolbarContext changed to toolbarContent
+Value of toolbarContent 'info' changed to 'state' 
+All the grid property allow_xxx changed to allowXxx
+
+2. Method to load javascript variable to grid changed.
+a. Previously, you need to assign a funtion to grid.
+loadUrl : getTestData,
+function getTestData(grid) {
+	var responseT={};
+	var pageInfo= grid.getPageInfo();
+	responseT[grid.CONST.data]=__TEST_DATA__.slice( pageInfo.startRowNum-1,pageInfo.endRowNum);
+	responseT[grid.CONST.pageInfo]={totalRowNum :__TEST_DATA__.length } ;
+	return responseT;
+}
+b. From 2.1 version, you just need to point dsOption's data to your variables. 
+var dsOption= {
+...
+data : __TEST_DATA__
+}
+
+3. initValue moved to dsConfig, just like the following
+var dsConfig= {
+	fields :[
+		{name : 'english',  type: 'float'  },
+		{name : 'math'   ,  type: 'float'  },
+		{name : 'total'   , type: 'float',
+			initValue : function(record){
+				return record['english'] + record['math'];
+			}
+		}
+	]
+};
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ePortPrinter.PrintService.resources
+obj\Debug\ePortPrinter.csproj.GenerateResource.Cache
+obj\Debug\ePortPrinter.ProjectInstaller.resources
+bin\Debug\ePortPrinter.exe
+bin\Debug\ePortPrinter.pdb
+obj\Debug\ePortPrinter.exe
+obj\Debug\ePortPrinter.pdb
+obj\Debug\ePortPrinter.csproj.ResolveComReference.cache
+bin\Debug\ePortPrinter.exe.config

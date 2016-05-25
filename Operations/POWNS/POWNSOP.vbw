@@ -1,0 +1,9 @@
+vsfGroup = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frm_LocationUpdater = 132, 174, 1160, 708, C, 88, 116, 1116, 650, C
+mod_Global = 0, 0, 0, 0, C
+frm_Database = 0, 0, 0, 0, C, 44, 58, 900, 687, C
+frm_Import = 137, 203, 993, 832, C, 66, 87, 922, 716, C
+frm_About = 0, 0, 0, 0, C, 22, 29, 878, 658, C
+OSizer = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frm_Purge = 0, 0, 0, 0, C, 22, 29, 878, 658, C
+frm_ImportProgress = 0, 0, 0, 0, C, 110, 145, 966, 774, C
